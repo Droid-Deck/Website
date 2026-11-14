@@ -808,3 +808,7 @@ html, body, main { overflow-x: clip; }
 @media (max-width: 640px) {
   .official { display: grid; margin-bottom: 26px; font-size: 14px; }
 }
+@media (max-width: 640px) {
+  .game-meta { display: grid; grid-template-columns: auto 1fr; row-gap: 4px; }
+  .game-store { grid-column: 1 / -1; margin-inline-start: 0; }
+}
