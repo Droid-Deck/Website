@@ -133,6 +133,14 @@
      "status": "runs",
      "note": "high graphics",
      "month": "2026-10"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "playable",
+     "note": "30 fps",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -429,6 +437,14 @@
      "status": "playable",
      "note": "low, FSR 2.1, about 50 fps, throttles",
      "month": "2026-10"
+    },
+    {
+     "device": "Retroid Pocket Nova",
+     "soc": "",
+     "gpu": "",
+     "status": "playable",
+     "note": "Steam Deck preset, 40 fps",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -454,6 +470,14 @@
      "status": "playable",
      "note": "30-40 fps on high settings",
      "month": "2026-11"
+    },
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "great",
+     "note": "50-60 fps",
+     "month": "2026-10"
     }
    ],
    "stores": [
@@ -1806,10 +1830,19 @@
      "status": "playable",
      "note": "some stutter, no frame gen",
      "month": "2026-10"
+    },
+    {
+     "device": "POCO F6",
+     "soc": "Snapdragon 8s Gen 3",
+     "gpu": "Adreno 735",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
     }
    ],
    "stores": [
-    "Steam"
+    "Steam",
+    "EA App"
    ]
   },
   {
@@ -3836,6 +3869,14 @@
      "status": "playable",
      "note": "720p, about 30 fps",
      "month": "2026-11"
+    },
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "playable",
+     "note": "",
+     "month": "2026-10"
     }
    ],
    "stores": [
@@ -4384,6 +4425,14 @@
      "status": "playable",
      "note": "works with --skip-launcher",
      "month": "2026-11"
+    },
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "runs",
+     "note": "under 30 fps on low",
+     "month": "2026-10"
     }
    ],
    "stores": [
@@ -4490,10 +4539,19 @@
      "status": "runs",
      "note": "install and run",
      "month": "2026-11"
+    },
+    {
+     "device": "Retroid Pocket Nova",
+     "soc": "",
+     "gpu": "",
+     "status": "runs",
+     "note": "",
+     "month": "2026-10"
     }
    ],
    "stores": [
-    "Steam"
+    "Steam",
+    "Xbox"
    ]
   },
   {
@@ -4933,6 +4991,14 @@
      "status": "great",
      "note": "perfect, stable",
      "month": "2026-10"
+    },
+    {
+     "device": "Samsung Galaxy Z Fold 8",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "great",
+     "note": "native Linux Steam",
+     "month": "2026-10"
     }
    ],
    "stores": [
@@ -4999,6 +5065,14 @@
      "gpu": "Adreno 650",
      "status": "runs",
      "note": "unstable fps",
+     "month": "2026-10"
+    },
+    {
+     "device": "Samsung Galaxy S25 Ultra",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "rough frame rate",
      "month": "2026-10"
     }
    ],
@@ -6257,6 +6331,125 @@
      "month": "2026-10"
     }
    ]
+  },
+  {
+   "name": "Divinity: Original Sin - Enhanced Edition",
+   "appid": 373420,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "Lenovo Legion Y700 Gen 4",
+     "soc": "",
+     "gpu": "",
+     "status": "great",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Borderlands: The Pre-Sequel",
+   "appid": 261640,
+   "stores": [
+    "Epic Games"
+   ],
+   "reports": [
+    {
+     "device": "OnePlus 13",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "great",
+     "note": "720p, locked 60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "LEGO The Lord of the Rings",
+   "appid": 214510,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "playable",
+     "note": "70-90 fps on average",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Saints Row: The Third",
+   "appid": 55230,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "Retroid Pocket 5",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "great",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Prototype",
+   "appid": 10150,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "playable",
+     "note": "Proton Experimental, CPU core 7 only",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Stardew Valley",
+   "appid": 413150,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "OnePlus 13",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "Linux x86 with FEX",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Resident Evil 3",
+   "appid": 952060,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy S23 Ultra",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "playable",
+     "note": "medium settings, 30 fps",
+     "month": "2026-10"
+    }
+   ]
   }
  ],
  "devices": [
@@ -6264,7 +6457,7 @@
    "name": "AYN Odin 3",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 127
+   "reports": 129
   },
   {
    "name": "RedMagic Astra 2",
@@ -6279,16 +6472,16 @@
    "reports": 21
   },
   {
+   "name": "Samsung Galaxy S26 Ultra",
+   "soc": "Snapdragon 8 Elite Gen 5",
+   "gpu": "Adreno 840",
+   "reports": 19
+  },
+  {
    "name": "AYN Odin 2 Portal",
    "soc": "Snapdragon 8 Gen 2",
    "gpu": "Adreno 740",
    "reports": 18
-  },
-  {
-   "name": "Samsung Galaxy S26 Ultra",
-   "soc": "Snapdragon 8 Elite Gen 5",
-   "gpu": "Adreno 840",
-   "reports": 15
   },
   {
    "name": "AYN Odin 3 Max",
@@ -6306,7 +6499,7 @@
    "name": "Samsung Galaxy S23 Ultra",
    "soc": "Snapdragon 8 Gen 2",
    "gpu": "Adreno 740",
-   "reports": 10
+   "reports": 11
   },
   {
    "name": "Honor Magic 8 Pro",
@@ -6324,7 +6517,13 @@
    "name": "Samsung Galaxy S25 Ultra",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 8
+   "reports": 9
+  },
+  {
+   "name": "Retroid Pocket Nova",
+   "soc": "",
+   "gpu": "",
+   "reports": 9
   },
   {
    "name": "Snapdragon 8 Elite Gen 5 device",
@@ -6333,21 +6532,15 @@
    "reports": 7
   },
   {
-   "name": "Retroid Pocket Nova",
-   "soc": "",
-   "gpu": "",
+   "name": "Retroid Pocket 5",
+   "soc": "Snapdragon 8 Gen 2",
+   "gpu": "Adreno 740",
    "reports": 7
   },
   {
    "name": "Samsung Galaxy S24 FE",
    "soc": "Exynos 2400e",
    "gpu": "Xclipse 940",
-   "reports": 6
-  },
-  {
-   "name": "Retroid Pocket 5",
-   "soc": "Snapdragon 8 Gen 2",
-   "gpu": "Adreno 740",
    "reports": 6
   },
   {
@@ -6385,20 +6578,20 @@
    "reports": 5
   },
   {
-   "name": "Snapdragon 8 Elite device",
-   "soc": "Snapdragon 8 Elite",
-   "gpu": "",
-   "reports": 4
-  },
-  {
    "name": "POCO F6",
    "soc": "Snapdragon 8s Gen 3",
    "gpu": "Adreno 735",
-   "reports": 4
+   "reports": 5
   },
   {
    "name": "Lenovo Legion Y700 Gen 4",
    "soc": "",
+   "gpu": "",
+   "reports": 5
+  },
+  {
+   "name": "Snapdragon 8 Elite device",
+   "soc": "Snapdragon 8 Elite",
    "gpu": "",
    "reports": 4
   },
@@ -6427,6 +6620,12 @@
    "reports": 4
   },
   {
+   "name": "OnePlus 13",
+   "soc": "Snapdragon 8 Elite",
+   "gpu": "Adreno 830",
+   "reports": 4
+  },
+  {
    "name": "RedMagic 11 Pro",
    "soc": "Snapdragon 8 Elite Gen 5",
    "gpu": "Adreno 840",
@@ -6442,6 +6641,12 @@
    "name": "Fairphone 6+",
    "soc": "Snapdragon 7s Gen 4",
    "gpu": "Adreno 810",
+   "reports": 3
+  },
+  {
+   "name": "Samsung Galaxy Z Fold 8",
+   "soc": "Snapdragon 8 Elite Gen 5",
+   "gpu": "Adreno 840",
    "reports": 3
   },
   {
@@ -6463,12 +6668,6 @@
    "reports": 2
   },
   {
-   "name": "Samsung Galaxy Z Fold 8",
-   "soc": "Snapdragon 8 Elite Gen 5",
-   "gpu": "Adreno 840",
-   "reports": 2
-  },
-  {
    "name": "RedMagic 10 Pro",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
@@ -6484,12 +6683,6 @@
    "name": "POCO F5",
    "soc": "Snapdragon 7+ Gen 2",
    "gpu": "Adreno 725",
-   "reports": 2
-  },
-  {
-   "name": "OnePlus 13",
-   "soc": "Snapdragon 8 Elite",
-   "gpu": "Adreno 830",
    "reports": 2
   },
   {
