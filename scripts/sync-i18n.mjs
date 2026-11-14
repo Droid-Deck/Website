@@ -25,9 +25,29 @@ const text = (key) => {
   return escape(en[key].replace(/\{(\w+)\}/g, (whole, name) => vars[name] ?? whole));
 };
 
+const site = "https://droid-deck.dev/";
+const faq = Object.keys(en).filter((key) => /^faq\.q\d+$/.test(key)).map((key) => ({
+  "@type": "Question",
+  name: en[key],
+  acceptedAnswer: { "@type": "Answer", text: en[key.replace(".q", ".a")] }
+}));
+const graph = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "WebSite", "@id": `${site}#website`, name: "DroidDeck", alternateName: "Droid Deck", url: site, inLanguage: "en", publisher: { "@id": `${site}#org` } },
+    { "@type": "Organization", "@id": `${site}#org`, name: "DroidDeck", url: site, logo: `${site}assets/img/icon-512.png`, sameAs: ["https://github.com/Droid-Deck", "https://github.com/Droid-Deck/DroidDeck", "https://discord.gg/JRGAvawjsm"] },
+    { "@type": "SoftwareApplication", "@id": `${site}#app`, name: "DroidDeck", url: site, description: en["meta.desc"], image: `${site}assets/img/og.png`, operatingSystem: "Android 9+", applicationCategory: "GameApplication", softwareVersion: live.release.tag, datePublished: live.release.published.slice(0, 10), license: "https://www.gnu.org/licenses/gpl-3.0.html", downloadUrl: "https://github.com/Droid-Deck/DroidDeck/releases/latest", installUrl: "https://github.com/Droid-Deck/DroidDeck/releases/latest", publisher: { "@id": `${site}#org` }, offers: { "@type": "Offer", price: "0", priceCurrency: "USD" } },
+    { "@type": "FAQPage", "@id": `${site}#faq`, mainEntity: faq }
+  ]
+};
+const ld = `<script type="application/ld+json">${JSON.stringify(graph).replace(/</g, "\\u003c")}</script>`;
+const map = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${site}</loc><lastmod>${live.release.published.slice(0, 10)}</lastmod></url></urlset>\n`;
+if (map !== await readFile(new URL("sitemap.xml", root), "utf8")) await writeFile(new URL("sitemap.xml", root), map);
+
 for (const page of ["index.html", "404.html"]) {
   const before = await readFile(new URL(page, root), "utf8");
-  let html = before.replace(/(<[^<>]*\sdata-i18n="([^"]+)"[^<>]*>)[^<]*(<)/g, (whole, open, key, close) => `${open}${text(key)}${close}`);
+  let html = page === "index.html" ? before.replace(/<script type="application\/ld\+json">.*?<\/script>/s, ld) : before;
+  html = html.replace(/(<[^<>]*\sdata-i18n="([^"]+)"[^<>]*>)[^<]*(<)/g, (whole, open, key, close) => `${open}${text(key)}${close}`);
   html = html.replace(/(<[^<>]*\sdata-live="([^"]+)"[^<>]*>)[^<]*(<)/g, (whole, open, key, close) => `${open}${escape(values[key])}${close}`);
   html = html.replace(/<[^<>]*\sdata-i18n-attr="([^"]+)"[^<>]*>/g, (tag, pairs) => {
     for (const pair of pairs.split(";")) {
