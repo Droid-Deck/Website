@@ -1,8 +1,8 @@
 {
- "stars": 20013,
- "rank": 2356,
- "forks": 1015,
- "downloads": 1570458,
+ "stars": 20102,
+ "rank": 2339,
+ "forks": 1021,
+ "downloads": 1584004,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,8 +10,8 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18134,
-  "online": 2724
+  "members": 18154,
+  "online": 3527
  },
  "contributors": [
   {
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 461,
+   "count": 464,
    "areas": [
     "App",
     "Drivers",
@@ -61,7 +61,7 @@
    "login": "FX192",
    "avatar": "https://avatars.githubusercontent.com/u/120828496?v=4&s=160",
    "url": "https://github.com/FX192",
-   "count": 41,
+   "count": 42,
    "areas": [
     "App"
    ]
@@ -99,7 +99,7 @@
    "login": "kingokksa",
    "avatar": "https://avatars.githubusercontent.com/u/47888451?v=4&s=160",
    "url": "https://github.com/kingokksa",
-   "count": 17,
+   "count": 18,
    "areas": [
     "App"
    ]
@@ -882,5 +882,5 @@
    ]
   }
  ],
- "updated": "2026-11-14T10:14:18.165Z"
+ "updated": "2026-11-14T17:58:01.760Z"
 }
