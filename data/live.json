@@ -1,8 +1,8 @@
 {
- "stars": 20102,
- "rank": 2339,
- "forks": 1021,
- "downloads": 1584004,
+ "stars": 20127,
+ "rank": 2334,
+ "forks": 1019,
+ "downloads": 1588561,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18154,
-  "online": 3527
+  "members": 18167,
+  "online": 3386
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 975,
+   "count": 977,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 464,
+   "count": 466,
    "areas": [
     "App",
     "Drivers",
@@ -99,7 +99,7 @@
    "login": "kingokksa",
    "avatar": "https://avatars.githubusercontent.com/u/47888451?v=4&s=160",
    "url": "https://github.com/kingokksa",
-   "count": 18,
+   "count": 19,
    "areas": [
     "App"
    ]
@@ -774,6 +774,15 @@
    ]
   },
   {
+   "login": "Tapuuk",
+   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
+   "url": "https://github.com/Tapuuk",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "TideGear",
    "avatar": "https://avatars.githubusercontent.com/u/16357059?v=4&s=160",
    "url": "https://github.com/TideGear",
@@ -882,5 +891,5 @@
    ]
   }
  ],
- "updated": "2026-11-14T17:58:01.760Z"
+ "updated": "2026-11-14T22:19:35.813Z"
 }
