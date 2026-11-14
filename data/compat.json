@@ -3,7 +3,6 @@
   {
    "name": "Hollow Knight",
    "appid": 367520,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -61,12 +60,14 @@
      "note": "45-50 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Castlevania: Belmont's Curse",
    "appid": 4231820,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -100,12 +101,14 @@
      "note": "about 40 fps at 540p",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "DOOM 2016",
    "appid": 379720,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -131,12 +134,14 @@
      "note": "high graphics",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dark Souls Remastered",
    "appid": 570940,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -169,12 +174,14 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy VII Rebirth",
    "appid": 2909400,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -200,12 +207,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Halo: The Master Chief Collection",
    "appid": 976730,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -230,13 +239,31 @@
      "status": "great",
      "note": "Halo Reach plays well",
      "month": "2026-10"
+    },
+    {
+     "device": "OnePlus 13",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "playable",
+     "note": "Halo 3 at 40-60 fps, 50% resolution scale",
+     "month": "2026-10"
+    },
+    {
+     "device": "AYN Thor Pro",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "playable",
+     "note": "720p, FSR, 60 fps",
+     "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Portal 2",
    "appid": 620,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -261,13 +288,23 @@
      "status": "runs",
      "note": "",
      "month": "2026-10"
+    },
+    {
+     "device": "Retroid Pocket Flip 2",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "playable",
+     "note": "60 fps with heavy frame pacing",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Resident Evil 2",
    "appid": 883710,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Thor Pro",
@@ -293,12 +330,14 @@
      "note": "about 30 fps at 1544x720 lowest",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Batman Arkham Asylum",
    "appid": 35140,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -316,12 +355,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Bioshock Infinite Complete Edition",
    "appid": 8870,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -339,12 +380,14 @@
      "note": "low preset 720p, needed Proton Bannerlator",
      "month": "2026-09"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Bomb Rush Cyberfunk",
    "appid": 1353230,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Thor",
@@ -362,12 +405,14 @@
      "note": "50-90 fps, steadier than another app",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Cyberpunk 2077",
    "appid": 1091500,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -385,12 +430,14 @@
      "note": "low, FSR 2.1, about 50 fps, throttles",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Dark Souls III",
    "appid": 374320,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -408,12 +455,14 @@
      "note": "30-40 fps on high settings",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Days Gone",
    "appid": 1259420,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -431,12 +480,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "DiRT 3 Complete Edition",
    "appid": 321040,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -454,12 +505,14 @@
      "note": "720p high settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Fallout 4",
    "appid": 377160,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -476,13 +529,23 @@
      "status": "runs",
      "note": "",
      "month": "2026-11"
+    },
+    {
+     "device": "Retroid Pocket Nova",
+     "soc": "",
+     "gpu": "",
+     "status": "playable",
+     "note": "30-40 fps",
+     "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grand Theft Auto IV: The Complete Edition",
    "appid": 12210,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -500,12 +563,14 @@
      "note": "no visual glitches, slower than other apps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grand Theft Auto V Legacy",
    "appid": 271590,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -523,12 +588,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Hades II",
    "appid": 1145350,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -546,12 +613,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Mad Max",
    "appid": 234140,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -577,12 +646,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Metal Gear Solid V: The Phantom Pain",
    "appid": 287700,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -608,12 +679,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Metro 2033 Redux",
    "appid": 286690,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -631,12 +704,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Minecraft Dungeons",
    "appid": 1672970,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -654,12 +729,14 @@
      "note": "no crashes after long play",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Monster Hunter Rise",
    "appid": 1446780,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -677,12 +754,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Monster Hunter World",
    "appid": 582010,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -700,12 +779,14 @@
      "note": "720p DX11, stuck loading larger areas",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Need For Speed Unbound",
    "appid": 1846380,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -723,12 +804,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Persona 5 Royal",
    "appid": 1687950,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -746,12 +829,14 @@
      "note": "default settings, stable framerate",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Riders Republic",
    "appid": 2290180,
-   "store": "Ubisoft Connect",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -769,12 +854,14 @@
      "note": "smooth, Ubisoft store version",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Ubisoft Connect"
    ]
   },
   {
    "name": "Risk Of Rain 2",
    "appid": 632360,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -792,12 +879,14 @@
      "note": "35-45 fps at 720p high",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Sleeping Dogs: Definitive Edition",
    "appid": 307690,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy Z Fold 7",
@@ -815,12 +904,14 @@
      "note": "about 20 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Street Fighter 6",
    "appid": 1364780,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Elite Gen 5 device",
@@ -838,12 +929,14 @@
      "note": "under 10 fps at default settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Adventures of Elliot: The Millennium Tales",
    "appid": 3483510,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -861,12 +954,14 @@
      "note": "720p high settings",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Witcher 3: Wild Hunt",
    "appid": 292030,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3 Pro",
@@ -883,13 +978,22 @@
      "status": "runs",
      "note": "15-30 fps",
      "month": "2026-10"
+    },
+    {
+     "device": "AYANEO Pocket S",
+     "soc": "",
+     "gpu": "",
+     "status": "playable",
+     "note": "long load times",
+     "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "WoW Forever",
-   "appid": null,
-   "store": "Battle.net",
    "reports": [
     {
      "device": "Retroid Pocket Duo",
@@ -906,13 +1010,31 @@
      "status": "runs",
      "note": "launched from Battle.net, no tweaks",
      "month": "2026-11"
+    },
+    {
+     "device": "AYN Odin 3 Max",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-11"
+    },
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "over 100 fps",
+     "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Battle.net"
    ]
   },
   {
    "name": "A Plague Tale Requiem",
    "appid": 1182900,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -922,12 +1044,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Ace Combat 7: Skies Unknown",
    "appid": 502500,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Pro",
@@ -937,12 +1061,14 @@
      "note": "57-60 fps at 1280x720 lowest settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Age Of Wonders 3",
    "appid": 226840,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -952,12 +1078,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Age Of Wonders: Planetfall",
    "appid": 718850,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -967,12 +1095,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Alice: Madness Returns",
    "appid": 19680,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -982,12 +1112,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Alien: Isolation",
    "appid": 214490,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Gen 2 device",
@@ -997,12 +1129,14 @@
      "note": "50-60 fps at 1544x720 ultra",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Alpha Protocol",
    "appid": 34010,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1012,12 +1146,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Amnesia: The Bunker",
    "appid": 1944430,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy Z Fold 5",
@@ -1027,12 +1163,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Anno 2070",
    "appid": 48240,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1042,12 +1180,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Armored Core VI Fires Of Rubicon",
    "appid": 1888160,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1057,12 +1197,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Assassin's Creed 2",
    "appid": 33230,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1072,12 +1214,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Assassin's Creed Brotherhood",
    "appid": 48190,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1087,12 +1231,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Assassin's Creed Odyssey",
    "appid": 812140,
-   "store": "Ubisoft Connect",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1102,12 +1248,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Ubisoft Connect"
    ]
   },
   {
    "name": "Assassin's Creed Origins",
    "appid": 582160,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1117,12 +1265,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Assassin's Creed Revelations",
    "appid": 201870,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1132,12 +1282,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Assassin's Creed Rogue",
    "appid": 311560,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1147,12 +1299,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Assassin's Creed Syndicate",
    "appid": 368500,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1162,12 +1316,14 @@
      "note": "described as problematic",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Assassin's Creed Unity",
    "appid": 289650,
-   "store": "Ubisoft Connect",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1177,12 +1333,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Ubisoft Connect"
    ]
   },
   {
    "name": "Assassin's Creed Valhalla",
    "appid": 2208920,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1192,12 +1350,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Asterigos Curse of the Stars",
    "appid": 1731070,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1207,12 +1367,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "BALL x PIT",
    "appid": 2062430,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -1222,12 +1384,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Batman Arkham Knight",
    "appid": 208650,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1245,12 +1409,14 @@
      "note": "60 fps gameplay",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Biomutant",
    "appid": 597820,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1260,12 +1426,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Bioshock 2 Remastered",
    "appid": 409720,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1275,12 +1443,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Bioshock Remastered",
    "appid": 409710,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26+",
@@ -1290,12 +1460,14 @@
      "note": "default settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "BlazBlue Entropy Effect",
    "appid": 2273430,
-   "store": "Steam",
    "reports": [
     {
      "device": "POCO F7",
@@ -1305,12 +1477,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Blender",
    "appid": 365670,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Pad Pro 13",
@@ -1320,12 +1494,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Brotato",
    "appid": 1942280,
-   "store": "Steam",
    "reports": [
     {
      "device": "OnePlus 12",
@@ -1335,12 +1511,14 @@
      "note": "stable 60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Buckshot Roulette",
    "appid": 2835570,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 FE",
@@ -1350,12 +1528,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Cairn",
    "appid": 1588550,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -1365,12 +1545,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Call Of Juarez Gunslinger",
    "appid": 204450,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1380,12 +1562,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Call of Duty: Modern Warfare Remastered",
    "appid": 393080,
-   "store": "Steam",
    "reports": [
     {
      "device": "POCO F6",
@@ -1395,12 +1579,14 @@
      "note": "720p low",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Clair Obscur: Expedition 33",
    "appid": 1903340,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Elite Gen 5 device",
@@ -1410,12 +1596,14 @@
      "note": "about 20 fps",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Control",
    "appid": 870780,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1425,12 +1613,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Crysis",
    "appid": 17300,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 865 device",
@@ -1440,12 +1630,14 @@
      "note": "minimum settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Crysis 2 Remastered",
    "appid": 2096600,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1455,12 +1647,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Crysis 3 Remastered",
    "appid": 2096610,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1470,12 +1664,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Crysis Remastered",
    "appid": 1715130,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1493,12 +1689,14 @@
      "note": "runs, missing textures",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Cuphead",
    "appid": 268910,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 FE",
@@ -1507,13 +1705,23 @@
      "status": "great",
      "note": "close to 120 fps",
      "month": "2026-10"
+    },
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "playable",
+     "note": "720p, 30+ fps",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Curious Expedition 2",
    "appid": 1040230,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1523,12 +1731,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Dark Souls II",
    "appid": 236430,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -1538,12 +1748,14 @@
      "note": "2 fps online, 60 fps offline",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Darksiders 3",
    "appid": 606280,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1553,12 +1765,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dave the Diver",
    "appid": 1868140,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -1567,13 +1781,23 @@
      "status": "runs",
      "note": "",
      "month": "2026-10"
+    },
+    {
+     "device": "Snapdragon 865 device",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "playable",
+     "note": "23-30 fps at 720p low",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dead Space",
    "appid": 1693980,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1583,12 +1807,14 @@
      "note": "some stutter, no frame gen",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dead Space 2",
    "appid": 47780,
-   "store": "EA App",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1598,12 +1824,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "EA App"
    ]
   },
   {
    "name": "Deus Ex Human Revolution",
    "appid": 238010,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1613,12 +1841,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Devil May Cry 5",
    "appid": 601150,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1636,12 +1866,13 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Diablo II: Resurrected",
-   "appid": null,
-   "store": "Battle.net",
    "reports": [
     {
      "device": "Snapdragon 8 Elite Gen 5 device",
@@ -1650,13 +1881,23 @@
      "status": "playable",
      "note": "30 fps cap, 2x frame gen, low settings",
      "month": "2026-10"
+    },
+    {
+     "device": "AYN Odin 2 Portal",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "great",
+     "note": "locked 40 fps",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Battle.net"
    ]
   },
   {
    "name": "Diablo IV",
    "appid": 2344520,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1666,12 +1907,14 @@
      "note": "60 fps",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Digimon Story Time Stranger",
    "appid": 1984270,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor GT Pro",
@@ -1681,12 +1924,14 @@
      "note": "needs CachyOS Proton",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Disco Elysium",
    "appid": 632470,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1696,12 +1941,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Dishonored 2",
    "appid": 403640,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1711,12 +1958,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Dishonored Definitive Edition",
    "appid": 205100,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1726,12 +1975,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Dishonored: Death of the Outsider",
    "appid": 614570,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1741,12 +1992,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dreamfall: The Longest Journey",
    "appid": 6300,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1756,12 +2009,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dying Light",
    "appid": 239140,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1771,12 +2026,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Dying Light 2 Stay Human",
    "appid": 534380,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1786,12 +2043,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Echo Weaver",
    "appid": 2184080,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket 5",
@@ -1800,13 +2059,23 @@
      "status": "playable",
      "note": "30-45 fps",
      "month": "2026-10"
+    },
+    {
+     "device": "Retroid Pocket Flip 2",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "great",
+     "note": "30 fps, 45 fps in places",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Ecstatica",
    "appid": 4834840,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1816,12 +2085,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Elden Ring",
    "appid": 1245620,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1831,12 +2102,14 @@
      "note": "needs anti-cheat exe rename",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Elex",
    "appid": 411300,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1846,12 +2119,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Empire Earth 2",
    "appid": 254780,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1861,12 +2136,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Empire Earth 3",
    "appid": 254800,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1876,12 +2153,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Empire Earth Gold Edition",
    "appid": 254760,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1891,12 +2170,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Everspace 2",
    "appid": 1128920,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1906,12 +2187,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "F1 22",
    "appid": 1692250,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -1921,12 +2204,14 @@
      "note": "100 fps, 45 fps in eco mode",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Fallout: New Vegas",
    "appid": 22380,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S25 Ultra",
@@ -1936,12 +2221,14 @@
      "note": "about 20 fps",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Far Cry 3",
    "appid": 220240,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1951,12 +2238,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Far Cry Blood Dragon",
    "appid": 233270,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1966,12 +2255,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy Tactics - The Ivalice Chronicles",
    "appid": 1004640,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1981,12 +2272,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy VII Remake Intergrade",
    "appid": 1462040,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -1996,12 +2289,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy VIII Remastered",
    "appid": 1026680,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2011,12 +2306,14 @@
      "note": "stable locked 60 fps",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy XIII",
    "appid": 292120,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2026,12 +2323,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy XIII-2",
    "appid": 292140,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2041,12 +2340,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy XIV Online (Free Trial)",
    "appid": 312060,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Thor Pro",
@@ -2056,12 +2357,14 @@
      "note": "about 30 fps, crashes now and then",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Final Fantasy XV",
    "appid": 637650,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2071,12 +2374,13 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Forza Motorsport 6: Apex",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic 10 Pro",
@@ -2086,12 +2390,14 @@
      "note": "custom Wine and FEX build",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "God of War",
    "appid": 1593500,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -2101,12 +2407,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grand Theft Auto III - The Definitive Edition",
    "appid": 1546970,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2116,12 +2424,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grand Theft Auto V",
    "appid": 271590,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 Ultra",
@@ -2131,12 +2441,14 @@
      "note": "low fps in early build",
      "month": "2026-09"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grand Theft Auto V Enhanced",
    "appid": 3240220,
-   "store": "Steam",
    "reports": [
     {
      "device": "ASUS ROG Phone 9 Pro",
@@ -2146,12 +2458,14 @@
      "note": "poor fps, laggy",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grand Theft Auto: San Andreas",
    "appid": 1547000,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2161,12 +2475,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grand Theft Auto: Vice City - The Definitive Edition",
    "appid": 1546990,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2176,12 +2492,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Gravity Circuit",
    "appid": 858710,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket 5",
@@ -2191,12 +2509,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Half-Life",
    "appid": 70,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 FE",
@@ -2206,12 +2526,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Half-Life 2",
    "appid": 220,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy Z Fold 7",
@@ -2221,12 +2543,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Halo Wars Definitive Edition",
    "appid": 459220,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2236,12 +2560,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Hatsune Miku: Project DIVA Mega Mix+",
    "appid": 1761390,
-   "store": "Steam",
    "reports": [
     {
      "device": "Google Pixel 8 Pro",
@@ -2251,12 +2577,14 @@
      "note": "10-20 fps in songs",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "High on Life",
    "appid": 1583230,
-   "store": "Epic Games",
    "reports": [
     {
      "device": "Snapdragon 8 Elite Gen 5 device",
@@ -2266,12 +2594,14 @@
      "note": "30 fps with frame gen to 60, low 1590x720",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Horizon Zero Dawn",
    "appid": 1151640,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2281,12 +2611,14 @@
      "note": "30-40 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Just Cause 3",
    "appid": 225540,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2296,12 +2628,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Just Shapes & Beats",
    "appid": 531510,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S25 Ultra",
@@ -2311,12 +2645,14 @@
      "note": "constant 120 fps at 2560x1440",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "KINGDOM HEARTS III + Re Mind",
    "appid": 2552450,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket Nova",
@@ -2326,12 +2662,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Killing Floor",
    "appid": 1250,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Elite Gen 5 device",
@@ -2341,12 +2679,14 @@
      "note": "completely smooth",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Kingdom Come: Deliverance",
    "appid": 379430,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Elite Gen 5 device",
@@ -2356,12 +2696,14 @@
      "note": "30 fps locked, low settings, 1590x720",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Kingdom Hearts HD 1.5+2.5 ReMIX",
    "appid": 2552430,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -2371,12 +2713,14 @@
      "note": "30-50 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Kingdom Two Crowns",
    "appid": 701160,
-   "store": "Steam",
    "reports": [
     {
      "device": "iQOO Z9 5G",
@@ -2386,12 +2730,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "L.A. Noire",
    "appid": 110800,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Elite device",
@@ -2401,12 +2747,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "LEGO Batman: The Videogame",
    "appid": 21000,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Gen 2 device",
@@ -2416,12 +2764,14 @@
      "note": "20-30 fps at 720p high",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Lost Judgment",
    "appid": 2058190,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2431,12 +2781,14 @@
      "note": "about 45 fps with stutter",
      "month": "2026-09"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Lumines Arise",
    "appid": 2370000,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Thor",
@@ -2446,12 +2798,14 @@
      "note": "60 fps",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Mafia Definitive Edition",
    "appid": 1030840,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2461,12 +2815,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Mafia II: Definitive Edition",
    "appid": 1030830,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy Z Fold 7",
@@ -2476,12 +2832,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Marvel's Spider-Man Remastered",
    "appid": 1817070,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic 11 Pro",
@@ -2491,12 +2849,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Mass Effect Legendary Edition",
    "appid": 1328670,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -2506,12 +2866,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Mass Effect: Andromeda",
    "appid": 1238000,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2521,12 +2883,14 @@
      "note": "cores 0-5 fixes GPU usage and fps drop",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Megabonk",
    "appid": 3405340,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -2536,12 +2900,14 @@
      "note": "120 fps at 1080p max settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Metal Gear Rising Revengeance",
    "appid": 235460,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2551,12 +2917,13 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Metal Gear Solid 4: Guns of the Patriots",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2566,12 +2933,13 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Metal Gear Solid Peace Walker",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2581,12 +2949,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Metaphor Refantazio",
    "appid": 2679460,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2596,12 +2966,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Metro Exodus",
    "appid": 412020,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2611,12 +2983,14 @@
      "note": "about 30 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Miside",
    "appid": 2527500,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S25 Ultra",
@@ -2626,12 +3000,14 @@
      "note": "max graphics, default settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Momodora: Reverie Under the Moonlight",
    "appid": 428550,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket 5",
@@ -2641,12 +3017,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Monster Hunter Stories",
    "appid": 2356560,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2656,12 +3034,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Monster Hunter Stories 2",
    "appid": 1277400,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2671,12 +3051,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Need For Speed Heat",
    "appid": 1222680,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2686,12 +3068,14 @@
      "note": "long load, poor performance",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Need For Speed Payback",
    "appid": 1262580,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2701,12 +3085,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Need For Speed Rivals",
    "appid": 1262600,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2716,12 +3102,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Need for Speed: Most Wanted",
    "appid": 1262560,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2731,12 +3119,13 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Ninja Gaiden 3 Razor's Edge",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2746,12 +3135,13 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Ninja Gaiden Sigma",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2761,12 +3151,13 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Ninja Gaiden Sigma 2",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2776,12 +3167,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "No More Room in Hell",
    "appid": 224260,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -2791,12 +3184,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Ori and the Will of the Wisps",
    "appid": 1057090,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -2806,12 +3201,14 @@
      "note": "45-60 fps at 1080p balanced",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Over the Hill",
    "appid": 2929250,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -2821,12 +3218,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Pacific Drive",
    "appid": 1458140,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2836,12 +3235,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Palworld",
    "appid": 1623730,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2851,12 +3252,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Persona 3 Reloaded",
    "appid": 2161700,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2866,12 +3269,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Persona 4 Golden",
    "appid": 1113000,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2881,12 +3286,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Port Royale 3",
    "appid": 205610,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2896,12 +3303,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Port Royale 4",
    "appid": 1024650,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2911,12 +3320,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Portal",
    "appid": 400,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -2926,12 +3337,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Pragmata",
    "appid": 3357650,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -2941,12 +3354,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Psychonauts 2",
    "appid": 607080,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -2956,12 +3371,14 @@
      "note": "runs like a dream",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Pummel Party",
    "appid": 880940,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -2971,12 +3388,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "R.E.P.O.",
    "appid": 3241660,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 FE",
@@ -2986,12 +3405,14 @@
      "note": "30 fps with 6 cores",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Rage",
    "appid": 9200,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3001,12 +3422,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Red Dead Redemption 2",
    "appid": 1174180,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3016,12 +3439,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Resident Evil 7 Biohazard",
    "appid": 418370,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23",
@@ -3031,12 +3456,14 @@
      "note": "40-70 fps at low settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "RimWorld",
    "appid": 294100,
-   "store": "Steam",
    "reports": [
     {
      "device": "Google Pixel 8 Pro",
@@ -3046,12 +3473,14 @@
      "note": "40 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Robocop Rogue City",
    "appid": 1681430,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3061,12 +3490,14 @@
      "note": "needs modded engine.ini to render",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Schedule I",
    "appid": 3164500,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3076,12 +3507,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Sekiro: Shadows Die Twice",
    "appid": 814380,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3091,12 +3524,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Shin Megami Tensei V Vengeance",
    "appid": 1875830,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3106,12 +3541,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "SteamWorld Dig",
    "appid": 252410,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket 5",
@@ -3121,12 +3558,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Stray",
    "appid": 1332010,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic 11 Pro",
@@ -3136,12 +3575,14 @@
      "note": "native resolution despite thermal throttling",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Street Fighter V",
    "appid": 310950,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 888+ device",
@@ -3151,12 +3592,14 @@
      "note": "30 fps with 2x lossless scaling",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Teardown",
    "appid": 1167630,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S25 Ultra",
@@ -3166,12 +3609,14 @@
      "note": "15-30 fps at 720p lowest, crashes on big maps",
      "month": "2026-09"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Tekken 8",
    "appid": 1778820,
-   "store": "Steam",
    "reports": [
     {
      "device": "Snapdragon 8 Elite Gen 5 device",
@@ -3181,12 +3626,13 @@
      "note": "online ranked works, throttles after 1-2 matches",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Test Drive Unlimited",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "POCO Pad X1",
@@ -3196,12 +3642,14 @@
      "note": "30-50 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Binding of Isaac",
    "appid": 113200,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3210,13 +3658,23 @@
      "status": "runs",
      "note": "",
      "month": "2026-11"
+    },
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "playable",
+     "note": "720p, 60 fps with frame time issues",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Elder Scrolls V: Skyrim",
    "appid": 489830,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -3226,12 +3684,15 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam",
+    "Xbox"
    ]
   },
   {
    "name": "The First Berserker: Khazan",
    "appid": 2680010,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3241,12 +3702,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Forest",
    "appid": 242760,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3256,12 +3719,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The King Is Watching",
    "appid": 2753900,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -3271,12 +3736,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Long Dark",
    "appid": 305620,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -3286,12 +3753,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Saboteur",
    "appid": 24880,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Legion Y700 Gen 5",
@@ -3309,12 +3778,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Sims 4",
    "appid": 1222670,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -3324,12 +3795,14 @@
      "note": "about 4 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Thymesia",
    "appid": 1343240,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3339,12 +3812,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Tomb Raider",
    "appid": 203160,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 Ultra",
@@ -3353,13 +3828,23 @@
      "status": "great",
      "note": "60 fps via DeX, no issues",
      "month": "2026-10"
+    },
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "playable",
+     "note": "720p, about 30 fps",
+     "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Trove",
    "appid": 304050,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -3369,12 +3854,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Typoman",
    "appid": 336240,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket 5",
@@ -3384,12 +3871,14 @@
      "note": "runs well, freezes occasionally",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Undertale",
    "appid": 391540,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Thor",
@@ -3399,12 +3888,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Vampire: The Masquerade - Bloodlines",
    "appid": 2600,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3414,12 +3905,14 @@
      "note": "with unofficial patch",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Watch Dogs",
    "appid": 243470,
-   "store": "Ubisoft Connect",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3429,12 +3922,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Ubisoft Connect"
    ]
   },
   {
    "name": "Watch Dogs 2",
    "appid": 447040,
-   "store": "Ubisoft Connect",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3443,13 +3938,23 @@
      "status": "great",
      "note": "60 fps medium, 45-50 high",
      "month": "2026-10"
+    },
+    {
+     "device": "Honor GT Pro",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "playable",
+     "note": "30 fps cap with LSFG, 40-50 fps",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Ubisoft Connect"
    ]
   },
   {
    "name": "Wreckfest",
    "appid": 228380,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -3459,12 +3964,13 @@
      "note": "1608x720",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "X-Men Origins: Wolverine",
-   "appid": null,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Legion Y700 Gen 5",
@@ -3474,12 +3980,14 @@
      "note": "",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Yakuza 0",
    "appid": 638970,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -3489,12 +3997,14 @@
      "note": "default settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Zero Parades Director's Cut",
    "appid": 2863680,
-   "store": "GOG",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3504,12 +4014,14 @@
      "note": "",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "GOG"
    ]
   },
   {
    "name": "Beyond: Two Souls",
    "appid": 960990,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3519,12 +4031,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Middle-earth: Shadow of Mordor",
    "appid": 241930,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3534,12 +4048,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Evil Within 2",
    "appid": 601430,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3549,12 +4065,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Batman: Arkham City - Game of the Year Edition",
    "appid": 200260,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3564,12 +4082,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "LEGO Star Wars: The Force Awakens",
    "appid": 438640,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3579,12 +4099,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Alan Wake",
    "appid": 108710,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3594,12 +4116,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Super Lucky's Tale",
    "appid": 847360,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3609,12 +4133,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Star Wars: The Force Unleashed II",
    "appid": 32500,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3624,12 +4150,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "SpongeBob SquarePants: The Cosmic Shake",
    "appid": 1282150,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3639,12 +4167,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Sonic Lost World",
    "appid": 329440,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3654,12 +4184,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "New Super Lucky's Tale",
    "appid": 1038300,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3669,12 +4201,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Smurfs: Mission Vileaf",
    "appid": 1502560,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3684,12 +4218,14 @@
      "note": "60 fps once in, sometimes visual bug",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Rayman Origins",
    "appid": 207490,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3699,12 +4235,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Sphinx and the Cursed Mummy",
    "appid": 606710,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3714,12 +4252,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Castle of Illusion",
    "appid": 227600,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO KONKR Pocket FIT",
@@ -3729,12 +4269,14 @@
      "note": "30+ fps, no setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Zero Escape: The Nonary Games",
    "appid": 477740,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3744,12 +4286,14 @@
      "note": "OpenGL plus soft_oal.dll swap",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "King of Fighters XV",
    "appid": 1498570,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO Pocket S",
@@ -3757,12 +4301,14 @@
      "note": "smooth, works properly",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Mars Horizon",
    "appid": 765810,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy M55 5G",
@@ -3772,12 +4318,14 @@
      "note": "stable 30-35 fps",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Far Cry 2",
    "appid": 19900,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S10",
@@ -3787,12 +4335,14 @@
      "note": "works on Proton 11 ARM64",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Hexologic",
    "appid": 785890,
-   "store": "Steam",
    "reports": [
     {
      "device": "Fairphone 6+",
@@ -3802,12 +4352,14 @@
      "note": "50+ fps, pixelated backgrounds",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Counter-Strike 2",
    "appid": 730,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Legion Y700 Gen 4",
@@ -3816,12 +4368,14 @@
      "note": "online matchmaking, FEX 2611",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Baldur's Gate 3",
    "appid": 1086940,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -3831,12 +4385,14 @@
      "note": "works with --skip-launcher",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Warhammer 40,000: Boltgun 2",
    "appid": 3115160,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -3846,12 +4402,14 @@
      "note": "1080p 60 fps on turnip v39",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Project Zomboid",
    "appid": 108600,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -3861,12 +4419,14 @@
      "note": "about 30 fps after setup",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Don't Starve Together",
    "appid": 322330,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S25",
@@ -3875,13 +4435,23 @@
      "status": "playable",
      "note": "works on CachyOS Proton",
      "month": "2026-11"
+    },
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "playable",
+     "note": "720p low, 30 fps",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "LEGO City Undercover",
    "appid": 578330,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3890,11 +4460,13 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "S.W.I.N.E. Remaster",
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3903,12 +4475,14 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Little Kitty, Big City",
    "appid": 1177980,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3917,12 +4491,14 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Company of Heroes Legacy Edition",
    "appid": 4560,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3931,12 +4507,14 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Asterix & Obelix XXL Romastered",
    "appid": 1261520,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3945,12 +4523,14 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "KeyWe",
    "appid": 1242980,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3959,12 +4539,14 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Broforce",
    "appid": 274190,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3973,12 +4555,14 @@
      "note": "install and run",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Cossacks: Back to War",
    "appid": 4850,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -3987,11 +4571,13 @@
      "note": "force 4:3 resolution",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Warcraft: Remastered",
-   "store": "Battle.net",
    "reports": [
     {
      "device": "RedMagic Astra",
@@ -4000,12 +4586,14 @@
      "note": "works via Battle.net store",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Battle.net"
    ]
   },
   {
    "name": "Panzer Dragoon: Remake",
    "appid": 1178880,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Pad Pro 13",
@@ -4013,12 +4601,14 @@
      "note": "works",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Sonic & All-Stars Racing Transformed",
    "appid": 212480,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Pad Pro 13",
@@ -4026,12 +4616,14 @@
      "note": "works",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Garfield Kart",
    "appid": 362930,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Pad Pro 13",
@@ -4039,11 +4631,13 @@
      "note": "works",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Astroneer",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4053,11 +4647,13 @@
      "note": "works",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Dredge",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4067,11 +4663,13 @@
      "note": "works",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Final Fantasy Pixel Remaster",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4081,11 +4679,13 @@
      "note": "works",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Deep Rock Galactic: Survivor",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4095,11 +4695,13 @@
      "note": "runs great",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Day of the Tentacle Remastered",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4109,11 +4711,13 @@
      "note": "works",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Bluey: The Videogame",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4123,11 +4727,13 @@
      "note": "works",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Hades",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4136,12 +4742,30 @@
      "status": "runs",
      "note": "works",
      "month": "2026-10"
+    },
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "playable",
+     "note": "1024x576, 30-60 fps",
+     "month": "2026-10"
+    },
+    {
+     "device": "AYN Thor Pro",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "playable",
+     "note": "",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Moving Out 2",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4151,11 +4775,13 @@
      "note": "works",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Wolfenstein: The Old Blood",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4165,11 +4791,13 @@
      "note": "launches, crashes loading a save",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Slime Rancher",
-   "store": "Xbox",
    "reports": [
     {
      "device": "AYN Odin 3 Max",
@@ -4179,12 +4807,14 @@
      "note": "launches, controller dead",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Xbox"
    ]
   },
   {
    "name": "Final Fantasy IX",
    "appid": 377840,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 Ultra",
@@ -4194,12 +4824,14 @@
      "note": "works normally, Moguri Mod",
      "month": "2026-09"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Red Wings: Aces of the Sky",
    "appid": 1140630,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S26 Ultra",
@@ -4209,12 +4841,14 @@
      "note": "50-60 fps",
      "month": "2026-09"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "A Plague Tale: Innocence",
    "appid": 752590,
-   "store": "Steam",
    "reports": [
     {
      "device": "POCO F5",
@@ -4224,12 +4858,14 @@
      "note": "runs on Adreno 725",
      "month": "2026-09"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "No Man's Sky",
    "appid": 275850,
-   "store": "Steam",
    "reports": [
     {
      "device": "Honor Magic 8 Pro",
@@ -4239,12 +4875,14 @@
      "note": "50-60 fps at 1600x720",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dead Cells",
    "appid": 588650,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -4262,12 +4900,14 @@
      "note": "about 40 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Darkwood",
    "appid": 274520,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -4277,12 +4917,14 @@
      "note": "perfect, stable",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Limbo",
    "appid": 48000,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -4292,12 +4934,14 @@
      "note": "perfect, stable",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Balatro",
    "appid": 2379780,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 3",
@@ -4307,12 +4951,14 @@
      "note": "perfect, no stutter",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Darkest Dungeon",
    "appid": 262060,
-   "store": "Steam",
    "reports": [
     {
      "device": "Google Pixel 10 Pro",
@@ -4322,12 +4968,14 @@
      "note": "runs where other apps fail",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Slay the Spire 2",
    "appid": 2868840,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket 5",
@@ -4344,13 +4992,23 @@
      "status": "playable",
      "note": "works after setup",
      "month": "2026-10"
+    },
+    {
+     "device": "Retroid Pocket Flip 2",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "runs",
+     "note": "unstable fps",
+     "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Shadow Warrior",
    "appid": 233130,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -4360,12 +5018,14 @@
      "note": "60-120 fps, low settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Grim Dawn",
    "appid": 219990,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Thor Max",
@@ -4375,12 +5035,14 @@
      "note": "20-25 fps default",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Factorio",
    "appid": 427520,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -4390,12 +5052,14 @@
      "note": "ARM build, runs great",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dragon Ball: Sparking! Zero",
    "appid": 1790600,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy Z Fold 8",
@@ -4405,12 +5069,14 @@
      "note": "30-50 fps at low settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Red Dead Redemption",
    "appid": 2668510,
-   "store": "Steam",
    "reports": [
     {
      "device": "Lenovo Legion Y700 Gen 4",
@@ -4419,12 +5085,14 @@
      "note": "works after ACCESS_VIOLATION fix",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "V Rising",
    "appid": 1604030,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic 10 Pro",
@@ -4434,12 +5102,14 @@
      "note": "40+ fps at 720p",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Euro Truck Simulator 2",
    "appid": 227300,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -4449,12 +5119,14 @@
      "note": "locked 30 fps, high settings",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Left 4 Dead 2",
    "appid": 550,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S23 Ultra",
@@ -4464,12 +5136,14 @@
      "note": "60 fps with mods",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "American Truck Simulator",
    "appid": 270880,
-   "store": "Steam",
    "reports": [
     {
      "device": "Samsung Galaxy S24 Ultra",
@@ -4479,12 +5153,14 @@
      "note": "about 30 fps at 720p",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Assetto Corsa",
    "appid": 244210,
-   "store": "Steam",
    "reports": [
     {
      "device": "POCO F5",
@@ -4494,12 +5170,14 @@
      "note": "30 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Trackmania",
    "appid": 2225070,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket Nova",
@@ -4509,12 +5187,14 @@
      "note": "30 fps, 60 with frame gen",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Trine 2",
    "appid": 35720,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Odin 2 Portal",
@@ -4524,12 +5204,14 @@
      "note": "stable 100 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Bully: Scholarship Edition",
    "appid": 12200,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket 6",
@@ -4539,12 +5221,14 @@
      "note": "smooth, audio glitches",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dragon Age: Origins - Ultimate Edition",
    "appid": 47810,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket Nova",
@@ -4554,12 +5238,15 @@
      "note": "works with Turnip v37",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam",
+    "GOG"
    ]
   },
   {
    "name": "Spelunky 2",
    "appid": 418530,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYN Thor Max",
@@ -4569,12 +5256,14 @@
      "note": "near flawless",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Moonlighter",
    "appid": 606150,
-   "store": "Steam",
    "reports": [
     {
      "device": "Retroid Pocket Nova",
@@ -4584,12 +5273,14 @@
      "note": "works with custom settings",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Unravel Two",
    "appid": 1225570,
-   "store": "EA App",
    "reports": [
     {
      "device": "Samsung Galaxy Z Fold 7",
@@ -4599,11 +5290,13 @@
      "note": "works after EA app installer fix",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "EA App"
    ]
   },
   {
    "name": "Borderlands 3",
-   "store": "Epic Games",
    "reports": [
     {
      "device": "ASUS ROG Phone 9 Pro",
@@ -4613,11 +5306,14 @@
      "note": "runs without Steam, warm",
      "month": "2026-11"
     }
-   ]
+   ],
+   "stores": [
+    "Epic Games"
+   ],
+   "appid": 397540
   },
   {
    "name": "Monument Valley",
-   "store": "Epic Games",
    "reports": [
     {
      "device": "Samsung Galaxy Tab S9",
@@ -4627,12 +5323,14 @@
      "note": "100-120 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Epic Games"
    ]
   },
   {
    "name": "Burnout Paradise Remastered",
    "appid": 1238080,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4642,12 +5340,14 @@
      "note": "full speed, 4 races",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Cursed Blood",
    "appid": 3382290,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4657,12 +5357,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Vagrant",
    "appid": 598700,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4672,12 +5374,14 @@
      "note": "60 fps, odd colours",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Shadow Gambit: The Cursed Crew",
    "appid": 1545560,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4687,12 +5391,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Dragon Spear",
    "appid": 886960,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4702,12 +5408,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Bladechimera",
    "appid": 2671230,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4717,12 +5425,14 @@
      "note": "60 fps",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Achilles: Survivor",
    "appid": 2922410,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4732,12 +5442,14 @@
      "note": "DX11, dips to 48-50",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "Cinderia",
    "appid": 3214610,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4747,12 +5459,14 @@
      "note": "fully working",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "The Ascent",
    "appid": 979690,
-   "store": "Steam",
    "reports": [
     {
      "device": "RedMagic Astra 2",
@@ -4762,17 +5476,784 @@
      "note": "works with -dx11",
      "month": "2026-10"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
    "name": "BlazBlue: Central Fiction",
    "appid": 586140,
-   "store": "Steam",
    "reports": [
     {
      "device": "AYANEO Pocket S",
      "status": "playable",
      "note": "60 fps, sound lost after intro",
+     "month": "2026-10"
+    }
+   ],
+   "stores": [
+    "Steam"
+   ]
+  },
+  {
+   "name": "LEGO The Hobbit",
+   "appid": 285160,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "playable",
+     "note": "set 1280x720 in the game config",
+     "month": "2026-09"
+    }
+   ]
+  },
+  {
+   "name": "TETRIS® THE GRAND MASTER 4 -ABSOLUTE EYE-",
+   "appid": 3328480,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "great",
+     "note": "FEX 2510 with AVX host feature",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Dead as Disco",
+   "appid": 3404260,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3 Max",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "playable",
+     "note": "stable 30 fps at 1080p",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Drova - Forsaken Kin",
+   "appid": 1585180,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Retroid Pocket Nova",
+     "soc": "",
+     "gpu": "",
+     "status": "runs",
+     "note": "20-25 fps with drops",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Victor Vran ARPG",
+   "appid": 345180,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Torchlight",
+   "appid": 41500,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "playable",
+     "note": "60 fps, occasional freezes",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Torchlight II",
+   "appid": 200710,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "playable",
+     "note": "60 fps, occasional freezes",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Torchlight III",
+   "appid": 1030210,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Into the Dead: Our Darkest Days",
+   "appid": 2239710,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Dead Island Definitive Edition",
+   "appid": 383150,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Blood West",
+   "appid": 1587130,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos",
+   "appid": 970830,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Forgotten Realms: Demon Stone",
+   "appid": 3843530,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Ghostbusters: The Video Game Remastered",
+   "appid": 1449280,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Grit and Valor - 1949",
+   "appid": 1911860,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Iron Brigade",
+   "appid": 115120,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Weird West: Definitive Edition",
+   "appid": 1097350,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "The Precinct",
+   "appid": 490110,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Absolum",
+   "appid": 1904480,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps, dips to 50-55 in cutscenes",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Anima Flux",
+   "appid": 763180,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "great",
+     "note": "60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Fallout 3",
+   "appid": 22300,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "OnePlus 12",
+     "soc": "Snapdragon 8 Gen 3",
+     "gpu": "Adreno 750",
+     "status": "great",
+     "note": "60-80 fps on medium",
+     "month": "2026-10"
+    },
+    {
+     "device": "AYANEO Pocket S",
+     "soc": "",
+     "gpu": "",
+     "status": "great",
+     "note": "",
+     "month": "2026-11"
+    },
+    {
+     "device": "Motorola Moto G Stylus (2025)",
+     "soc": "Snapdragon 6 Gen 3",
+     "gpu": "Adreno 710",
+     "status": "runs",
+     "note": "30-40 fps indoors, under 20 outdoors",
+     "month": "2026-10"
+    },
+    {
+     "device": "Samsung Galaxy Z Fold 3",
+     "soc": "Snapdragon 888",
+     "gpu": "Adreno 660",
+     "status": "runs",
+     "note": "30 fps, jittery movement",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Celeste",
+   "appid": 504230,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "playable",
+     "note": "720p 60 fps with frame time issues",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Enter the Gungeon",
+   "appid": 311690,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "playable",
+     "note": "720p, 25-30 fps",
+     "month": "2026-10"
+    },
+    {
+     "device": "Retroid Pocket Flip 2",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "runs",
+     "note": "15-20 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "The Walking Dead: Season Two",
+   "appid": 261030,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "runs",
+     "note": "720p low, 12-30 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "DELTARUNE",
+   "appid": 1671210,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Nothing Phone (1)",
+     "soc": "Snapdragon 778G+",
+     "gpu": "Adreno 642L",
+     "status": "great",
+     "note": "chapters 1 and 2",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Mewgenics",
+   "appid": 686060,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Retroid Pocket Flip 2",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "playable",
+     "note": "smooth, stalls after a few minutes",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "POSTAL 2",
+   "appid": 223470,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Snapdragon 865 device",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "playable",
+     "note": "locked 45 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Iconoclasts",
+   "appid": 393520,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Retroid Pocket Flip 2",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "great",
+     "note": "",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+   "appid": 1361510,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Motorola Moto G Stylus (2025)",
+     "soc": "Snapdragon 6 Gen 3",
+     "gpu": "Adreno 710",
+     "status": "great",
+     "note": "",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "CHRONO TRIGGER",
+   "appid": 613830,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Motorola Moto G Stylus (2025)",
+     "soc": "Snapdragon 6 Gen 3",
+     "gpu": "Adreno 710",
+     "status": "great",
+     "note": "",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Mega Man X Legacy Collection",
+   "appid": 743890,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Motorola Moto G Stylus (2025)",
+     "soc": "Snapdragon 6 Gen 3",
+     "gpu": "Adreno 710",
+     "status": "runs",
+     "note": "X4 at about 40 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Castlevania Dominus Collection",
+   "appid": 2369900,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Motorola Moto G Stylus (2025)",
+     "soc": "Snapdragon 6 Gen 3",
+     "gpu": "Adreno 710",
+     "status": "great",
+     "note": "",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "River City Girls",
+   "appid": 1049320,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Motorola Moto G Stylus (2025)",
+     "soc": "Snapdragon 6 Gen 3",
+     "gpu": "Adreno 710",
+     "status": "great",
+     "note": "",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Phasmophobia",
+   "appid": 739630,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy Z Fold 3",
+     "soc": "Snapdragon 888",
+     "gpu": "Adreno 660",
+     "status": "playable",
+     "note": "10-20 fps at 720p",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Tales of Vesperia: Definitive Edition",
+   "appid": 738540,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy Tab S9",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "playable",
+     "note": "occasional fps drops",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Cult of the Lamb",
+   "appid": 1313140,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 2 Portal",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "great",
+     "note": "720p, FSR, 50 fps with 2x LSFG",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Tetris Effect: Connected",
+   "appid": 1003590,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Thor",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "great",
+     "note": "full speed",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Luma Island",
+   "appid": 2408820,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Thor",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "runs",
+     "note": "about 24 fps in town",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "TEKKEN 7",
+   "appid": 389730,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYANEO Pocket S",
+     "soc": "",
+     "gpu": "",
+     "status": "playable",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "FINAL FANTASY RESONANCE",
+   "appid": 3259780,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Thor Max",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "playable",
+     "note": "1080p low about 28 fps",
+     "month": "2026-10"
+    },
+    {
+     "device": "RedMagic Astra 2",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "",
+     "status": "playable",
+     "note": "1080p, 35-45 fps",
+     "month": "2026-10"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "playable",
+     "note": "locked 30 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Caveblazers",
+   "appid": 452060,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Snapdragon 865 device",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "great",
+     "note": "steady 60 fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Vagante",
+   "appid": 323220,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Snapdragon 865 device",
+     "soc": "Snapdragon 865",
+     "gpu": "Adreno 650",
+     "status": "great",
+     "note": "steady 60 fps",
      "month": "2026-10"
     }
    ]
@@ -4783,7 +6264,13 @@
    "name": "AYN Odin 3",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 125
+   "reports": 127
+  },
+  {
+   "name": "RedMagic Astra 2",
+   "soc": "Snapdragon 8 Elite Gen 5",
+   "gpu": "",
+   "reports": 29
   },
   {
    "name": "AYANEO KONKR Pocket FIT",
@@ -4795,31 +6282,25 @@
    "name": "AYN Odin 2 Portal",
    "soc": "Snapdragon 8 Gen 2",
    "gpu": "Adreno 740",
-   "reports": 16
+   "reports": 18
   },
   {
    "name": "Samsung Galaxy S26 Ultra",
    "soc": "Snapdragon 8 Elite Gen 5",
    "gpu": "Adreno 840",
-   "reports": 14
+   "reports": 15
+  },
+  {
+   "name": "AYN Odin 3 Max",
+   "soc": "Snapdragon 8 Elite",
+   "gpu": "Adreno 830",
+   "reports": 13
   },
   {
    "name": "RedMagic Astra",
    "soc": "Snapdragon 8 Elite",
    "gpu": "",
    "reports": 12
-  },
-  {
-   "name": "RedMagic Astra 2",
-   "soc": "Snapdragon 8 Elite Gen 5",
-   "gpu": "",
-   "reports": 11
-  },
-  {
-   "name": "AYN Odin 3 Max",
-   "soc": "Snapdragon 8 Elite",
-   "gpu": "Adreno 830",
-   "reports": 11
   },
   {
    "name": "Samsung Galaxy S23 Ultra",
@@ -4834,6 +6315,12 @@
    "reports": 9
   },
   {
+   "name": "Nothing Phone (1)",
+   "soc": "Snapdragon 778G+",
+   "gpu": "Adreno 642L",
+   "reports": 9
+  },
+  {
    "name": "Samsung Galaxy S25 Ultra",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
@@ -4842,6 +6329,12 @@
   {
    "name": "Snapdragon 8 Elite Gen 5 device",
    "soc": "Snapdragon 8 Elite Gen 5",
+   "gpu": "",
+   "reports": 7
+  },
+  {
+   "name": "Retroid Pocket Nova",
+   "soc": "",
    "gpu": "",
    "reports": 7
   },
@@ -4858,15 +6351,37 @@
    "reports": 6
   },
   {
+   "name": "AYN Thor",
+   "soc": "Snapdragon 8 Gen 2",
+   "gpu": "Adreno 740",
+   "reports": 6
+  },
+  {
+   "name": "Motorola Moto G Stylus (2025)",
+   "soc": "Snapdragon 6 Gen 3",
+   "gpu": "Adreno 710",
+   "reports": 6
+  },
+  {
+   "name": "Retroid Pocket Flip 2",
+   "soc": "Snapdragon 865",
+   "gpu": "Adreno 650",
+   "reports": 6
+  },
+  {
    "name": "Samsung Galaxy Z Fold 7",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
    "reports": 5
   },
   {
-   "name": "Retroid Pocket Nova",
-   "soc": "",
-   "gpu": "",
+   "name": "AYANEO Pocket S",
+   "reports": 5
+  },
+  {
+   "name": "Snapdragon 865 device",
+   "soc": "Snapdragon 865",
+   "gpu": "Adreno 650",
    "reports": 5
   },
   {
@@ -4879,12 +6394,6 @@
    "name": "POCO F6",
    "soc": "Snapdragon 8s Gen 3",
    "gpu": "Adreno 735",
-   "reports": 4
-  },
-  {
-   "name": "AYN Thor",
-   "soc": "Snapdragon 8 Gen 2",
-   "gpu": "Adreno 740",
    "reports": 4
   },
   {
@@ -4906,6 +6415,18 @@
    "reports": 4
   },
   {
+   "name": "AYN Thor Max",
+   "soc": "Snapdragon 8 Gen 2",
+   "gpu": "Adreno 740",
+   "reports": 4
+  },
+  {
+   "name": "AYN Thor Pro",
+   "soc": "Snapdragon 8 Gen 2",
+   "gpu": "Adreno 740",
+   "reports": 4
+  },
+  {
    "name": "RedMagic 11 Pro",
    "soc": "Snapdragon 8 Elite Gen 5",
    "gpu": "Adreno 840",
@@ -4918,22 +6439,10 @@
    "reports": 3
   },
   {
-   "name": "AYN Thor Max",
-   "soc": "Snapdragon 8 Gen 2",
-   "gpu": "Adreno 740",
-   "reports": 3
-  },
-  {
    "name": "Fairphone 6+",
    "soc": "Snapdragon 7s Gen 4",
    "gpu": "Adreno 810",
    "reports": 3
-  },
-  {
-   "name": "AYN Thor Pro",
-   "soc": "Snapdragon 8 Gen 2",
-   "gpu": "Adreno 740",
-   "reports": 2
   },
   {
    "name": "POCO Pad X1",
@@ -4972,13 +6481,39 @@
    "reports": 2
   },
   {
-   "name": "AYANEO Pocket S",
-   "reports": 2
-  },
-  {
    "name": "POCO F5",
    "soc": "Snapdragon 7+ Gen 2",
    "gpu": "Adreno 725",
+   "reports": 2
+  },
+  {
+   "name": "OnePlus 13",
+   "soc": "Snapdragon 8 Elite",
+   "gpu": "Adreno 830",
+   "reports": 2
+  },
+  {
+   "name": "OnePlus 12",
+   "soc": "Snapdragon 8 Gen 3",
+   "gpu": "Adreno 750",
+   "reports": 2
+  },
+  {
+   "name": "Honor GT Pro",
+   "soc": "Snapdragon 8 Elite",
+   "gpu": "Adreno 830",
+   "reports": 2
+  },
+  {
+   "name": "Samsung Galaxy Tab S9",
+   "soc": "Snapdragon 8 Gen 2",
+   "gpu": "Adreno 740",
+   "reports": 2
+  },
+  {
+   "name": "Samsung Galaxy Z Fold 3",
+   "soc": "Snapdragon 888",
+   "gpu": "Adreno 660",
    "reports": 2
   },
   {
@@ -5015,12 +6550,6 @@
    "name": "Snapdragon 870 device",
    "soc": "Snapdragon 870",
    "gpu": "Adreno 650",
-   "reports": 1
-  },
-  {
-   "name": "OnePlus 13",
-   "soc": "Snapdragon 8 Elite",
-   "gpu": "Adreno 830",
    "reports": 1
   },
   {
@@ -5063,24 +6592,6 @@
    "name": "POCO F7",
    "soc": "Snapdragon 8s Gen 4",
    "gpu": "Adreno 825",
-   "reports": 1
-  },
-  {
-   "name": "OnePlus 12",
-   "soc": "Snapdragon 8 Gen 3",
-   "gpu": "Adreno 750",
-   "reports": 1
-  },
-  {
-   "name": "Snapdragon 865 device",
-   "soc": "Snapdragon 865",
-   "gpu": "Adreno 650",
-   "reports": 1
-  },
-  {
-   "name": "Honor GT Pro",
-   "soc": "Snapdragon 8 Elite",
-   "gpu": "Adreno 830",
    "reports": 1
   },
   {
@@ -5133,12 +6644,6 @@
   },
   {
    "name": "Retroid Pocket 6",
-   "soc": "Snapdragon 8 Gen 2",
-   "gpu": "Adreno 740",
-   "reports": 1
-  },
-  {
-   "name": "Samsung Galaxy Tab S9",
    "soc": "Snapdragon 8 Gen 2",
    "gpu": "Adreno 740",
    "reports": 1

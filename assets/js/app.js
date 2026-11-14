@@ -342,7 +342,7 @@
     $("detail-name").textContent = name;
     if (game) {
       gameArt(game, art);
-      $("detail-meta").textContent = [game.store, t(`compat.${best(game.reports)}`)].filter(Boolean).join(" · ");
+      $("detail-meta").textContent = [game.stores.join(", "), t(`compat.${best(game.reports)}`)].filter(Boolean).join(" · ");
       $("detail-label").textContent = t("detail.reports");
       for (const report of game.reports) rows.append(reportRow(report, report.device));
     } else {
@@ -383,7 +383,7 @@
     const body = el("div", "game-body");
     const top = best(reports);
     const meta = el("div", "game-meta");
-    meta.append(el("i", `dot ${top}`), el("span", "", t(`compat.${top}`)), el("span", "game-store", game.store || ""));
+    meta.append(el("i", `dot ${top}`), el("span", "", t(`compat.${top}`)), el("span", "game-store", game.stores.length > 1 ? `${game.stores[0]} +${game.stores.length - 1}` : game.stores[0] || ""));
     body.append(el("div", "game-name", game.name), meta);
     card.append(art, body);
     card.addEventListener("click", () => openDetail({ game }));
