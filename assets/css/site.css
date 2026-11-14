@@ -774,3 +774,12 @@ button.video-thumb:hover .video-play { background: var(--blue); transform: scale
   .faq-list details p { padding-inline-end: 0; }
 }
 .chips small { margin-inline-start: 6px; font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: var(--amber); }
+html, body, main { overflow-x: clip; }
+.hero { overflow: clip; }
+.device-list button { flex-wrap: wrap; gap: 2px 8px; text-align: start; }
+.faq-list summary { overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .device-list { display: grid; grid-template-columns: 1fr; }
+  .device-list button { display: flex; width: 100%; justify-content: space-between; padding: 10px 14px; }
+  .bench-list button { gap: 2px 14px; }
+}
