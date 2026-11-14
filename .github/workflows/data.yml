@@ -1,0 +1,35 @@
+name: Update live data
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/update-data.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: node scripts/update-videos.mjs
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - run: node scripts/sync-i18n.mjs
+      - run: |
+          git add -A data index.html 404.html
+          git diff --cached --quiet && exit 0
+          git -c user.name=maxjivi05 -c user.email=maxjividen@gmail.com commit -m "Update live data"
+          git push

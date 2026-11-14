@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta.title">DroidDeck: PC gaming on Android</title>
+<meta name="description" content="DroidDeck brings the SteamOS experience to Android: Steam Gaming Mode, a full Linux desktop, and your GOG, Epic and Xbox games. Free and open source." data-i18n-attr="content:meta.desc">
+<meta name="theme-color" content="#05070a">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://droid-deck.dev/">
+<meta property="og:title" content="DroidDeck">
+<meta property="og:description" content="DroidDeck brings the SteamOS experience to Android: Steam Gaming Mode, a full Linux desktop, and your GOG, Epic and Xbox games. Free and open source." data-i18n-attr="content:meta.desc">
+<meta property="og:image" content="https://droid-deck.dev/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://droid-deck.dev/">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add("js")</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"DroidDeck","url":"https://droid-deck.dev/","operatingSystem":"Android","applicationCategory":"GameApplication","license":"https://www.gnu.org/licenses/gpl-3.0.html","downloadUrl":"https://github.com/Droid-Deck/DroidDeck/releases/latest","sameAs":["https://github.com/Droid-Deck/DroidDeck","https://github.com/Droid-Deck"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<script src="assets/js/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+<header class="bar" id="bar">
+  <a class="brand" href="#top" aria-label="DroidDeck">
+    <svg class="brand-mark" viewBox="-31.98 0 207.92 223.72" aria-hidden="true"><use href="#mark"/></svg>
+    <span>DroidDeck</span>
+  </a>
+  <nav class="links" id="links">
+    <a href="#features" data-i18n="nav.features">Features</a>
+    <a href="#compatibility" data-i18n="nav.compat">Compatibility</a>
+    <a href="#videos" data-i18n="nav.media">Videos</a>
+    <a href="#setup" data-i18n="nav.guide">Setup</a>
+    <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    <a href="#contributors" data-i18n="nav.people">Contributors</a>
+  </nav>
+  <div class="bar-end">
+    <div class="lang" id="lang">
+      <button class="lang-toggle" id="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" data-i18n-attr="aria-label:nav.lang" aria-label="Language">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.25"/><path d="M2.75 10h14.5M10 2.75c2.2 2 3.3 4.4 3.3 7.25s-1.100 5.250-3.300 7.250c-2.200-2-3.300-4.400-3.300-7.250s1.100-5.250 3.300-7.250z"/></svg>
+        <span id="lang-code">EN</span>
+      </button>
+      <div class="lang-menu" id="lang-menu" hidden></div>
+    </div>
+    <a class="btn btn-small" href="https://github.com/Droid-Deck/DroidDeck/releases/latest" data-i18n="nav.download">Download</a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="links" data-i18n-attr="aria-label:nav.menu" aria-label="Menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="hero-art" aria-hidden="true">
+    <svg class="orb" viewBox="0 0 800 800"><circle class="orb-halo" cx="400" cy="400" r="318"/><circle class="orb-core" cx="400" cy="400" r="250"/></svg>
+  </div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="official">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2.500l6 2.200v4.600c0 3.700-2.400 6.700-6 8.200-3.600-1.500-6-4.500-6-8.200V4.700z"/><path d="M7.300 10.200l1.900 1.900 3.600-3.900"/></svg>
+        <span data-i18n="official.bar">droid-deck.dev is the only official DroidDeck website.</span>
+        <a href="#official" data-i18n="official.link">How to spot a fake</a>
+      </p>
+      <p class="kicker" data-i18n="hero.kicker">Free and open source. No root.</p>
+      <h1 data-i18n="hero.title">Your Steam library runs on Android now.</h1>
+      <p class="lede" data-i18n="hero.sub">DroidDeck brings the SteamOS experience to handhelds and phones: Gaming Mode, a full Linux desktop, and your GOG, Epic and Xbox games in one library.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://github.com/Droid-Deck/DroidDeck/releases/latest">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m0 0l-4-4m4 4l4-4M4 16.500h12"/></svg>
+          <span data-i18n="hero.cta" data-i18n-vars="version">Download 0.7.1</span>
+        </a>
+        <a class="btn btn-ghost" href="#setup" data-i18n="hero.cta2">How to set it up</a>
+      </div>
+      <ul class="facts">
+        <li data-i18n="hero.android">Android 9 or newer</li>
+        <li><span data-live="size">92 MB</span> APK</li>
+        <li data-i18n="hero.released" data-i18n-vars="date">Released Nov 10, 2026</li>
+      </ul>
+    </div>
+    <figure class="handheld reveal">
+      <div class="handheld-body">
+        <div class="pad pad-left" aria-hidden="true"><i class="stick"></i><i class="dpad"></i></div>
+        <div class="screen">
+          <video muted loop playsinline preload="none" poster="assets/media/steam-to-desktop.jpg" data-src="assets/media/steam-to-desktop.mp4"></video>
+        </div>
+        <div class="pad pad-right" aria-hidden="true"><i class="abxy"><b></b><b></b><b></b><b></b></i><i class="stick"></i></div>
+      </div>
+      <figcaption data-i18n="hero.caption">Steam Big Picture, then Switch to Desktop, on a Retroid Pocket Duo.</figcaption>
+    </figure>
+  </div>
+  <ul class="pledge wrap">
+    <li data-i18n="pledge.source">100% open source</li>
+    <li data-i18n="pledge.ads">No ads</li>
+    <li data-i18n="pledge.telemetry">No telemetry</li>
+    <li data-i18n="pledge.withheld">No source withheld</li>
+  </ul>
+</section>
+
+<section class="stars" id="stars">
+  <div class="wrap stars-grid">
+    <div class="stars-copy reveal">
+      <h2 data-i18n="stars.title">A lot of people are rooting for this.</h2>
+      <a class="btn btn-ghost" href="https://github.com/Droid-Deck/DroidDeck" rel="noopener">
+        <svg viewBox="0 0 20 20" aria-hidden="true" class="fill"><path d="M10 1.700l2.550 5.300 5.750.800-4.200 4.050 1.050 5.750L10 14.850 4.850 17.600l1.050-5.750-4.200-4.050 5.750-.800z"/></svg>
+        <span data-i18n="stars.cta">Star DroidDeck</span>
+      </a>
+    </div>
+    <div class="board reveal">
+      <div class="board-head">
+        <span data-i18n="stars.label">Stars on GitHub</span>
+        <span class="live"><i></i><span data-i18n="stars.live">Live</span></span>
+      </div>
+      <div class="flaps" id="flaps" role="img" aria-label=""></div>
+      <dl class="tally">
+        <div><dt data-i18n="stars.rank">Global rank on GitHub</dt><dd>#<span data-live="rank">2,356</span></dd></div>
+        <div><dt data-i18n="stars.downloads">Downloads</dt><dd data-live="downloads-short">1.57M</dd></div>
+        <div><dt data-i18n="stars.forks">Forks</dt><dd data-live="forks">1,015</dd></div>
+        <div><dt data-i18n="stars.people">Contributors</dt><dd data-live="people">95</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="wrap">
+    <h2 class="section-title reveal" data-i18n="features.title">What you get</h2>
+
+    <article class="story reveal">
+      <div class="story-copy">
+        <p class="tag" data-i18n="f.steam.tag">Gaming Mode</p>
+        <h3 data-i18n="f.steam.title">The real Steam client</h3>
+        <p data-i18n="f.steam.body">Not a lookalike. Big Picture, Steam Input, cloud saves, achievements and Remote Play, with your Windows games running through Proton.</p>
+      </div>
+      <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/library.jpg" data-src="assets/media/library.mp4"></video></div>
+    </article>
+
+    <article class="story story-flip reveal">
+      <div class="story-copy">
+        <p class="tag" data-i18n="f.stores.tag">Stores</p>
+        <h3 data-i18n="f.stores.title">One library for every store</h3>
+        <p data-i18n="f.stores.body">Sign in to GOG, Epic, Xbox, Battle.net, EA, Amazon and itch.io. Their games sit next to your Steam ones.</p>
+        <ul class="chips"><li>Steam</li><li>GOG</li><li>Epic Games</li><li>Xbox</li><li>Battle.net</li><li>EA</li><li>Amazon</li><li>itch.io</li><li>Game Jolt</li></ul>
+      </div>
+      <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/stores-capsules.jpg" data-src="assets/media/stores-capsules.mp4"></video></div>
+    </article>
+
+    <article class="story reveal">
+      <div class="story-copy">
+        <p class="tag" data-i18n="f.desktop.tag">Desktop</p>
+        <h3 data-i18n="f.desktop.title">A full Linux desktop</h3>
+        <p data-i18n="f.desktop.body">Pick Switch to Desktop and you land in KDE Plasma, with Firefox, a terminal and an app store.</p>
+      </div>
+      <div class="shot shot-tall"><video muted loop playsinline preload="none" poster="assets/media/kde-desktop.jpg" data-src="assets/media/kde-desktop.mp4"></video></div>
+    </article>
+
+    <div class="tiles">
+      <article class="tile reveal">
+        <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/droiddeck-hud.jpg" data-src="assets/media/droiddeck-hud.mp4"></video></div>
+        <h3 data-i18n="f.hud.title">Performance HUD</h3>
+        <p data-i18n="f.hud.body">FPS, frame times, temperatures and battery, in a corner or docked.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/multi-controller.jpg" data-src="assets/media/multi-controller.mp4"></video></div>
+        <h3 data-i18n="f.multi.title">Local multiplayer</h3>
+        <p data-i18n="f.multi.body">Pair a few controllers and play split screen on one device.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/quest-steamvr.jpg" data-src="assets/media/quest-steamvr.mp4"></video></div>
+        <h3 data-i18n="f.vr.title">SteamVR</h3>
+        <p data-i18n="f.vr.body">Play VR on a Quest, or with Joy-Con and camera hand tracking.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/xbox-cloud-gaming.jpg" data-src="assets/media/xbox-cloud-gaming.mp4"></video></div>
+        <h3 data-i18n="f.cloud.title">Xbox Cloud Gaming</h3>
+        <p data-i18n="f.cloud.body">Stream Game Pass without leaving the launcher.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/dual-screen-steam-keyboard.jpg" data-src="assets/media/dual-screen-steam-keyboard.mp4"></video></div>
+        <h3 data-i18n="f.dual.title">Dual screens</h3>
+        <p data-i18n="f.dual.body">The second screen becomes a keyboard, a trackpad or a dashboard.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="shot"><video muted loop playsinline preload="none" poster="assets/media/gradient-theme.jpg" data-src="assets/media/gradient-theme.mp4"></video></div>
+        <h3 data-i18n="f.themes.title">Themes</h3>
+        <p data-i18n="f.themes.body">Recolour the launcher, or mix your own gradient.</p>
+      </article>
+    </div>
+
+    <div class="also reveal">
+      <h3 data-i18n="also.title">Also in there</h3>
+      <ul>
+        <li data-i18n="also.glasses">Head tracking for VITURE, RayNeo, XREAL 1S and Rokid glasses</li>
+        <li data-i18n="also.lsfg">LSFG frame generation, if you own Lossless Scaling</li>
+        <li data-i18n="also.touch">On-screen controls and touch gestures</li>
+        <li data-i18n="also.flatpak">Linux apps and emulators from Flathub</li>
+        <li data-i18n="also.sync">Folder sync between devices</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="compat" id="compatibility">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="section-title" data-i18n="compat.title">Games people are playing</h2>
+      <p data-i18n="compat.sub">Reports from the community, on their own devices. Your results depend on your chip and your settings.</p>
+    </div>
+    <div class="filters reveal">
+      <label class="field field-search">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="5.500"/><path d="M13.200 13.200L17 17"/></svg>
+        <input id="compat-search" type="search" autocomplete="off" placeholder="Search games" data-i18n-attr="placeholder:compat.search;aria-label:compat.search" aria-label="Search games">
+      </label>
+      <label class="field">
+        <select id="compat-device" data-i18n-attr="aria-label:compat.device" aria-label="Device"></select>
+      </label>
+      <div class="seg" id="compat-status" role="group">
+        <button type="button" data-status="" class="on" data-i18n="compat.any">Any result</button>
+        <button type="button" data-status="great" data-i18n="compat.great">Runs great</button>
+        <button type="button" data-status="playable" data-i18n="compat.playable">Playable</button>
+      </div>
+    </div>
+    <div class="games" id="games"></div>
+    <p class="empty" id="games-empty" hidden data-i18n="compat.empty">Nothing matches. Try another device.</p>
+    <div class="games-foot">
+      <button class="btn btn-ghost" id="games-more" type="button" hidden></button>
+      <a class="text-link" href="https://discord.gg/JRGAvawjsm" rel="noopener" data-i18n="compat.share">Share your results on Discord</a>
+    </div>
+
+    <div class="devices reveal" id="devices">
+      <div class="section-head">
+        <h2 class="section-title" data-i18n="devices.title">What it runs on</h2>
+        <p data-i18n="devices.sub">Android 9 or newer. No root needed.</p>
+      </div>
+      <div class="gpus">
+        <div class="gpu gpu-yes"><span data-i18n="gpu.yes">Supported</span><p data-i18n="gpu.yes.body">Adreno 730 and newer, and every Adreno 8xx</p></div>
+        <div class="gpu gpu-maybe"><span data-i18n="gpu.maybe">Experimental</span><p data-i18n="gpu.maybe.body">Adreno 6xx, Mali, Xclipse and PowerVR</p></div>
+        <div class="gpu gpu-no"><span data-i18n="gpu.no">Not yet</span><p data-i18n="gpu.no.body">Adreno 710</p></div>
+      </div>
+      <div class="bench">
+        <div class="bench-head">
+          <h3 data-i18n="bench.title">On our desks</h3>
+          <p data-i18n="bench.sub">The devices DroidDeck is built and tested on, every day.</p>
+        </div>
+        <ul class="bench-list" id="bench"></ul>
+      </div>
+      <h3 class="minor" data-i18n="devices.seen">Devices in community reports</h3>
+      <ul class="device-list" id="device-list"></ul>
+    </div>
+  </div>
+</section>
+
+<section class="media" id="videos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="section-title" data-i18n="media.title">Seen on YouTube</h2>
+      <p data-i18n="media.sub">The newest DroidDeck videos, pulled in fresh. Made by the community, not by us.</p>
+    </div>
+    <div class="videos" id="video-list"></div>
+    <div class="games-foot">
+      <button class="btn btn-ghost" id="videos-more" type="button" hidden data-i18n="media.more">Show more videos</button>
+      <a class="text-link" href="https://www.youtube.com/results?search_query=DroidDeck&amp;sp=CAI%253D" rel="noopener" data-i18n="media.all">More on YouTube</a>
+    </div>
+  </div>
+</section>
+
+<section class="guide" id="setup">
+  <div class="wrap guide-grid">
+    <div class="guide-main">
+      <h2 class="section-title reveal" data-i18n="guide.title">Set up in four steps</h2>
+      <ol class="steps">
+        <li class="reveal"><h3 data-i18n="g1.title">Check your device</h3><p data-i18n="g1.body">You need Android 9 or newer and about 3 GB free. Add 1.1 GB for the desktop and emulators.</p></li>
+        <li class="reveal"><h3 data-i18n="g2.title">Install the APK</h3><p data-i18n="g2.body">Download it from GitHub Releases and open it. Android asks you to allow the install.</p></li>
+        <li class="reveal"><h3 data-i18n="g3.title">Install the Linux runtime</h3><p data-i18n="g3.body">DroidDeck downloads it the first time you open it. Stay on Wi-Fi.</p></li>
+        <li class="reveal"><h3 data-i18n="g4.title">Press Play and sign in</h3><p data-i18n="g4.body">Steam opens in Gaming Mode. Sign in, then install a game.</p></li>
+      </ol>
+    </div>
+    <aside class="guide-side">
+      <div class="note reveal">
+        <h3 data-i18n="tip.title">On Android 14 or newer?</h3>
+        <p data-i18n="tip.body">Turn on &quot;Disable child process restrictions&quot; in Developer options. On Android 12 and 13, Steam's first launch shows a &quot;Fix it for me&quot; button.</p>
+      </div>
+      <div class="note note-plain reveal">
+        <h3 data-i18n="help.title">Stuck?</h3>
+        <p data-i18n="help.body">Ask on Discord. For bugs, post in #bug-reports with the zip from Share logs.</p>
+        <a class="text-link" href="https://discord.gg/JRGAvawjsm" rel="noopener" data-i18n="help.cta">Open Discord</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap faq-grid">
+    <h2 class="section-title reveal" data-i18n="faq.title">Questions people ask</h2>
+    <div class="faq-list">
+      <details class="reveal"><summary data-i18n="faq.q1">Is DroidDeck free?</summary><p data-i18n="faq.a1">Yes. It is free and open source under GPL-3.0, with no ads and no telemetry. That will not change.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q2">Which devices run it?</summary><p data-i18n="faq.a2">Anything on Android 9 or newer. It runs best on Adreno 730 and newer. Mali, Xclipse, PowerVR and older Adreno chips are experimental.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q3">Do I need root?</summary><p data-i18n="faq.a3">No. On Android 14 or newer you flip one switch in Developer options. The setup guide shows which one.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q4">Does it work on Mali, Exynos or MediaTek?</summary><p data-i18n="faq.a4">It starts on many of them, but support is experimental. Some games crash or show a black screen. Fixes reach Preview builds first.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q5">Is it on the Play Store?</summary><p data-i18n="faq.a5">Not today. Get the APK from GitHub Releases. Android may warn you about installing outside the store, which is normal.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q6">Is there an iPhone version?</summary><p data-i18n="faq.a6">No. DroidDeck is Android only.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q7">Is it safe to sign in to Steam?</summary><p data-i18n="faq.a7">You sign in inside the real Steam client, the same one a Steam Deck runs. All of DroidDeck's code is public.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q8">Do online games with anti-cheat work?</summary><p data-i18n="faq.a8">Mostly not. Games that need kernel anti-cheat will not go online. Some Easy Anti-Cheat games can still be played offline.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q9">My game runs slowly. What can I try?</summary><p data-i18n="faq.a9">Lower the in-game settings first, then try a newer graphics driver in DroidDeck's settings. The performance HUD shows what is holding the game back.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q10">Can I install games on an SD card?</summary><p data-i18n="faq.a10">Yes. Set External storage as the default under Setup &gt; Storage, then install. Games you already have stay where they are.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q11">Do controllers work?</summary><p data-i18n="faq.a11">Yes. Built-in controls, Bluetooth and USB pads all work, and you can pair several for split screen. There are touch controls too.</p></details>
+      <details class="reveal"><summary data-i18n="faq.q12">How do I get fixes early or report a bug?</summary><p data-i18n="faq.a12">Preview builds are in the app under Updates &gt; Preview. For bugs, post in #bug-reports with the zip from Share logs.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="club" id="community">
+  <div class="wrap">
+    <div class="club-card reveal">
+      <svg class="club-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 5.300A17.400 17.400 0 0 0 15.300 4l-.550 1.100a16 16 0 0 0-5.500 0L8.700 4a17.400 17.400 0 0 0-4.300 1.300C1.700 9.400.950 13.400 1.300 17.300A17.600 17.600 0 0 0 6.600 20l1.150-1.850a11.300 11.300 0 0 1-1.800-.870l.440-.340a12.500 12.500 0 0 0 11.220 0l.440.340c-.570.340-1.180.630-1.800.870L17.400 20a17.600 17.600 0 0 0 5.300-2.700c.440-4.550-.740-8.500-3.100-12zM8.500 14.900c-1.050 0-1.900-.970-1.900-2.150s.840-2.150 1.900-2.150 1.920.970 1.900 2.150c0 1.180-.840 2.150-1.900 2.150zm7 0c-1.050 0-1.900-.970-1.900-2.150s.840-2.150 1.900-2.150 1.920.970 1.900 2.150c0 1.180-.840 2.150-1.900 2.150z"/></svg>
+      <h2 data-i18n="discord.title" data-i18n-vars="members">18,134 of us are on Discord.</h2>
+      <p data-i18n="discord.sub" data-i18n-vars="online">Setup help, game settings and early builds. 2,724 online right now.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://discord.gg/JRGAvawjsm" rel="noopener" data-i18n="discord.join">Join the Discord</a>
+        <a class="btn btn-ghost" href="https://discord.com/channels/1552707793247539220/1556195514322780160" rel="noopener" data-i18n="discord.support">Go straight to #support</a>
+      </div>
+      <p class="fine" data-i18n="discord.note">The #support link opens once you have joined.</p>
+    </div>
+  </div>
+</section>
+
+<section class="download" id="download">
+  <div class="wrap">
+    <div class="ticket reveal">
+      <div class="ticket-main">
+        <h2 data-i18n="download.title">Get DroidDeck</h2>
+        <p data-i18n="download.sub">Free, under GPL-3.0. Only ever download it from GitHub Releases.</p>
+        <div class="actions">
+          <a class="btn btn-primary btn-large" href="https://github.com/Droid-Deck/DroidDeck/releases/latest">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m0 0l-4-4m4 4l4-4M4 16.500h12"/></svg>
+            <span data-i18n="download.cta" data-i18n-vars="version">Download 0.7.1</span>
+          </a>
+          <a class="text-link" href="https://github.com/Droid-Deck/DroidDeck/releases" rel="noopener" data-i18n="download.all">All releases</a>
+        </div>
+        <p class="fine" data-i18n="download.preview">Want fixes early? Preview builds are in the app under Updates &gt; Preview.</p>
+        <p class="fine" data-i18n="download.verify">Checksums are in SHA256SUMS.txt on the release page.</p>
+      </div>
+      <dl class="ticket-stub">
+        <div><dt data-i18n="download.latest">Latest release</dt><dd class="big" data-live="version">0.7.1</dd></div>
+        <div><dt data-i18n="download.released">Released</dt><dd data-live="date">Nov 10, 2026</dd></div>
+        <div><dt data-i18n="download.size">Size</dt><dd data-live="size">92 MB</dd></div>
+        <div><dt data-i18n="stars.downloads">Downloads</dt><dd data-live="downloads">1,570,458</dd></div>
+      </dl>
+    </div>
+    <div class="fakes reveal" id="official">
+      <div>
+        <h3 data-i18n="official.title">Watch out for fake sites</h3>
+        <p data-i18n="official.body">Copycat websites are using the DroidDeck name, and some get a lot of visitors. None of them are ours. Don't download anything from them.</p>
+        <a class="text-link" href="https://safebrowsing.google.com/safebrowsing/report_phish/" rel="noopener" data-i18n="official.report">Report a fake site to Google</a>
+      </div>
+      <ul>
+        <li data-i18n="official.c1">The address bar says droid-deck.dev.</li>
+        <li data-i18n="official.c2">Every download button opens github.com/Droid-Deck.</li>
+        <li data-i18n="official.c3">DroidDeck is free. We never ask for payment, a sign-up or a survey.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="people" id="contributors">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="section-title" data-i18n="people.title" data-i18n-vars="n">Made by 95 people</h2>
+      <p data-i18n="people.sub">Everyone with code in the app, Proton, the drivers or the components. This list updates itself.</p>
+    </div>
+    <ul class="leads" id="leads"></ul>
+    <ul class="crowd" id="crowd"></ul>
+    <a class="btn btn-ghost" href="https://github.com/Droid-Deck/DroidDeck/pulls" rel="noopener" data-i18n="people.cta">Send a pull request</a>
+  </div>
+</section>
+
+</main>
+
+<dialog class="detail" id="detail" aria-labelledby="detail-name">
+  <button class="detail-close" id="detail-close" type="button" data-i18n-attr="aria-label:detail.close" aria-label="Close"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg></button>
+  <div class="detail-art" id="detail-art"></div>
+  <div class="detail-body">
+    <h2 id="detail-name"></h2>
+    <p class="detail-meta" id="detail-meta"></p>
+    <div id="detail-block">
+      <h3 class="minor" id="detail-label"></h3>
+      <div class="detail-rows" id="detail-rows"></div>
+    </div>
+    <div class="detail-videos-head">
+      <h3 class="minor" data-i18n="detail.videos">Videos</h3>
+      <a class="text-link" id="detail-search" rel="noopener" data-i18n="detail.search">Search YouTube</a>
+    </div>
+    <div class="videos videos-small" id="detail-videos"></div>
+    <p class="fine" id="detail-none" hidden data-i18n="detail.none">No videos matched yet.</p>
+  </div>
+</dialog>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="brand" href="#top" aria-label="DroidDeck">
+        <svg class="brand-mark" viewBox="-31.98 0 207.92 223.72" aria-hidden="true"><use href="#mark"/></svg>
+        <span>DroidDeck</span>
+      </a>
+      <p data-i18n="footer.tagline">The SteamOS experience on Android.</p>
+    </div>
+    <nav class="foot-links">
+      <a href="https://github.com/Droid-Deck/DroidDeck" rel="noopener" data-i18n="footer.source">Source code</a>
+      <a href="https://github.com/Droid-Deck/DroidDeck/releases" rel="noopener" data-i18n="footer.releases">Releases</a>
+      <a href="https://discord.gg/JRGAvawjsm" rel="noopener">Discord</a>
+      <a href="https://discord.com/channels/1552707793247539220/1556195514322780160" rel="noopener">#support</a>
+      <a href="https://github.com/Droid-Deck/DroidDeck/blob/main/LICENSE" rel="noopener" data-i18n="footer.licence">Licence</a>
+    </nav>
+    <p class="legal" data-i18n="footer.legal">DroidDeck is GPL-3.0. Steam and Proton belong to Valve Corporation. Other names are trademarks of their owners. DroidDeck is not affiliated with any of them.</p>
+    <p class="legal" id="updated"></p>
+  </div>
+</footer>
+
+<svg width="0" height="0" class="defs" aria-hidden="true">
+  <defs>
+    <mask id="mark-cut" maskUnits="userSpaceOnUse" x="-31.98" y="0" width="207.92" height="223.72">
+      <rect x="-31.98" y="0" width="207.92" height="223.72" fill="#fff"/>
+      <circle cx="63.98" cy="111.86" r="71.81" fill="#000"/>
+      <rect x="56.055" y="0" width="15.83" height="45" fill="#000"/>
+      <rect x="56.055" y="178.72" width="15.83" height="45" fill="#000"/>
+    </mask>
+    <symbol id="mark" viewBox="-31.98 0 207.92 223.72">
+      <path fill="currentColor" mask="url(#mark-cut)" d="M-31.98 0H63.97c61.84 0 111.96 50.08 111.96 111.86S125.81 223.72 63.97 223.72H-31.98V0Z"/>
+      <circle cx="63.98" cy="111.86" r="55.98" fill="#1A9FFF"/>
+    </symbol>
+  </defs>
+</svg>
+</body>
+</html>
