@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: jocuri PC pe Android",
-  "meta.desc": "DroidDeck aduce experiența SteamOS pe Android: Steam Gaming Mode, un desktop Linux complet și jocurile tale de pe GOG, Epic și Xbox. Gratuit și open source.",
+  "meta.desc": "DroidDeck aduce experiența SteamOS pe Android: Steam Gaming Mode, un desktop Linux complet și jocurile tale de pe GOG, Epic, Xbox, Battle.net și altele. Gratuit și open source.",
   "nav.features": "Funcții",
   "nav.compat": "Compatibilitate",
   "nav.guide": "Configurare",
@@ -11,7 +11,7 @@
   "nav.skip": "Sari la conținut",
   "hero.kicker": "Gratuit și open source. Fără root.",
   "hero.title": "Biblioteca ta Steam rulează acum pe Android.",
-  "hero.sub": "DroidDeck aduce experiența SteamOS pe console portabile și telefoane: Gaming Mode, un desktop Linux complet și jocurile tale de pe GOG, Epic și Xbox într-o singură bibliotecă.",
+  "hero.sub": "DroidDeck aduce experiența SteamOS pe console portabile și telefoane: Gaming Mode, un desktop Linux complet și jocurile tale de pe GOG, Epic, Xbox, Battle.net și altele într-o singură bibliotecă.",
   "hero.cta": "Descarcă {version}",
   "hero.cta2": "Cum îl configurezi",
   "hero.android": "Android 9 sau mai nou",
@@ -35,7 +35,7 @@
   "f.steam.body": "Nu e o imitație. Big Picture, Steam Input, salvări în cloud, realizări și Remote Play, cu jocurile tale Windows rulând prin Proton.",
   "f.stores.tag": "Magazine",
   "f.stores.title": "O singură bibliotecă pentru toate magazinele",
-  "f.stores.body": "Conectează-te la GOG, Epic, Xbox, Battle.net, EA, Amazon și itch.io. Jocurile lor apar lângă cele din Steam.",
+  "f.stores.body": "Autentifică-te o dată în fiecare magazin. Jocurile lui apar lângă cele din Steam.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "Un desktop Linux complet",
   "f.desktop.body": "Alege „Switch to Desktop” și ajungi în KDE Plasma, cu Firefox, un terminal și un magazin de aplicații.",
@@ -57,6 +57,10 @@
   "also.touch": "Comenzi pe ecran și gesturi tactile",
   "also.sync": "Sincronizarea folderelor între dispozitive",
   "also.flatpak": "Aplicații Linux și emulatoare din Flathub",
+  "also.storage": "Jocuri pe card SD sau unitate USB",
+  "also.portrait": "Mod portret pentru telefoane",
+  "also.apps": "Aplicațiile și widgeturile tale Android în launcher",
+  "also.pads": "Profiluri de controler și zone moarte ale joystickurilor",
   "compat.title": "Jocuri pe care le joacă oamenii",
   "compat.sub": "Rapoarte din comunitate, pe dispozitivele lor. Rezultatul tău depinde de cip și de setări.",
   "compat.search": "Caută jocuri",
@@ -171,5 +175,6 @@
   "faq.q11": "Merg controllerele?",
   "faq.a11": "Da. Comenzile încorporate, controllerele Bluetooth și USB funcționează, iar poți asocia mai multe pentru ecran împărțit. Există și comenzi tactile.",
   "faq.q12": "Cum primesc corecturi mai devreme sau raportez o eroare?",
-  "faq.a12": "Versiunile Preview sunt în aplicație, la Updates > Preview. Pentru erori, scrie în #bug-reports cu arhiva zip din Share logs."
+  "faq.a12": "Versiunile Preview sunt în aplicație, la Updates > Preview. Pentru erori, scrie în #bug-reports cu arhiva zip din Share logs.",
+  "tag.preview": "Preview"
 }

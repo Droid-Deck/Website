@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: jogos de PC no Android",
-  "meta.desc": "O DroidDeck traz a experiência SteamOS para o Android: Steam Gaming Mode, um ambiente de trabalho Linux completo e os seus jogos da GOG, Epic e Xbox. Gratuito e de código aberto.",
+  "meta.desc": "O DroidDeck leva a experiência do SteamOS para o Android: Steam Gaming Mode, um ambiente de trabalho Linux completo e os teus jogos da GOG, Epic, Xbox, Battle.net e mais. Grátis e de código aberto.",
   "nav.features": "Funcionalidades",
   "nav.compat": "Compatibilidade",
   "nav.guide": "Configuração",
@@ -11,7 +11,7 @@
   "nav.skip": "Saltar para o conteúdo",
   "hero.kicker": "Gratuito e de código aberto. Sem root.",
   "hero.title": "A sua biblioteca Steam já corre no Android.",
-  "hero.sub": "O DroidDeck traz a experiência SteamOS para consolas portáteis e telemóveis: Gaming Mode, um ambiente de trabalho Linux completo e os seus jogos da GOG, Epic e Xbox numa só biblioteca.",
+  "hero.sub": "O DroidDeck leva a experiência do SteamOS para consolas portáteis e telemóveis: Gaming Mode, um ambiente de trabalho Linux completo e os teus jogos da GOG, Epic, Xbox, Battle.net e mais numa única biblioteca.",
   "hero.cta": "Transferir {version}",
   "hero.cta2": "Como configurar",
   "hero.android": "Android 9 ou mais recente",
@@ -35,7 +35,7 @@
   "f.steam.body": "Não é uma imitação. Big Picture, Steam Input, gravações na nuvem, conquistas e Remote Play, com os seus jogos de Windows a correr através do Proton.",
   "f.stores.tag": "Lojas",
   "f.stores.title": "Uma biblioteca para todas as lojas",
-  "f.stores.body": "Inicie sessão na GOG, Epic, Xbox, Battle.net, EA, Amazon e itch.io. Os jogos delas ficam ao lado dos seus da Steam.",
+  "f.stores.body": "Inicia sessão uma vez em cada loja. Os jogos dela aparecem ao lado dos teus jogos da Steam.",
   "f.desktop.tag": "Ambiente de trabalho",
   "f.desktop.title": "Um ambiente de trabalho Linux completo",
   "f.desktop.body": "Escolha “Switch to Desktop” e entra no KDE Plasma, com Firefox, um terminal e uma loja de aplicações.",
@@ -57,6 +57,10 @@
   "also.touch": "Controlos no ecrã e gestos táteis",
   "also.sync": "Sincronização de pastas entre dispositivos",
   "also.flatpak": "Aplicações Linux e emuladores do Flathub",
+  "also.storage": "Jogos num cartão SD ou unidade USB",
+  "also.portrait": "Modo vertical para telemóveis",
+  "also.apps": "As tuas apps e widgets Android no launcher",
+  "also.pads": "Perfis de comando e zonas mortas dos analógicos",
   "compat.title": "Jogos que as pessoas estão a jogar",
   "compat.sub": "Relatos da comunidade, nos dispositivos deles. O seu resultado depende do seu chip e das suas definições.",
   "compat.search": "Pesquisar jogos",
@@ -171,5 +175,6 @@
   "faq.q11": "Os comandos funcionam?",
   "faq.a11": "Sim. Controlos integrados, comandos Bluetooth e USB funcionam, e pode emparelhar vários para ecrã dividido. Também há controlos táteis.",
   "faq.q12": "Como obtenho correções mais cedo ou reporto um bug?",
-  "faq.a12": "As versões Preview estão na aplicação em Updates > Preview. Para bugs, publique no #bug-reports com o zip de Share logs."
+  "faq.a12": "As versões Preview estão na aplicação em Updates > Preview. Para bugs, publique no #bug-reports com o zip de Share logs.",
+  "tag.preview": "Preview"
 }

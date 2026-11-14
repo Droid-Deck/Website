@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: เล่นเกมพีซีบน Android",
-  "meta.desc": "DroidDeck นำประสบการณ์ SteamOS มาสู่ Android ทั้ง Steam Gaming Mode เดสก์ท็อป Linux เต็มรูปแบบ และเกมจาก GOG, Epic และ Xbox ของคุณ ฟรีและโอเพนซอร์ส",
+  "meta.desc": "DroidDeck นำประสบการณ์ SteamOS มาสู่ Android: Steam Gaming Mode, เดสก์ท็อป Linux เต็มรูปแบบ และเกมของคุณจาก GOG, Epic, Xbox, Battle.net และอื่น ๆ ฟรีและโอเพนซอร์ส",
   "nav.features": "ฟีเจอร์",
   "nav.compat": "ความเข้ากันได้",
   "nav.guide": "การตั้งค่า",
@@ -11,7 +11,7 @@
   "nav.skip": "ข้ามไปยังเนื้อหา",
   "hero.kicker": "ฟรีและโอเพนซอร์ส ไม่ต้อง root",
   "hero.title": "คลัง Steam ของคุณรันบน Android ได้แล้ว",
-  "hero.sub": "DroidDeck นำประสบการณ์ SteamOS มาสู่เครื่องเล่นเกมพกพาและสมาร์ตโฟน ทั้ง Gaming Mode เดสก์ท็อป Linux เต็มรูปแบบ และเกมจาก GOG, Epic และ Xbox ในคลังเดียว",
+  "hero.sub": "DroidDeck นำประสบการณ์ SteamOS มาสู่เครื่องเล่นเกมพกพาและโทรศัพท์: Gaming Mode, เดสก์ท็อป Linux เต็มรูปแบบ และเกมของคุณจาก GOG, Epic, Xbox, Battle.net และอื่น ๆ ในคลังเดียว",
   "hero.cta": "ดาวน์โหลด {version}",
   "hero.cta2": "วิธีตั้งค่า",
   "hero.android": "Android 9 ขึ้นไป",
@@ -35,7 +35,7 @@
   "f.steam.body": "ไม่ใช่ของเลียนแบบ มี Big Picture, Steam Input, เซฟบนคลาวด์, ความสำเร็จ และ Remote Play เกม Windows ของคุณรันผ่าน Proton",
   "f.stores.tag": "ร้านค้า",
   "f.stores.title": "คลังเดียวสำหรับทุกร้าน",
-  "f.stores.body": "ลงชื่อเข้าใช้ GOG, Epic, Xbox, Battle.net, EA, Amazon และ itch.io เกมจากร้านเหล่านั้นอยู่ข้างเกม Steam ของคุณ",
+  "f.stores.body": "ลงชื่อเข้าใช้แต่ละร้านครั้งเดียว เกมจะแสดงอยู่ข้างเกม Steam ของคุณ",
   "f.desktop.tag": "เดสก์ท็อป",
   "f.desktop.title": "เดสก์ท็อป Linux เต็มรูปแบบ",
   "f.desktop.body": "เลือก “Switch to Desktop” แล้วคุณจะเข้าสู่ KDE Plasma พร้อม Firefox เทอร์มินัล และแอปสโตร์",
@@ -57,6 +57,10 @@
   "also.touch": "ปุ่มควบคุมบนหน้าจอและท่าทางสัมผัส",
   "also.sync": "ซิงก์โฟลเดอร์ระหว่างอุปกรณ์",
   "also.flatpak": "แอป Linux และอีมูเลเตอร์จาก Flathub",
+  "also.storage": "เกมบนการ์ด SD หรือไดรฟ์ USB",
+  "also.portrait": "โหมดแนวตั้งสำหรับโทรศัพท์",
+  "also.apps": "แอป Android และวิดเจ็ตของคุณในแลนเชอร์",
+  "also.pads": "โปรไฟล์คอนโทรลเลอร์และเดดโซนของสติ๊ก",
   "compat.title": "เกมที่คนกำลังเล่น",
   "compat.sub": "รายงานจากชุมชนบนอุปกรณ์ของพวกเขาเอง ผลลัพธ์ของคุณขึ้นอยู่กับชิปและการตั้งค่า",
   "compat.search": "ค้นหาเกม",
@@ -171,5 +175,6 @@
   "faq.q11": "จอยใช้ได้ไหม",
   "faq.a11": "ได้ ปุ่มในตัว จอย Bluetooth และ USB ใช้ได้หมด และจับคู่หลายตัวเพื่อแบ่งหน้าจอได้ มีปุ่มควบคุมแบบสัมผัสด้วย",
   "faq.q12": "จะรับการแก้ไขก่อนใครหรือรายงานบั๊กได้อย่างไร",
-  "faq.a12": "บิลด์ Preview อยู่ในแอปที่ Updates > Preview ส่วนบั๊กให้โพสต์ใน #bug-reports พร้อมไฟล์ zip จาก Share logs"
+  "faq.a12": "บิลด์ Preview อยู่ในแอปที่ Updates > Preview ส่วนบั๊กให้โพสต์ใน #bug-reports พร้อมไฟล์ zip จาก Share logs",
+  "tag.preview": "Preview"
 }

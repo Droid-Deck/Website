@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck：在 Android 上玩 PC 游戏",
-  "meta.desc": "DroidDeck 把 SteamOS 体验带到 Android：Steam Gaming Mode、完整的 Linux 桌面，以及你在 GOG、Epic 和 Xbox 的游戏。免费且开源。",
+  "meta.desc": "DroidDeck 把 SteamOS 体验带到 Android：Steam Gaming Mode、完整的 Linux 桌面，以及来自 GOG、Epic、Xbox、Battle.net 等平台的游戏。免费开源。",
   "nav.features": "功能",
   "nav.compat": "兼容性",
   "nav.guide": "安装",
@@ -11,7 +11,7 @@
   "nav.skip": "跳到正文",
   "hero.kicker": "免费开源，无需 root。",
   "hero.title": "你的 Steam 游戏库，现在能在 Android 上运行。",
-  "hero.sub": "DroidDeck 把 SteamOS 体验带到掌机和手机：Gaming Mode、完整的 Linux 桌面，还有 GOG、Epic 和 Xbox 的游戏，统一在一个游戏库里。",
+  "hero.sub": "DroidDeck 把 SteamOS 体验带到掌机和手机：Gaming Mode、完整的 Linux 桌面，以及来自 GOG、Epic、Xbox、Battle.net 等平台的游戏，统一在一个游戏库里。",
   "hero.cta": "下载 {version}",
   "hero.cta2": "如何安装设置",
   "hero.android": "Android 9 或更高版本",
@@ -35,7 +35,7 @@
   "f.steam.body": "不是山寨版。支持 Big Picture、Steam Input、云存档、成就和 Remote Play，Windows 游戏通过 Proton 运行。",
   "f.stores.tag": "商店",
   "f.stores.title": "所有商店，一个游戏库",
-  "f.stores.body": "登录 GOG、Epic、Xbox、Battle.net、EA、Amazon 和 itch.io，它们的游戏就和 Steam 游戏放在一起。",
+  "f.stores.body": "每个商店只需登录一次，它的游戏会和你的 Steam 游戏放在一起。",
   "f.desktop.tag": "桌面",
   "f.desktop.title": "完整的 Linux 桌面",
   "f.desktop.body": "选择“Switch to Desktop”即可进入 KDE Plasma，自带 Firefox、终端和应用商店。",
@@ -57,6 +57,10 @@
   "also.touch": "屏幕虚拟按键和触控手势",
   "also.sync": "设备间文件夹同步",
   "also.flatpak": "来自 Flathub 的 Linux 应用和模拟器",
+  "also.storage": "SD 卡或 USB 驱动器上的游戏",
+  "also.portrait": "手机竖屏模式",
+  "also.apps": "在启动器中使用 Android 应用和小组件",
+  "also.pads": "手柄配置文件和摇杆死区",
   "compat.title": "大家正在玩的游戏",
   "compat.sub": "来自社区成员在自己设备上的反馈。实际效果取决于你的芯片和设置。",
   "compat.search": "搜索游戏",
@@ -171,5 +175,6 @@
   "faq.q11": "手柄能用吗？",
   "faq.a11": "能。内置控制、蓝牙和 USB 手柄都支持，还能配对多个手柄进行分屏。也有触控操作。",
   "faq.q12": "如何提前获得修复或反馈 bug？",
-  "faq.a12": "Preview 版本在应用内的 Updates > Preview。反馈 bug 请到 #bug-reports 发帖，并附上 Share logs 生成的 zip。"
+  "faq.a12": "Preview 版本在应用内的 Updates > Preview。反馈 bug 请到 #bug-reports 发帖，并附上 Share logs 生成的 zip。",
+  "tag.preview": "Preview"
 }

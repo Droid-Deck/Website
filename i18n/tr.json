@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: Android'de PC oyunları",
-  "meta.desc": "DroidDeck, SteamOS deneyimini Android'e getirir: Steam Gaming Mode, tam bir Linux masaüstü ve GOG, Epic ile Xbox oyunlarınız. Ücretsiz ve açık kaynak.",
+  "meta.desc": "DroidDeck, SteamOS deneyimini Android'e getirir: Steam Gaming Mode, tam bir Linux masaüstü ve GOG, Epic, Xbox, Battle.net ve daha fazlasından oyunların. Ücretsiz ve açık kaynak.",
   "nav.features": "Özellikler",
   "nav.compat": "Uyumluluk",
   "nav.guide": "Kurulum",
@@ -11,7 +11,7 @@
   "nav.skip": "İçeriğe geç",
   "hero.kicker": "Ücretsiz ve açık kaynak. Root gerekmez.",
   "hero.title": "Steam kitaplığınız artık Android'de çalışıyor.",
-  "hero.sub": "DroidDeck, SteamOS deneyimini el konsollarına ve telefonlara getirir: Gaming Mode, tam bir Linux masaüstü ve GOG, Epic ile Xbox oyunlarınız tek kitaplıkta.",
+  "hero.sub": "DroidDeck, SteamOS deneyimini el konsollarına ve telefonlara getirir: Gaming Mode, tam bir Linux masaüstü ve GOG, Epic, Xbox, Battle.net ve daha fazlasından oyunların tek kütüphanede.",
   "hero.cta": "{version} sürümünü indir",
   "hero.cta2": "Nasıl kurulur",
   "hero.android": "Android 9 veya üzeri",
@@ -35,7 +35,7 @@
   "f.steam.body": "Taklit değil. Big Picture, Steam Input, bulut kayıtları, başarımlar ve Remote Play; Windows oyunlarınız Proton üzerinden çalışır.",
   "f.stores.tag": "Mağazalar",
   "f.stores.title": "Tüm mağazalar için tek kitaplık",
-  "f.stores.body": "GOG, Epic, Xbox, Battle.net, EA, Amazon ve itch.io hesaplarınızla giriş yapın. Oyunları Steam oyunlarınızın yanında durur.",
+  "f.stores.body": "Her mağazada bir kez oturum aç. Oyunları Steam oyunlarının yanında görünür.",
   "f.desktop.tag": "Masaüstü",
   "f.desktop.title": "Tam bir Linux masaüstü",
   "f.desktop.body": "“Switch to Desktop” seçeneğini seçin, Firefox, terminal ve uygulama mağazası olan KDE Plasma'ya geçersiniz.",
@@ -57,6 +57,10 @@
   "also.touch": "Ekran üstü kontroller ve dokunma hareketleri",
   "also.sync": "Cihazlar arasında klasör eşitleme",
   "also.flatpak": "Flathub'dan Linux uygulamaları ve emülatörler",
+  "also.storage": "SD kart veya USB sürücüdeki oyunlar",
+  "also.portrait": "Telefonlar için dikey mod",
+  "also.apps": "Android uygulamaların ve widget'ların başlatıcıda",
+  "also.pads": "Kontrolcü profilleri ve çubuk ölü bölgeleri",
   "compat.title": "İnsanların oynadığı oyunlar",
   "compat.sub": "Topluluktan, kendi cihazlarında alınan raporlar. Sonucunuz çipinize ve ayarlarınıza bağlıdır.",
   "compat.search": "Oyun ara",
@@ -171,5 +175,6 @@
   "faq.q11": "Oyun kolları çalışır mı?",
   "faq.a11": "Evet. Yerleşik kontroller, Bluetooth ve USB kollar çalışır, bölünmüş ekran için birkaçını eşleştirebilirsiniz. Dokunmatik kontroller de var.",
   "faq.q12": "Düzeltmeleri erken nasıl alırım ya da hatayı nasıl bildiririm?",
-  "faq.a12": "Preview sürümleri uygulamada Updates > Preview altındadır. Hatalar için #bug-reports kanalına Share logs'tan aldığınız zip ile yazın."
+  "faq.a12": "Preview sürümleri uygulamada Updates > Preview altındadır. Hatalar için #bug-reports kanalına Share logs'tan aldığınız zip ile yazın.",
+  "tag.preview": "Preview"
 }

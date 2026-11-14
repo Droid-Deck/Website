@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: chơi game PC trên Android",
-  "meta.desc": "DroidDeck mang trải nghiệm SteamOS đến Android: Steam Gaming Mode, màn hình nền Linux đầy đủ và game GOG, Epic, Xbox của bạn. Miễn phí và mã nguồn mở.",
+  "meta.desc": "DroidDeck mang trải nghiệm SteamOS đến Android: Steam Gaming Mode, máy tính để bàn Linux đầy đủ và game của bạn từ GOG, Epic, Xbox, Battle.net và hơn thế nữa. Miễn phí và mã nguồn mở.",
   "nav.features": "Tính năng",
   "nav.compat": "Tương thích",
   "nav.guide": "Cài đặt",
@@ -11,7 +11,7 @@
   "nav.skip": "Chuyển đến nội dung",
   "hero.kicker": "Miễn phí và mã nguồn mở. Không cần root.",
   "hero.title": "Thư viện Steam của bạn giờ chạy được trên Android.",
-  "hero.sub": "DroidDeck mang trải nghiệm SteamOS đến máy chơi game cầm tay và điện thoại: Gaming Mode, màn hình nền Linux đầy đủ và game GOG, Epic, Xbox trong cùng một thư viện.",
+  "hero.sub": "DroidDeck mang trải nghiệm SteamOS đến máy chơi game cầm tay và điện thoại: Gaming Mode, máy tính để bàn Linux đầy đủ và game của bạn từ GOG, Epic, Xbox, Battle.net và hơn thế nữa trong một thư viện.",
   "hero.cta": "Tải {version}",
   "hero.cta2": "Cách thiết lập",
   "hero.android": "Android 9 trở lên",
@@ -35,7 +35,7 @@
   "f.steam.body": "Không phải bản nhái. Big Picture, Steam Input, lưu đám mây, thành tựu và Remote Play, còn game Windows chạy qua Proton.",
   "f.stores.tag": "Cửa hàng",
   "f.stores.title": "Một thư viện cho mọi cửa hàng",
-  "f.stores.body": "Đăng nhập GOG, Epic, Xbox, Battle.net, EA, Amazon và itch.io. Game của họ nằm cạnh game Steam của bạn.",
+  "f.stores.body": "Đăng nhập từng cửa hàng một lần. Game của cửa hàng đó nằm cạnh game Steam của bạn.",
   "f.desktop.tag": "Màn hình nền",
   "f.desktop.title": "Màn hình nền Linux đầy đủ",
   "f.desktop.body": "Chọn “Switch to Desktop” là bạn vào KDE Plasma, có Firefox, terminal và kho ứng dụng.",
@@ -57,6 +57,10 @@
   "also.touch": "Điều khiển trên màn hình và cử chỉ cảm ứng",
   "also.sync": "Đồng bộ thư mục giữa các thiết bị",
   "also.flatpak": "Ứng dụng Linux và trình giả lập từ Flathub",
+  "also.storage": "Game trên thẻ SD hoặc ổ USB",
+  "also.portrait": "Chế độ dọc cho điện thoại",
+  "also.apps": "Ứng dụng và widget Android của bạn trong launcher",
+  "also.pads": "Hồ sơ tay cầm và vùng chết của cần analog",
   "compat.title": "Game mọi người đang chơi",
   "compat.sub": "Báo cáo từ cộng đồng, trên thiết bị của chính họ. Kết quả của bạn phụ thuộc vào chip và cài đặt.",
   "compat.search": "Tìm game",
@@ -171,5 +175,6 @@
   "faq.q11": "Tay cầm có dùng được không?",
   "faq.a11": "Có. Nút tích hợp, tay cầm Bluetooth và USB đều dùng được, và bạn có thể ghép nhiều tay cầm để chia đôi màn hình. Cũng có điều khiển cảm ứng.",
   "faq.q12": "Làm sao để nhận bản sửa sớm hoặc báo lỗi?",
-  "faq.a12": "Các bản dựng Preview nằm trong ứng dụng tại Updates > Preview. Với lỗi, hãy đăng lên #bug-reports kèm tệp zip từ Share logs."
+  "faq.a12": "Các bản dựng Preview nằm trong ứng dụng tại Updates > Preview. Với lỗi, hãy đăng lên #bug-reports kèm tệp zip từ Share logs.",
+  "tag.preview": "Preview"
 }

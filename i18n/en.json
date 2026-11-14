@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: PC gaming on Android",
-  "meta.desc": "DroidDeck brings the SteamOS experience to Android: Steam Gaming Mode, a full Linux desktop, and your GOG, Epic and Xbox games. Free and open source.",
+  "meta.desc": "DroidDeck brings the SteamOS experience to Android: Steam Gaming Mode, a full Linux desktop, and your games from GOG, Epic, Xbox, Battle.net and more. Free and open source.",
   "nav.features": "Features",
   "nav.compat": "Compatibility",
   "nav.guide": "Setup",
@@ -11,7 +11,7 @@
   "nav.skip": "Skip to content",
   "hero.kicker": "Free and open source. No root.",
   "hero.title": "Your Steam library runs on Android now.",
-  "hero.sub": "DroidDeck brings the SteamOS experience to handhelds and phones: Gaming Mode, a full Linux desktop, and your GOG, Epic and Xbox games in one library.",
+  "hero.sub": "DroidDeck brings the SteamOS experience to handhelds and phones: Gaming Mode, a full Linux desktop, and your games from GOG, Epic, Xbox, Battle.net and more in one library.",
   "hero.cta": "Download {version}",
   "hero.cta2": "How to set it up",
   "hero.android": "Android 9 or newer",
@@ -35,7 +35,7 @@
   "f.steam.body": "Not a lookalike. Big Picture, Steam Input, cloud saves, achievements and Remote Play, with your Windows games running through Proton.",
   "f.stores.tag": "Stores",
   "f.stores.title": "One library for every store",
-  "f.stores.body": "Sign in to GOG, Epic, Xbox, Battle.net, EA, Amazon and itch.io. Their games sit next to your Steam ones.",
+  "f.stores.body": "Sign in to each store once. Its games sit next to your Steam ones.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "A full Linux desktop",
   "f.desktop.body": "Pick Switch to Desktop and you land in KDE Plasma, with Firefox, a terminal and an app store.",
@@ -57,6 +57,10 @@
   "also.touch": "On-screen controls and touch gestures",
   "also.sync": "Folder sync between devices",
   "also.flatpak": "Linux apps and emulators from Flathub",
+  "also.storage": "Games on an SD card or a USB drive",
+  "also.portrait": "Portrait mode for phones",
+  "also.apps": "Your Android apps and widgets in the launcher",
+  "also.pads": "Controller profiles and stick dead zones",
   "compat.title": "Games people are playing",
   "compat.sub": "Reports from the community, on their own devices. Your results depend on your chip and your settings.",
   "compat.search": "Search games",
@@ -171,5 +175,6 @@
   "faq.q11": "Do controllers work?",
   "faq.a11": "Yes. Built-in controls, Bluetooth and USB pads all work, and you can pair several for split screen. There are touch controls too.",
   "faq.q12": "How do I get fixes early or report a bug?",
-  "faq.a12": "Preview builds are in the app under Updates > Preview. For bugs, post in #bug-reports with the zip from Share logs."
+  "faq.a12": "Preview builds are in the app under Updates > Preview. For bugs, post in #bug-reports with the zip from Share logs.",
+  "tag.preview": "Preview"
 }

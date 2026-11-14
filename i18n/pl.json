@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: gry na PC na Androidzie",
-  "meta.desc": "DroidDeck przenosi doświadczenie SteamOS na Androida: Steam Gaming Mode, pełny pulpit Linux i Twoje gry z GOG, Epic i Xbox. Za darmo i open source.",
+  "meta.desc": "DroidDeck przenosi doświadczenie SteamOS na Androida: Steam Gaming Mode, pełny pulpit Linuxa i twoje gry z GOG, Epic, Xbox, Battle.net i nie tylko. Za darmo i open source.",
   "nav.features": "Funkcje",
   "nav.compat": "Zgodność",
   "nav.guide": "Instalacja",
@@ -11,7 +11,7 @@
   "nav.skip": "Przejdź do treści",
   "hero.kicker": "Za darmo i open source. Bez roota.",
   "hero.title": "Twoja biblioteka Steam działa teraz na Androidzie.",
-  "hero.sub": "DroidDeck przenosi doświadczenie SteamOS na konsole przenośne i telefony: Gaming Mode, pełny pulpit Linux oraz Twoje gry z GOG, Epic i Xbox w jednej bibliotece.",
+  "hero.sub": "DroidDeck przenosi doświadczenie SteamOS na konsole przenośne i telefony: Gaming Mode, pełny pulpit Linuxa i twoje gry z GOG, Epic, Xbox, Battle.net i nie tylko w jednej bibliotece.",
   "hero.cta": "Pobierz {version}",
   "hero.cta2": "Jak to skonfigurować",
   "hero.android": "Android 9 lub nowszy",
@@ -35,7 +35,7 @@
   "f.steam.body": "Żadna imitacja. Big Picture, Steam Input, zapisy w chmurze, osiągnięcia i Remote Play, a gry z Windowsa działają przez Proton.",
   "f.stores.tag": "Sklepy",
   "f.stores.title": "Jedna biblioteka dla wszystkich sklepów",
-  "f.stores.body": "Zaloguj się do GOG, Epic, Xbox, Battle.net, EA, Amazon i itch.io. Ich gry są obok Twoich gier ze Steama.",
+  "f.stores.body": "Zaloguj się do każdego sklepu raz. Jego gry pojawią się obok twoich gier ze Steama.",
   "f.desktop.tag": "Pulpit",
   "f.desktop.title": "Pełny pulpit Linux",
   "f.desktop.body": "Wybierz „Switch to Desktop” i trafisz do KDE Plasma, z Firefoksem, terminalem i sklepem z aplikacjami.",
@@ -57,6 +57,10 @@
   "also.touch": "Sterowanie na ekranie i gesty dotykowe",
   "also.sync": "Synchronizacja folderów między urządzeniami",
   "also.flatpak": "Aplikacje Linux i emulatory z Flathub",
+  "also.storage": "Gry na karcie SD lub dysku USB",
+  "also.portrait": "Tryb pionowy dla telefonów",
+  "also.apps": "Twoje aplikacje i widżety Androida w launcherze",
+  "also.pads": "Profile kontrolerów i martwe strefy drążków",
   "compat.title": "W co ludzie grają",
   "compat.sub": "Zgłoszenia od społeczności, na ich własnych urządzeniach. Twój wynik zależy od układu i ustawień.",
   "compat.search": "Szukaj gier",
@@ -171,5 +175,6 @@
   "faq.q11": "Czy kontrolery działają?",
   "faq.a11": "Tak. Wbudowane sterowanie oraz pady Bluetooth i USB działają, a kilka możesz sparować do trybu podzielonego ekranu. Są też sterowanie dotykowe.",
   "faq.q12": "Jak dostać poprawki wcześniej lub zgłosić błąd?",
-  "faq.a12": "Wersje Preview są w aplikacji w Updates > Preview. Błędy zgłaszaj w #bug-reports z plikiem zip z Share logs."
+  "faq.a12": "Wersje Preview są w aplikacji w Updates > Preview. Błędy zgłaszaj w #bug-reports z plikiem zip z Share logs.",
+  "tag.preview": "Preview"
 }

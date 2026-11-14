@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: main game PC di Android",
-  "meta.desc": "DroidDeck membawa pengalaman SteamOS ke Android: Steam Gaming Mode, desktop Linux lengkap, dan game GOG, Epic, serta Xbox kamu. Gratis dan open source.",
+  "meta.desc": "DroidDeck menghadirkan pengalaman SteamOS ke Android: Steam Gaming Mode, desktop Linux lengkap, dan game Anda dari GOG, Epic, Xbox, Battle.net, dan lainnya. Gratis dan open source.",
   "nav.features": "Fitur",
   "nav.compat": "Kompatibilitas",
   "nav.guide": "Pengaturan",
@@ -11,7 +11,7 @@
   "nav.skip": "Langsung ke konten",
   "hero.kicker": "Gratis dan open source. Tanpa root.",
   "hero.title": "Pustaka Steam kamu kini jalan di Android.",
-  "hero.sub": "DroidDeck membawa pengalaman SteamOS ke konsol genggam dan ponsel: Gaming Mode, desktop Linux lengkap, dan game GOG, Epic, serta Xbox kamu dalam satu pustaka.",
+  "hero.sub": "DroidDeck menghadirkan pengalaman SteamOS ke konsol genggam dan ponsel: Gaming Mode, desktop Linux lengkap, dan game Anda dari GOG, Epic, Xbox, Battle.net, dan lainnya dalam satu pustaka.",
   "hero.cta": "Unduh {version}",
   "hero.cta2": "Cara memasangnya",
   "hero.android": "Android 9 atau lebih baru",
@@ -35,7 +35,7 @@
   "f.steam.body": "Bukan tiruan. Big Picture, Steam Input, simpanan cloud, pencapaian, dan Remote Play, dengan game Windows kamu berjalan lewat Proton.",
   "f.stores.tag": "Toko",
   "f.stores.title": "Satu pustaka untuk semua toko",
-  "f.stores.body": "Masuk ke GOG, Epic, Xbox, Battle.net, EA, Amazon, dan itch.io. Game mereka ada di samping game Steam kamu.",
+  "f.stores.body": "Masuk ke setiap toko sekali saja. Game-nya muncul di samping game Steam Anda.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "Desktop Linux lengkap",
   "f.desktop.body": "Pilih \"Switch to Desktop\" dan kamu masuk ke KDE Plasma, lengkap dengan Firefox, terminal, dan toko aplikasi.",
@@ -57,6 +57,10 @@
   "also.touch": "Kontrol di layar dan gestur sentuh",
   "also.sync": "Sinkronisasi folder antar perangkat",
   "also.flatpak": "Aplikasi Linux dan emulator dari Flathub",
+  "also.storage": "Game di kartu SD atau drive USB",
+  "also.portrait": "Mode potret untuk ponsel",
+  "also.apps": "Aplikasi dan widget Android Anda di launcher",
+  "also.pads": "Profil kontroler dan zona mati stik",
   "compat.title": "Game yang sedang dimainkan",
   "compat.sub": "Laporan dari komunitas, di perangkat mereka sendiri. Hasilnya tergantung chip dan pengaturan kamu.",
   "compat.search": "Cari game",
@@ -171,5 +175,6 @@
   "faq.q11": "Apakah controller bisa dipakai?",
   "faq.a11": "Bisa. Kontrol bawaan, gamepad Bluetooth, dan USB semuanya berfungsi, dan kamu bisa memasangkan beberapa untuk layar terbagi. Ada juga kontrol sentuh.",
   "faq.q12": "Bagaimana cara dapat perbaikan lebih awal atau melaporkan bug?",
-  "faq.a12": "Build Preview ada di aplikasi di Updates > Preview. Untuk bug, posting di #bug-reports bersama zip dari Share logs."
+  "faq.a12": "Build Preview ada di aplikasi di Updates > Preview. Untuk bug, posting di #bug-reports bersama zip dari Share logs.",
+  "tag.preview": "Preview"
 }

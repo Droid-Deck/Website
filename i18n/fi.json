@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: PC-pelaamista Androidilla",
-  "meta.desc": "DroidDeck tuo SteamOS-kokemuksen Androidille: Steam Gaming Mode, täysi Linux-työpöytä sekä GOG-, Epic- ja Xbox-pelisi. Ilmainen ja avoimen lähdekoodin.",
+  "meta.desc": "DroidDeck tuo SteamOS-kokemuksen Androidille: Steam Gaming Mode, täysi Linux-työpöytä ja pelisi GOG:ista, Epicistä, Xboxista, Battle.netistä ja muualta. Ilmainen ja avoimen lähdekoodin.",
   "nav.features": "Ominaisuudet",
   "nav.compat": "Yhteensopivuus",
   "nav.guide": "Käyttöönotto",
@@ -11,7 +11,7 @@
   "nav.skip": "Siirry sisältöön",
   "hero.kicker": "Ilmainen ja avoimen lähdekoodin. Ei rootia.",
   "hero.title": "Steam-kirjastosi toimii nyt Androidilla.",
-  "hero.sub": "DroidDeck tuo SteamOS-kokemuksen käsikonsoleille ja puhelimille: Gaming Mode, täysi Linux-työpöytä sekä GOG-, Epic- ja Xbox-pelisi yhdessä kirjastossa.",
+  "hero.sub": "DroidDeck tuo SteamOS-kokemuksen käsikonsoleille ja puhelimille: Gaming Mode, täysi Linux-työpöytä ja pelisi GOG:ista, Epicistä, Xboxista, Battle.netistä ja muualta yhdessä kirjastossa.",
   "hero.cta": "Lataa {version}",
   "hero.cta2": "Näin otat sen käyttöön",
   "hero.android": "Android 9 tai uudempi",
@@ -35,7 +35,7 @@
   "f.steam.body": "Ei jäljitelmä. Big Picture, Steam Input, pilvitallennukset, saavutukset ja Remote Play, ja Windows-pelisi pyörivät Protonin kautta.",
   "f.stores.tag": "Kaupat",
   "f.stores.title": "Yksi kirjasto kaikille kaupoille",
-  "f.stores.body": "Kirjaudu GOGiin, Epiciin, Xboxiin, Battle.netiin, EA:han, Amazoniin ja itch.io:hon. Niiden pelit ovat Steam-pelien vieressä.",
+  "f.stores.body": "Kirjaudu jokaiseen kauppaan kerran. Sen pelit näkyvät Steam-pelien vieressä.",
   "f.desktop.tag": "Työpöytä",
   "f.desktop.title": "Täysi Linux-työpöytä",
   "f.desktop.body": "Valitse \"Switch to Desktop\", ja pääset KDE Plasmaan, jossa on Firefox, pääte ja sovelluskauppa.",
@@ -57,6 +57,10 @@
   "also.touch": "Näytön ohjaimet ja kosketuseleet",
   "also.sync": "Kansioiden synkronointi laitteiden välillä",
   "also.flatpak": "Linux-sovelluksia ja emulaattoreita Flathubista",
+  "also.storage": "Pelit SD-kortilla tai USB-asemalla",
+  "also.portrait": "Pystytila puhelimille",
+  "also.apps": "Android-sovelluksesi ja widgetit launcherissa",
+  "also.pads": "Ohjainprofiilit ja sauvojen kuolleet alueet",
   "compat.title": "Pelejä, joita pelataan",
   "compat.sub": "Yhteisön raportteja heidän omilta laitteiltaan. Tulokset riippuvat piiristäsi ja asetuksistasi.",
   "compat.search": "Hae pelejä",
@@ -171,5 +175,6 @@
   "faq.q11": "Toimivatko ohjaimet?",
   "faq.a11": "Toimivat. Sisäänrakennetut ohjaimet sekä Bluetooth- ja USB-ohjaimet toimivat, ja voit yhdistää useita jaettua näyttöä varten. Myös kosketusohjaimet löytyvät.",
   "faq.q12": "Miten saan korjaukset ajoissa tai ilmoitan virheestä?",
-  "faq.a12": "Preview-versiot löytyvät sovelluksesta kohdasta Updates > Preview. Virheistä kirjoita kanavalle #bug-reports ja liitä mukaan zip kohdasta Share logs."
+  "faq.a12": "Preview-versiot löytyvät sovelluksesta kohdasta Updates > Preview. Virheistä kirjoita kanavalle #bug-reports ja liitä mukaan zip kohdasta Share logs.",
+  "tag.preview": "Preview"
 }

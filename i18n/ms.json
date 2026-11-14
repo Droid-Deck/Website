@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: permainan PC di Android",
-  "meta.desc": "DroidDeck membawa pengalaman SteamOS ke Android: Steam Gaming Mode, desktop Linux penuh, serta permainan GOG, Epic dan Xbox anda. Percuma dan sumber terbuka.",
+  "meta.desc": "DroidDeck membawa pengalaman SteamOS ke Android: Steam Gaming Mode, desktop Linux penuh dan permainan anda dari GOG, Epic, Xbox, Battle.net dan banyak lagi. Percuma dan sumber terbuka.",
   "nav.features": "Ciri",
   "nav.compat": "Keserasian",
   "nav.guide": "Persediaan",
@@ -11,7 +11,7 @@
   "nav.skip": "Langkau ke kandungan",
   "hero.kicker": "Percuma dan sumber terbuka. Tanpa root.",
   "hero.title": "Pustaka Steam anda kini berjalan di Android.",
-  "hero.sub": "DroidDeck membawa pengalaman SteamOS ke konsol pegang tangan dan telefon: Gaming Mode, desktop Linux penuh, serta permainan GOG, Epic dan Xbox anda dalam satu pustaka.",
+  "hero.sub": "DroidDeck membawa pengalaman SteamOS ke peranti pegang tangan dan telefon: Gaming Mode, desktop Linux penuh dan permainan anda dari GOG, Epic, Xbox, Battle.net dan banyak lagi dalam satu pustaka.",
   "hero.cta": "Muat turun {version}",
   "hero.cta2": "Cara menyediakannya",
   "hero.android": "Android 9 atau lebih baharu",
@@ -35,7 +35,7 @@
   "f.steam.body": "Bukan tiruan. Big Picture, Steam Input, simpanan awan, pencapaian dan Remote Play, dengan permainan Windows anda berjalan melalui Proton.",
   "f.stores.tag": "Kedai",
   "f.stores.title": "Satu pustaka untuk semua kedai",
-  "f.stores.body": "Log masuk ke GOG, Epic, Xbox, Battle.net, EA, Amazon dan itch.io. Permainan mereka berada di sebelah permainan Steam anda.",
+  "f.stores.body": "Log masuk ke setiap kedai sekali sahaja. Permainannya muncul di sebelah permainan Steam anda.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "Desktop Linux penuh",
   "f.desktop.body": "Pilih “Switch to Desktop” dan anda masuk ke KDE Plasma, lengkap dengan Firefox, terminal dan kedai aplikasi.",
@@ -57,6 +57,10 @@
   "also.touch": "Kawalan atas skrin dan gerak isyarat sentuh",
   "also.sync": "Penyegerakan folder antara peranti",
   "also.flatpak": "Aplikasi Linux dan emulator dari Flathub",
+  "also.storage": "Permainan pada kad SD atau pemacu USB",
+  "also.portrait": "Mod potret untuk telefon",
+  "also.apps": "Apl dan widget Android anda dalam pelancar",
+  "also.pads": "Profil pengawal dan zon mati bidai",
   "compat.title": "Permainan yang sedang dimainkan",
   "compat.sub": "Laporan daripada komuniti, pada peranti mereka sendiri. Hasil anda bergantung pada cip dan tetapan anda.",
   "compat.search": "Cari permainan",
@@ -171,5 +175,6 @@
   "faq.q11": "Adakah alat kawalan berfungsi?",
   "faq.a11": "Ya. Kawalan terbina dalam, pad Bluetooth dan USB semuanya berfungsi, dan anda boleh pasangkan beberapa untuk skrin pisah. Ada juga kawalan sentuh.",
   "faq.q12": "Bagaimana mendapat pembaikan awal atau melapor pepijat?",
-  "faq.a12": "Binaan Preview ada dalam aplikasi di Updates > Preview. Untuk pepijat, siarkan di #bug-reports bersama zip daripada Share logs."
+  "faq.a12": "Binaan Preview ada dalam aplikasi di Updates > Preview. Untuk pepijat, siarkan di #bug-reports bersama zip daripada Share logs.",
+  "tag.preview": "Preview"
 }

@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: AndroidでPCゲーム",
-  "meta.desc": "DroidDeckはSteamOSの体験をAndroidに届けます。Steam Gaming Mode、フルのLinuxデスクトップ、GOG・Epic・Xboxのゲームが使えます。無料のオープンソースです。",
+  "meta.desc": "DroidDeckはSteamOSの体験をAndroidに届けます。Steam Gaming Mode、フルのLinuxデスクトップ、GOG・Epic・Xbox・Battle.netなどのゲームが使えます。無料でオープンソースです。",
   "nav.features": "機能",
   "nav.compat": "互換性",
   "nav.guide": "セットアップ",
@@ -11,7 +11,7 @@
   "nav.skip": "コンテンツへスキップ",
   "hero.kicker": "無料でオープンソース。root不要。",
   "hero.title": "あなたのSteamライブラリが、Androidで動きます。",
-  "hero.sub": "DroidDeckはSteamOSの体験をゲーム機型デバイスやスマートフォンに届けます。Gaming Mode、フルのLinuxデスクトップ、GOG・Epic・Xboxのゲームを1つのライブラリにまとめて使えます。",
+  "hero.sub": "DroidDeckはSteamOSの体験をゲーム機型デバイスやスマートフォンに届けます。Gaming Mode、フルのLinuxデスクトップ、GOG・Epic・Xbox・Battle.netなどのゲームを1つのライブラリにまとめて使えます。",
   "hero.cta": "{version}をダウンロード",
   "hero.cta2": "セットアップ方法",
   "hero.android": "Android 9以降",
@@ -35,7 +35,7 @@
   "f.steam.body": "そっくりさんではありません。Big Picture、Steam Input、クラウドセーブ、実績、Remote Playに対応し、WindowsゲームはProtonで動きます。",
   "f.stores.tag": "ストア",
   "f.stores.title": "すべてのストアを1つのライブラリに",
-  "f.stores.body": "GOG、Epic、Xbox、Battle.net、EA、Amazon、itch.ioにサインインできます。それらのゲームがSteamのゲームと並びます。",
+  "f.stores.body": "各ストアには一度サインインするだけ。ゲームはSteamのゲームと並んで表示されます。",
   "f.desktop.tag": "デスクトップ",
   "f.desktop.title": "フルのLinuxデスクトップ",
   "f.desktop.body": "「Switch to Desktop」を選ぶと、Firefox、ターミナル、アプリストアを備えたKDE Plasmaが開きます。",
@@ -57,6 +57,10 @@
   "also.touch": "画面上のコントロールとタッチジェスチャー",
   "also.sync": "デバイス間のフォルダー同期",
   "also.flatpak": "FlathubのLinuxアプリとエミュレーター",
+  "also.storage": "SDカードやUSBドライブのゲーム",
+  "also.portrait": "スマートフォン向けの縦画面モード",
+  "also.apps": "Androidアプリとウィジェットをランチャーに表示",
+  "also.pads": "コントローラープロファイルとスティックのデッドゾーン",
   "compat.title": "みんながプレイしているゲーム",
   "compat.sub": "コミュニティから、それぞれの端末での報告です。結果はチップと設定によって変わります。",
   "compat.search": "ゲームを検索",
@@ -171,5 +175,6 @@
   "faq.q11": "コントローラーは使えますか?",
   "faq.a11": "はい。内蔵コントロール、BluetoothやUSBのコントローラーに対応し、画面分割用に複数台をペアリングできます。タッチ操作もあります。",
   "faq.q12": "修正を早く入手するには?不具合の報告方法は?",
-  "faq.a12": "PreviewビルドはアプリのUpdates > Previewにあります。不具合は#bug-reportsに、Share logsのzipを添えて投稿してください。"
+  "faq.a12": "PreviewビルドはアプリのUpdates > Previewにあります。不具合は#bug-reportsに、Share logsのzipを添えて投稿してください。",
+  "tag.preview": "Preview"
 }

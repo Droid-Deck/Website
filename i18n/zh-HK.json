@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck：喺 Android 玩 PC 遊戲",
-  "meta.desc": "DroidDeck 將 SteamOS 體驗帶到 Android：Steam Gaming Mode、完整嘅 Linux 桌面，以及你喺 GOG、Epic 同 Xbox 嘅遊戲。免費兼開放原始碼。",
+  "meta.desc": "DroidDeck 將 SteamOS 體驗帶到 Android：Steam Gaming Mode、完整 Linux 桌面，仲有你喺 GOG、Epic、Xbox、Battle.net 等平台嘅遊戲。免費開源。",
   "nav.features": "功能",
   "nav.compat": "相容性",
   "nav.guide": "設定",
@@ -11,7 +11,7 @@
   "nav.skip": "跳至內容",
   "hero.kicker": "免費開放原始碼，毋須 root。",
   "hero.title": "你嘅 Steam 遊戲庫，而家可以喺 Android 行。",
-  "hero.sub": "DroidDeck 將 SteamOS 體驗帶到掌機同手機：Gaming Mode、完整嘅 Linux 桌面，仲有 GOG、Epic 同 Xbox 嘅遊戲，全部集中喺同一個遊戲庫。",
+  "hero.sub": "DroidDeck 將 SteamOS 體驗帶到掌機同手機：Gaming Mode、完整 Linux 桌面，仲有你喺 GOG、Epic、Xbox、Battle.net 等平台嘅遊戲，全部放喺同一個遊戲庫。",
   "hero.cta": "下載 {version}",
   "hero.cta2": "點樣設定",
   "hero.android": "Android 9 或更新版本",
@@ -35,7 +35,7 @@
   "f.steam.body": "唔係山寨版。支援 Big Picture、Steam Input、雲端存檔、成就同 Remote Play，Windows 遊戲透過 Proton 執行。",
   "f.stores.tag": "商店",
   "f.stores.title": "所有商店，一個遊戲庫",
-  "f.stores.body": "登入 GOG、Epic、Xbox、Battle.net、EA、Amazon 同 itch.io，佢哋嘅遊戲就會同 Steam 遊戲放埋一齊。",
+  "f.stores.body": "每個商店只需登入一次，佢嘅遊戲會同你嘅 Steam 遊戲放埋一齊。",
   "f.desktop.tag": "桌面",
   "f.desktop.title": "完整嘅 Linux 桌面",
   "f.desktop.body": "揀“Switch to Desktop”就可以入 KDE Plasma，內置 Firefox、終端機同應用程式商店。",
@@ -57,6 +57,10 @@
   "also.touch": "螢幕虛擬按鍵同觸控手勢",
   "also.sync": "裝置之間嘅資料夾同步",
   "also.flatpak": "來自 Flathub 嘅 Linux 應用程式同模擬器",
+  "also.storage": "SD 卡或 USB 磁碟上嘅遊戲",
+  "also.portrait": "手機直向模式",
+  "also.apps": "喺啟動器用 Android 應用程式同小工具",
+  "also.pads": "手制設定檔同搖桿死區",
   "compat.title": "大家而家玩緊嘅遊戲",
   "compat.sub": "來自社群成員喺自己裝置上嘅回報。實際效果視乎你嘅晶片同設定。",
   "compat.search": "搜尋遊戲",
@@ -171,5 +175,6 @@
   "faq.q11": "手制用到嗎？",
   "faq.a11": "用到。內建控制、藍牙同 USB 手制都支援，仲可以配對多個手制玩分割畫面。亦有觸控操作。",
   "faq.q12": "點樣提早攞到修正或者回報 bug？",
-  "faq.a12": "Preview 版本喺應用程式入面嘅 Updates > Preview。回報 bug 請去 #bug-reports 發帖，並附上 Share logs 產生嘅 zip。"
+  "faq.a12": "Preview 版本喺應用程式入面嘅 Updates > Preview。回報 bug 請去 #bug-reports 發帖，並附上 Share logs 產生嘅 zip。",
+  "tag.preview": "Preview"
 }

@@ -773,3 +773,4 @@ button.video-thumb:hover .video-play { background: var(--blue); transform: scale
   .club-mark { width: 62%; top: auto; bottom: -12%; }
   .faq-list details p { padding-inline-end: 0; }
 }
+.chips small { margin-inline-start: 6px; font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: var(--amber); }

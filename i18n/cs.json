@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: PC hry na Androidu",
-  "meta.desc": "DroidDeck přináší zážitek ze SteamOS na Android: Steam Gaming Mode, plnohodnotný linuxový desktop a tvoje hry z GOG, Epic a Xbox. Zdarma a open source.",
+  "meta.desc": "DroidDeck přináší zážitek ze SteamOS na Android: Steam Gaming Mode, plnohodnotný Linux desktop a vaše hry z GOG, Epic, Xbox, Battle.net a dalších. Zdarma a open source.",
   "nav.features": "Funkce",
   "nav.compat": "Kompatibilita",
   "nav.guide": "Nastavení",
@@ -11,7 +11,7 @@
   "nav.skip": "Přejít na obsah",
   "hero.kicker": "Zdarma a open source. Bez rootu.",
   "hero.title": "Tvoje knihovna Steamu teď běží na Androidu.",
-  "hero.sub": "DroidDeck přináší zážitek ze SteamOS na handheldy a telefony: Gaming Mode, plnohodnotný linuxový desktop a tvoje hry z GOG, Epic a Xbox v jedné knihovně.",
+  "hero.sub": "DroidDeck přináší zážitek ze SteamOS na handheldy a telefony: Gaming Mode, plnohodnotný Linux desktop a vaše hry z GOG, Epic, Xbox, Battle.net a dalších v jedné knihovně.",
   "hero.cta": "Stáhnout {version}",
   "hero.cta2": "Jak to nastavit",
   "hero.android": "Android 9 nebo novější",
@@ -35,7 +35,7 @@
   "f.steam.body": "Žádná napodobenina. Big Picture, Steam Input, cloudové uložené hry, úspěchy a Remote Play, s tvými hrami pro Windows běžícími přes Proton.",
   "f.stores.tag": "Obchody",
   "f.stores.title": "Jedna knihovna pro všechny obchody",
-  "f.stores.body": "Přihlas se do GOG, Epic, Xbox, Battle.net, EA, Amazon a itch.io. Jejich hry najdeš vedle her ze Steamu.",
+  "f.stores.body": "Do každého obchodu se přihlásíte jen jednou. Jeho hry najdete vedle her ze Steamu.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "Plnohodnotný linuxový desktop",
   "f.desktop.body": "Vyber \"Switch to Desktop\" a ocitneš se v KDE Plasma s Firefoxem, terminálem a obchodem s aplikacemi.",
@@ -57,6 +57,10 @@
   "also.touch": "Ovládací prvky na obrazovce a dotyková gesta",
   "also.sync": "Synchronizace složek mezi zařízeními",
   "also.flatpak": "Linuxové aplikace a emulátory z Flathubu",
+  "also.storage": "Hry na SD kartě nebo USB disku",
+  "also.portrait": "Režim na výšku pro telefony",
+  "also.apps": "Vaše aplikace a widgety Androidu v launcheru",
+  "also.pads": "Profily ovladačů a mrtvé zóny páček",
   "compat.title": "Hry, které lidé hrají",
   "compat.sub": "Hlášení od komunity, na jejich vlastních zařízeních. Výsledek závisí na tvém čipu a nastavení.",
   "compat.search": "Hledat hry",
@@ -171,5 +175,6 @@
   "faq.q11": "Fungují ovladače?",
   "faq.a11": "Ano. Vestavěné ovladače, Bluetooth i USB gamepady fungují a víc jich můžeš spárovat pro rozdělenou obrazovku. K dispozici jsou i dotykové ovladače.",
   "faq.q12": "Jak získám opravy dřív nebo nahlásím chybu?",
-  "faq.a12": "Preview buildy jsou v aplikaci v Updates > Preview. Chyby piš do #bug-reports se zipem ze Share logs."
+  "faq.a12": "Preview buildy jsou v aplikaci v Updates > Preview. Chyby piš do #bug-reports se zipem ze Share logs.",
+  "tag.preview": "Preview"
 }

@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: pc-gaming på Android",
-  "meta.desc": "DroidDeck bringer SteamOS-oplevelsen til Android: Steam Gaming Mode, et komplet Linux-skrivebord og dine GOG-, Epic- og Xbox-spil. Gratis og open source.",
+  "meta.desc": "DroidDeck bringer SteamOS-oplevelsen til Android: Steam Gaming Mode, et komplet Linux-skrivebord og dine spil fra GOG, Epic, Xbox, Battle.net og mere. Gratis og open source.",
   "nav.features": "Funktioner",
   "nav.compat": "Kompatibilitet",
   "nav.guide": "Opsætning",
@@ -11,7 +11,7 @@
   "nav.skip": "Gå til indhold",
   "hero.kicker": "Gratis og open source. Ingen root.",
   "hero.title": "Dit Steam-bibliotek kører nu på Android.",
-  "hero.sub": "DroidDeck bringer SteamOS-oplevelsen til håndholdte og telefoner: Gaming Mode, et komplet Linux-skrivebord og dine GOG-, Epic- og Xbox-spil i ét bibliotek.",
+  "hero.sub": "DroidDeck bringer SteamOS-oplevelsen til håndholdte enheder og telefoner: Gaming Mode, et komplet Linux-skrivebord og dine spil fra GOG, Epic, Xbox, Battle.net og mere i ét bibliotek.",
   "hero.cta": "Download {version}",
   "hero.cta2": "Sådan sætter du det op",
   "hero.android": "Android 9 eller nyere",
@@ -35,7 +35,7 @@
   "f.steam.body": "Ikke en efterligning. Big Picture, Steam Input, skygemte spil, præstationer og Remote Play, med dine Windows-spil kørende via Proton.",
   "f.stores.tag": "Butikker",
   "f.stores.title": "Ét bibliotek til alle butikker",
-  "f.stores.body": "Log ind på GOG, Epic, Xbox, Battle.net, EA, Amazon og itch.io. Deres spil står ved siden af dine Steam-spil.",
+  "f.stores.body": "Log ind i hver butik én gang. Spillene står ved siden af dine Steam-spil.",
   "f.desktop.tag": "Skrivebord",
   "f.desktop.title": "Et komplet Linux-skrivebord",
   "f.desktop.body": "Vælg \"Switch to Desktop\", og du lander i KDE Plasma, med Firefox, en terminal og en app-butik.",
@@ -57,6 +57,10 @@
   "also.touch": "Skærmkontroller og touch-bevægelser",
   "also.sync": "Mappesynkronisering mellem enheder",
   "also.flatpak": "Linux-apps og emulatorer fra Flathub",
+  "also.storage": "Spil på et SD-kort eller et USB-drev",
+  "also.portrait": "Portrætvisning til telefoner",
+  "also.apps": "Dine Android-apps og widgets i launcheren",
+  "also.pads": "Controllerprofiler og døde zoner for sticks",
   "compat.title": "Spil folk spiller",
   "compat.sub": "Rapporter fra fællesskabet, på deres egne enheder. Dit resultat afhænger af din chip og dine indstillinger.",
   "compat.search": "Søg efter spil",
@@ -171,5 +175,6 @@
   "faq.q11": "Virker controllere?",
   "faq.a11": "Ja. Indbyggede kontroller, Bluetooth- og USB-controllere virker, og du kan parre flere til delt skærm. Der er også touch-kontroller.",
   "faq.q12": "Hvordan får jeg rettelser tidligt eller melder en fejl?",
-  "faq.a12": "Preview-builds findes i appen under Updates > Preview. Fejl skriver du i #bug-reports med zip-filen fra Share logs."
+  "faq.a12": "Preview-builds findes i appen under Updates > Preview. Fejl skriver du i #bug-reports med zip-filen fra Share logs.",
+  "tag.preview": "Preview"
 }

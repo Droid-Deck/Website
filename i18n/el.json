@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: παιχνίδια PC στο Android",
-  "meta.desc": "Το DroidDeck φέρνει την εμπειρία του SteamOS στο Android: Steam Gaming Mode, πλήρες desktop Linux και τα παιχνίδια σου από GOG, Epic και Xbox. Δωρεάν και ανοιχτού κώδικα.",
+  "meta.desc": "Το DroidDeck φέρνει την εμπειρία του SteamOS στο Android: Steam Gaming Mode, πλήρες Linux desktop και τα παιχνίδια σου από GOG, Epic, Xbox, Battle.net και άλλα. Δωρεάν και ανοιχτού κώδικα.",
   "nav.features": "Λειτουργίες",
   "nav.compat": "Συμβατότητα",
   "nav.guide": "Ρύθμιση",
@@ -11,7 +11,7 @@
   "nav.skip": "Μετάβαση στο περιεχόμενο",
   "hero.kicker": "Δωρεάν και ανοιχτού κώδικα. Χωρίς root.",
   "hero.title": "Η βιβλιοθήκη σου στο Steam τρέχει πλέον στο Android.",
-  "hero.sub": "Το DroidDeck φέρνει την εμπειρία του SteamOS σε φορητές κονσόλες και κινητά: Gaming Mode, πλήρες desktop Linux και τα παιχνίδια σου από GOG, Epic και Xbox σε μία βιβλιοθήκη.",
+  "hero.sub": "Το DroidDeck φέρνει την εμπειρία του SteamOS σε φορητές κονσόλες και κινητά: Gaming Mode, πλήρες Linux desktop και τα παιχνίδια σου από GOG, Epic, Xbox, Battle.net και άλλα σε μία βιβλιοθήκη.",
   "hero.cta": "Λήψη {version}",
   "hero.cta2": "Πώς να το ρυθμίσεις",
   "hero.android": "Android 9 ή νεότερο",
@@ -35,7 +35,7 @@
   "f.steam.body": "Όχι απομίμηση. Big Picture, Steam Input, αποθήκευση στο cloud, επιτεύγματα και Remote Play, με τα παιχνίδια Windows να τρέχουν μέσω Proton.",
   "f.stores.tag": "Καταστήματα",
   "f.stores.title": "Μία βιβλιοθήκη για όλα τα καταστήματα",
-  "f.stores.body": "Συνδέσου σε GOG, Epic, Xbox, Battle.net, EA, Amazon και itch.io. Τα παιχνίδια τους εμφανίζονται δίπλα στα παιχνίδια σου του Steam.",
+  "f.stores.body": "Συνδέσου σε κάθε κατάστημα μία φορά. Τα παιχνίδια του εμφανίζονται δίπλα στα παιχνίδια σου του Steam.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "Πλήρες desktop Linux",
   "f.desktop.body": "Διάλεξε \"Switch to Desktop\" και μπαίνεις στο KDE Plasma, με Firefox, τερματικό και κατάστημα εφαρμογών.",
@@ -57,6 +57,10 @@
   "also.touch": "Χειριστήρια στην οθόνη και χειρονομίες αφής",
   "also.sync": "Συγχρονισμός φακέλων μεταξύ συσκευών",
   "also.flatpak": "Εφαρμογές Linux και εξομοιωτές από το Flathub",
+  "also.storage": "Παιχνίδια σε κάρτα SD ή μονάδα USB",
+  "also.portrait": "Κατακόρυφη λειτουργία για κινητά",
+  "also.apps": "Οι εφαρμογές και τα widgets Android στο launcher",
+  "also.pads": "Προφίλ χειριστηρίων και νεκρές ζώνες μοχλών",
   "compat.title": "Παιχνίδια που παίζουν οι χρήστες",
   "compat.sub": "Αναφορές από την κοινότητα, στις δικές τους συσκευές. Το αποτέλεσμα εξαρτάται από το τσιπ και τις ρυθμίσεις σου.",
   "compat.search": "Αναζήτηση παιχνιδιών",
@@ -171,5 +175,6 @@
   "faq.q11": "Δουλεύουν τα χειριστήρια;",
   "faq.a11": "Ναι. Τα ενσωματωμένα χειριστήρια, τα Bluetooth και τα USB δουλεύουν, και μπορείς να συνδέσεις πολλά για split screen. Υπάρχουν και χειριστήρια αφής.",
   "faq.q12": "Πώς παίρνω διορθώσεις νωρίτερα ή αναφέρω ένα σφάλμα;",
-  "faq.a12": "Οι εκδόσεις Preview είναι στην εφαρμογή στο Updates > Preview. Για σφάλματα, γράψε στο #bug-reports με το zip από το Share logs."
+  "faq.a12": "Οι εκδόσεις Preview είναι στην εφαρμογή στο Updates > Preview. Για σφάλματα, γράψε στο #bug-reports με το zip από το Share logs.",
+  "tag.preview": "Preview"
 }

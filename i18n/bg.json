@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: игри за PC на Android",
-  "meta.desc": "DroidDeck носи изживяването на SteamOS на Android: Steam Gaming Mode, пълноценен Linux десктоп и твоите игри от GOG, Epic и Xbox. Безплатен и с отворен код.",
+  "meta.desc": "DroidDeck носи изживяването на SteamOS в Android: Steam Gaming Mode, пълноценен Linux десктоп и игрите ти от GOG, Epic, Xbox, Battle.net и други. Безплатно и с отворен код.",
   "nav.features": "Функции",
   "nav.compat": "Съвместимост",
   "nav.guide": "Настройка",
@@ -11,7 +11,7 @@
   "nav.skip": "Към съдържанието",
   "hero.kicker": "Безплатен и с отворен код. Без root.",
   "hero.title": "Твоята библиотека в Steam вече работи на Android.",
-  "hero.sub": "DroidDeck носи изживяването на SteamOS на джобни конзоли и телефони: Gaming Mode, пълноценен Linux десктоп и игрите ти от GOG, Epic и Xbox в една библиотека.",
+  "hero.sub": "DroidDeck носи изживяването на SteamOS на джобни конзоли и телефони: Gaming Mode, пълноценен Linux десктоп и игрите ти от GOG, Epic, Xbox, Battle.net и други в една библиотека.",
   "hero.cta": "Изтегли {version}",
   "hero.cta2": "Как да го настроиш",
   "hero.android": "Android 9 или по-нов",
@@ -35,7 +35,7 @@
   "f.steam.body": "Не е имитация. Big Picture, Steam Input, облачни записи, постижения и Remote Play, а игрите ти за Windows работят през Proton.",
   "f.stores.tag": "Магазини",
   "f.stores.title": "Една библиотека за всички магазини",
-  "f.stores.body": "Влез в GOG, Epic, Xbox, Battle.net, EA, Amazon и itch.io. Техните игри стоят до тези от Steam.",
+  "f.stores.body": "Влез веднъж във всеки магазин. Игрите му се появяват до тези от Steam.",
   "f.desktop.tag": "Десктоп",
   "f.desktop.title": "Пълноценен Linux десктоп",
   "f.desktop.body": "Избери \"Switch to Desktop\" и попадаш в KDE Plasma, с Firefox, терминал и магазин за приложения.",
@@ -57,6 +57,10 @@
   "also.touch": "Контроли на екрана и жестове с докосване",
   "also.sync": "Синхронизиране на папки между устройства",
   "also.flatpak": "Linux приложения и емулатори от Flathub",
+  "also.storage": "Игри на SD карта или USB устройство",
+  "also.portrait": "Портретен режим за телефони",
+  "also.apps": "Android приложенията и уиджетите ти в лаунчъра",
+  "also.pads": "Профили за контролери и мъртви зони на стиковете",
   "compat.title": "Игри, които хората играят",
   "compat.sub": "Съобщения от общността, на техните собствени устройства. Резултатът зависи от чипа и настройките ти.",
   "compat.search": "Търсене на игри",
@@ -171,5 +175,6 @@
   "faq.q11": "Работят ли контролерите?",
   "faq.a11": "Да. Вградените контроли, Bluetooth и USB геймпадове работят, и можеш да свържеш няколко за разделен екран. Има и сензорни контроли.",
   "faq.q12": "Как да получа поправките по-рано или да докладвам грешка?",
-  "faq.a12": "Preview версиите са в приложението под Updates > Preview. За грешки пиши в #bug-reports с zip файла от Share logs."
+  "faq.a12": "Preview версиите са в приложението под Updates > Preview. За грешки пиши в #bug-reports с zip файла от Share logs.",
+  "tag.preview": "Preview"
 }

@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: ألعاب الكمبيوتر على أندرويد",
-  "meta.desc": "يجلب DroidDeck تجربة SteamOS إلى أندرويد: Steam Gaming Mode، وسطح مكتب Linux كامل، وألعابك من GOG وEpic وXbox. مجاني ومفتوح المصدر.",
+  "meta.desc": "يجلب DroidDeck تجربة SteamOS إلى Android: وضع Steam Gaming Mode وسطح مكتب Linux كامل وألعابك من GOG وEpic وXbox وBattle.net وغيرها. مجاني ومفتوح المصدر.",
   "nav.features": "الميزات",
   "nav.compat": "التوافق",
   "nav.guide": "الإعداد",
@@ -11,7 +11,7 @@
   "nav.skip": "انتقل إلى المحتوى",
   "hero.kicker": "مجاني ومفتوح المصدر. بدون روت.",
   "hero.title": "مكتبة Steam الخاصة بك تعمل الآن على أندرويد.",
-  "hero.sub": "يجلب DroidDeck تجربة SteamOS إلى الأجهزة المحمولة والهواتف: Gaming Mode، وسطح مكتب Linux كامل، وألعابك من GOG وEpic وXbox في مكتبة واحدة.",
+  "hero.sub": "يجلب DroidDeck تجربة SteamOS إلى الأجهزة المحمولة والهواتف: Gaming Mode وسطح مكتب Linux كامل وألعابك من GOG وEpic وXbox وBattle.net وغيرها في مكتبة واحدة.",
   "hero.cta": "تنزيل {version}",
   "hero.cta2": "كيف تعدّه",
   "hero.android": "أندرويد 9 أو أحدث",
@@ -35,7 +35,7 @@
   "f.steam.body": "ليس نسخة مقلدة. Big Picture وSteam Input والحفظ السحابي والإنجازات وRemote Play، مع تشغيل ألعاب Windows عبر Proton.",
   "f.stores.tag": "المتاجر",
   "f.stores.title": "مكتبة واحدة لكل المتاجر",
-  "f.stores.body": "سجّل الدخول إلى GOG وEpic وXbox وBattle.net وEA وAmazon وitch.io. تظهر ألعابها بجانب ألعاب Steam.",
+  "f.stores.body": "سجّل الدخول إلى كل متجر مرة واحدة، وستظهر ألعابه بجانب ألعاب Steam.",
   "f.desktop.tag": "سطح المكتب",
   "f.desktop.title": "سطح مكتب Linux كامل",
   "f.desktop.body": "اختر \"Switch to Desktop\" وستصل إلى KDE Plasma، مع Firefox وطرفية ومتجر تطبيقات.",
@@ -57,6 +57,10 @@
   "also.touch": "أدوات تحكم على الشاشة وإيماءات اللمس",
   "also.sync": "مزامنة المجلدات بين الأجهزة",
   "also.flatpak": "تطبيقات Linux ومحاكيات من Flathub",
+  "also.storage": "ألعاب على بطاقة SD أو قرص USB",
+  "also.portrait": "وضع عمودي للهواتف",
+  "also.apps": "تطبيقات Android والودجات في المشغّل",
+  "also.pads": "ملفات تعريف وحدات التحكم والمناطق الميتة للعصا",
   "compat.title": "ألعاب يلعبها الناس",
   "compat.sub": "تقارير من المجتمع، على أجهزتهم. نتيجتك تعتمد على معالجك وإعداداتك.",
   "compat.search": "ابحث عن الألعاب",
@@ -171,5 +175,6 @@
   "faq.q11": "هل تعمل أذرع التحكم؟",
   "faq.a11": "نعم. تعمل عناصر التحكم المدمجة وأذرع Bluetooth وUSB، ويمكنك إقران عدة أذرع للشاشة المقسمة. وتوجد أيضاً أزرار اللمس.",
   "faq.q12": "كيف أحصل على الإصلاحات مبكراً أو أبلّغ عن خطأ؟",
-  "faq.a12": "إصدارات Preview داخل التطبيق ضمن Updates > Preview. للأخطاء، اكتب في #bug-reports مع ملف zip من Share logs."
+  "faq.a12": "إصدارات Preview داخل التطبيق ضمن Updates > Preview. للأخطاء، اكتب في #bug-reports مع ملف zip من Share logs.",
+  "tag.preview": "Preview"
 }

@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: 안드로이드에서 PC 게임",
-  "meta.desc": "DroidDeck은 SteamOS 경험을 Android로 가져옵니다. Steam Gaming Mode, 완전한 Linux 데스크톱, 그리고 GOG, Epic, Xbox 게임까지. 무료 오픈 소스입니다.",
+  "meta.desc": "DroidDeck은 SteamOS 경험을 Android로 가져옵니다. Steam Gaming Mode, 완전한 Linux 데스크톱, GOG, Epic, Xbox, Battle.net 등의 게임까지. 무료 오픈 소스입니다.",
   "nav.features": "기능",
   "nav.compat": "호환성",
   "nav.guide": "설정",
@@ -11,7 +11,7 @@
   "nav.skip": "본문으로 건너뛰기",
   "hero.kicker": "무료 오픈 소스. 루팅 필요 없음.",
   "hero.title": "이제 Steam 라이브러리가 Android에서 돌아갑니다.",
-  "hero.sub": "DroidDeck은 SteamOS 경험을 휴대용 게임기와 휴대폰으로 가져옵니다. Gaming Mode, 완전한 Linux 데스크톱, 그리고 GOG, Epic, Xbox 게임을 하나의 라이브러리에서 쓸 수 있습니다.",
+  "hero.sub": "DroidDeck은 SteamOS 경험을 휴대용 기기와 휴대폰으로 가져옵니다. Gaming Mode, 완전한 Linux 데스크톱, GOG, Epic, Xbox, Battle.net 등의 게임을 하나의 라이브러리에서 만나보세요.",
   "hero.cta": "{version} 다운로드",
   "hero.cta2": "설정 방법",
   "hero.android": "Android 9 이상",
@@ -35,7 +35,7 @@
   "f.steam.body": "비슷하게 만든 게 아닙니다. Big Picture, Steam Input, 클라우드 저장, 도전 과제, Remote Play를 지원하고, Windows 게임은 Proton으로 실행됩니다.",
   "f.stores.tag": "스토어",
   "f.stores.title": "모든 스토어를 하나의 라이브러리로",
-  "f.stores.body": "GOG, Epic, Xbox, Battle.net, EA, Amazon, itch.io에 로그인하세요. 그 게임들이 Steam 게임 옆에 나란히 표시됩니다.",
+  "f.stores.body": "각 스토어에 한 번만 로그인하면 됩니다. 게임이 Steam 게임 옆에 표시됩니다.",
   "f.desktop.tag": "데스크톱",
   "f.desktop.title": "완전한 Linux 데스크톱",
   "f.desktop.body": "\"Switch to Desktop\"을 고르면 Firefox, 터미널, 앱 스토어가 있는 KDE Plasma이 열립니다.",
@@ -57,6 +57,10 @@
   "also.touch": "화면 위 컨트롤과 터치 제스처",
   "also.sync": "기기 간 폴더 동기화",
   "also.flatpak": "Flathub의 Linux 앱과 에뮬레이터",
+  "also.storage": "SD 카드 또는 USB 드라이브의 게임",
+  "also.portrait": "휴대폰용 세로 모드",
+  "also.apps": "런처에서 Android 앱과 위젯 사용",
+  "also.pads": "컨트롤러 프로필과 스틱 데드존",
   "compat.title": "사람들이 하는 게임",
   "compat.sub": "커뮤니티가 각자의 기기에서 남긴 보고입니다. 결과는 칩과 설정에 따라 달라집니다.",
   "compat.search": "게임 검색",
@@ -171,5 +175,6 @@
   "faq.q11": "컨트롤러도 되나요?",
   "faq.a11": "네. 내장 컨트롤, Bluetooth와 USB 패드가 모두 동작하고, 화면 분할용으로 여러 개를 페어링할 수 있어요. 터치 컨트롤도 있습니다.",
   "faq.q12": "수정 사항을 먼저 받거나 버그를 신고하려면?",
-  "faq.a12": "Preview 빌드는 앱의 Updates > Preview에 있습니다. 버그는 #bug-reports에 Share logs로 만든 zip과 함께 올려 주세요."
+  "faq.a12": "Preview 빌드는 앱의 Updates > Preview에 있습니다. 버그는 #bug-reports에 Share logs로 만든 zip과 함께 올려 주세요.",
+  "tag.preview": "Preview"
 }

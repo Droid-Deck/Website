@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: pc-gamen op Android",
-  "meta.desc": "DroidDeck brengt de SteamOS-ervaring naar Android: Steam Gaming Mode, een volledige Linux-desktop en je games van GOG, Epic en Xbox. Gratis en open source.",
+  "meta.desc": "DroidDeck brengt de SteamOS-ervaring naar Android: Steam Gaming Mode, een volledig Linux-bureaublad en je games van GOG, Epic, Xbox, Battle.net en meer. Gratis en open source.",
   "nav.features": "Functies",
   "nav.compat": "Compatibiliteit",
   "nav.guide": "Installatie",
@@ -11,7 +11,7 @@
   "nav.skip": "Naar de inhoud",
   "hero.kicker": "Gratis en open source. Geen root.",
   "hero.title": "Je Steam-bibliotheek draait nu op Android.",
-  "hero.sub": "DroidDeck brengt de SteamOS-ervaring naar handhelds en telefoons: Gaming Mode, een volledige Linux-desktop en je games van GOG, Epic en Xbox in één bibliotheek.",
+  "hero.sub": "DroidDeck brengt de SteamOS-ervaring naar handhelds en telefoons: Gaming Mode, een volledig Linux-bureaublad en je games van GOG, Epic, Xbox, Battle.net en meer in één bibliotheek.",
   "hero.cta": "Download {version}",
   "hero.cta2": "Zo stel je het in",
   "hero.android": "Android 9 of nieuwer",
@@ -35,7 +35,7 @@
   "f.steam.body": "Geen namaak. Big Picture, Steam Input, cloudopslag, prestaties en Remote Play, met je Windows-games via Proton.",
   "f.stores.tag": "Winkels",
   "f.stores.title": "Eén bibliotheek voor alle winkels",
-  "f.stores.body": "Log in bij GOG, Epic, Xbox, Battle.net, EA, Amazon en itch.io. Hun games staan naast je Steam-games.",
+  "f.stores.body": "Log één keer in bij elke winkel. De games staan naast je Steam-games.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "Een volledige Linux-desktop",
   "f.desktop.body": "Kies “Switch to Desktop” en je komt in KDE Plasma, met Firefox, een terminal en een appwinkel.",
@@ -57,6 +57,10 @@
   "also.touch": "Schermbesturing en aanraakgebaren",
   "also.sync": "Mapsynchronisatie tussen apparaten",
   "also.flatpak": "Linux-apps en emulators van Flathub",
+  "also.storage": "Games op een SD-kaart of USB-stick",
+  "also.portrait": "Staande modus voor telefoons",
+  "also.apps": "Je Android-apps en widgets in de launcher",
+  "also.pads": "Controllerprofielen en dode zones van sticks",
   "compat.title": "Games die mensen spelen",
   "compat.sub": "Meldingen uit de community, op hun eigen apparaten. Jouw resultaat hangt af van je chip en je instellingen.",
   "compat.search": "Zoek games",
@@ -171,5 +175,6 @@
   "faq.q11": "Werken controllers?",
   "faq.a11": "Ja. Ingebouwde knoppen, Bluetooth- en USB-controllers werken, en je kunt er meerdere koppelen voor split screen. Er zijn ook touchbesturingen.",
   "faq.q12": "Hoe krijg ik fixes eerder of meld ik een bug?",
-  "faq.a12": "Preview-builds staan in de app onder Updates > Preview. Voor bugs post je in #bug-reports met de zip van Share logs."
+  "faq.a12": "Preview-builds staan in de app onder Updates > Preview. Voor bugs post je in #bug-reports met de zip van Share logs.",
+  "tag.preview": "Preview"
 }

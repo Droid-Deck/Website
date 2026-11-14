@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: juegos de PC en Android",
-  "meta.desc": "DroidDeck lleva la experiencia de SteamOS a Android: Steam Gaming Mode, un escritorio Linux completo y tus juegos de GOG, Epic y Xbox. Gratis y de código abierto.",
+  "meta.desc": "DroidDeck lleva la experiencia de SteamOS a Android: Steam Gaming Mode, un escritorio Linux completo y tus juegos de GOG, Epic, Xbox, Battle.net y más. Gratis y de código abierto.",
   "nav.features": "Funciones",
   "nav.compat": "Compatibilidad",
   "nav.guide": "Instalación",
@@ -11,7 +11,7 @@
   "nav.skip": "Saltar al contenido",
   "hero.kicker": "Gratis y de código abierto. Sin root.",
   "hero.title": "Tu biblioteca de Steam ya funciona en Android.",
-  "hero.sub": "DroidDeck lleva la experiencia de SteamOS a consolas portátiles y móviles: Gaming Mode, un escritorio Linux completo y tus juegos de GOG, Epic y Xbox en una sola biblioteca.",
+  "hero.sub": "DroidDeck lleva la experiencia de SteamOS a consolas portátiles y móviles: Gaming Mode, un escritorio Linux completo y tus juegos de GOG, Epic, Xbox, Battle.net y más en una sola biblioteca.",
   "hero.cta": "Descargar {version}",
   "hero.cta2": "Cómo instalarlo",
   "hero.android": "Android 9 o superior",
@@ -35,7 +35,7 @@
   "f.steam.body": "No es una imitación. Big Picture, Steam Input, partidas en la nube, logros y Remote Play, con tus juegos de Windows ejecutándose con Proton.",
   "f.stores.tag": "Tiendas",
   "f.stores.title": "Una biblioteca para todas las tiendas",
-  "f.stores.body": "Inicia sesión en GOG, Epic, Xbox, Battle.net, EA, Amazon e itch.io. Sus juegos aparecen junto a los de Steam.",
+  "f.stores.body": "Inicia sesión una vez en cada tienda. Sus juegos aparecen junto a los de Steam.",
   "f.desktop.tag": "Escritorio",
   "f.desktop.title": "Un escritorio Linux completo",
   "f.desktop.body": "Elige \"Switch to Desktop\" y entrarás en KDE Plasma, con Firefox, un terminal y una tienda de aplicaciones.",
@@ -57,6 +57,10 @@
   "also.touch": "Controles en pantalla y gestos táctiles",
   "also.sync": "Sincronización de carpetas entre dispositivos",
   "also.flatpak": "Apps y emuladores de Linux desde Flathub",
+  "also.storage": "Juegos en una tarjeta SD o una unidad USB",
+  "also.portrait": "Modo vertical para móviles",
+  "also.apps": "Tus apps y widgets de Android en el launcher",
+  "also.pads": "Perfiles de mando y zonas muertas de los sticks",
   "compat.title": "Juegos a los que se está jugando",
   "compat.sub": "Informes de la comunidad, en sus propios dispositivos. Tus resultados dependen de tu chip y tus ajustes.",
   "compat.search": "Buscar juegos",
@@ -171,5 +175,6 @@
   "faq.q11": "¿Funcionan los mandos?",
   "faq.a11": "Sí. Los controles integrados, los mandos Bluetooth y USB funcionan, y puedes emparejar varios para pantalla dividida. También hay controles táctiles.",
   "faq.q12": "¿Cómo obtengo correcciones antes o reporto un error?",
-  "faq.a12": "Las versiones Preview están en la app, en Updates > Preview. Para errores, publica en #bug-reports con el zip de Share logs."
+  "faq.a12": "Las versiones Preview están en la app, en Updates > Preview. Para errores, publica en #bug-reports con el zip de Share logs.",
+  "tag.preview": "Preview"
 }

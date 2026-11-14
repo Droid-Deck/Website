@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: PC-spel på Android",
-  "meta.desc": "DroidDeck ger dig SteamOS-upplevelsen på Android: Steam Gaming Mode, ett fullt Linux-skrivbord och dina spel från GOG, Epic och Xbox. Gratis och öppen källkod.",
+  "meta.desc": "DroidDeck ger dig SteamOS-upplevelsen på Android: Steam Gaming Mode, ett fullständigt Linux-skrivbord och dina spel från GOG, Epic, Xbox, Battle.net och mer. Gratis och öppen källkod.",
   "nav.features": "Funktioner",
   "nav.compat": "Kompatibilitet",
   "nav.guide": "Installation",
@@ -11,7 +11,7 @@
   "nav.skip": "Hoppa till innehållet",
   "hero.kicker": "Gratis och öppen källkod. Ingen root.",
   "hero.title": "Ditt Steam-bibliotek körs nu på Android.",
-  "hero.sub": "DroidDeck ger dig SteamOS-upplevelsen på handhållna enheter och telefoner: Gaming Mode, ett fullt Linux-skrivbord och dina spel från GOG, Epic och Xbox i ett bibliotek.",
+  "hero.sub": "DroidDeck ger dig SteamOS-upplevelsen på handhållna enheter och telefoner: Gaming Mode, ett fullständigt Linux-skrivbord och dina spel från GOG, Epic, Xbox, Battle.net och mer i ett bibliotek.",
   "hero.cta": "Ladda ner {version}",
   "hero.cta2": "Så installerar du",
   "hero.android": "Android 9 eller senare",
@@ -35,7 +35,7 @@
   "f.steam.body": "Ingen imitation. Big Picture, Steam Input, molnsparningar, prestationer och Remote Play, med dina Windows-spel via Proton.",
   "f.stores.tag": "Butiker",
   "f.stores.title": "Ett bibliotek för alla butiker",
-  "f.stores.body": "Logga in på GOG, Epic, Xbox, Battle.net, EA, Amazon och itch.io. Deras spel ligger bredvid dina Steam-spel.",
+  "f.stores.body": "Logga in i varje butik en gång. Spelen visas bredvid dina Steam-spel.",
   "f.desktop.tag": "Skrivbord",
   "f.desktop.title": "Ett fullt Linux-skrivbord",
   "f.desktop.body": "Välj “Switch to Desktop” så hamnar du i KDE Plasma, med Firefox, en terminal och en appbutik.",
@@ -57,6 +57,10 @@
   "also.touch": "Skärmkontroller och pekgester",
   "also.sync": "Mappsynkronisering mellan enheter",
   "also.flatpak": "Linux-appar och emulatorer från Flathub",
+  "also.storage": "Spel på SD-kort eller USB-enhet",
+  "also.portrait": "Porträttläge för telefoner",
+  "also.apps": "Dina Android-appar och widgets i launchern",
+  "also.pads": "Kontrollprofiler och döda zoner för spakar",
   "compat.title": "Spel folk spelar",
   "compat.sub": "Rapporter från communityn, på deras egna enheter. Ditt resultat beror på ditt chip och dina inställningar.",
   "compat.search": "Sök spel",
@@ -171,5 +175,6 @@
   "faq.q11": "Fungerar handkontroller?",
   "faq.a11": "Ja. Inbyggda kontroller samt Bluetooth- och USB-handkontroller fungerar, och du kan para flera för delad skärm. Det finns även touchkontroller.",
   "faq.q12": "Hur får jag rättningar tidigt eller rapporterar en bugg?",
-  "faq.a12": "Preview-byggen finns i appen under Updates > Preview. För buggar, skriv i #bug-reports med zip-filen från Share logs."
+  "faq.a12": "Preview-byggen finns i appen under Updates > Preview. För buggar, skriv i #bug-reports med zip-filen från Share logs.",
+  "tag.preview": "Preview"
 }

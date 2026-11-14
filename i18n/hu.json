@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: PC-s játék Androidon",
-  "meta.desc": "A DroidDeck a SteamOS-élményt hozza el Androidra: Steam Gaming Mode, teljes Linux-asztal, valamint a GOG-, Epic- és Xbox-játékaid. Ingyenes és nyílt forráskódú.",
+  "meta.desc": "A DroidDeck a SteamOS élményét hozza el Androidra: Steam Gaming Mode, teljes Linux asztal, valamint játékaid a GOG-ról, Epicről, Xboxról, Battle.netről és másokról. Ingyenes és nyílt forráskódú.",
   "nav.features": "Funkciók",
   "nav.compat": "Kompatibilitás",
   "nav.guide": "Telepítés",
@@ -11,7 +11,7 @@
   "nav.skip": "Ugrás a tartalomra",
   "hero.kicker": "Ingyenes és nyílt forráskódú. Root nélkül.",
   "hero.title": "A Steam-könyvtárad most már Androidon fut.",
-  "hero.sub": "A DroidDeck a SteamOS-élményt hozza el a kézi gépekre és telefonokra: Gaming Mode, teljes Linux-asztal, a GOG-, Epic- és Xbox-játékaid pedig egyetlen könyvtárban.",
+  "hero.sub": "A DroidDeck a SteamOS élményét hozza el kéziszámítógépekre és telefonokra: Gaming Mode, teljes Linux asztal, valamint játékaid a GOG-ról, Epicről, Xboxról, Battle.netről és másokról egyetlen könyvtárban.",
   "hero.cta": "{version} letöltése",
   "hero.cta2": "Így telepítheted",
   "hero.android": "Android 9 vagy újabb",
@@ -35,7 +35,7 @@
   "f.steam.body": "Nem utánzat. Big Picture, Steam Input, felhős mentések, achievementek és Remote Play, a Windows-játékaid pedig Protonon futnak.",
   "f.stores.tag": "Boltok",
   "f.stores.title": "Egy könyvtár minden boltnak",
-  "f.stores.body": "Jelentkezz be a GOG, Epic, Xbox, Battle.net, EA, Amazon és itch.io fiókodba. Az ő játékaik a Steames játékaid mellett vannak.",
+  "f.stores.body": "Minden boltba elég egyszer bejelentkezned. A játékai a Steames játékaid mellett jelennek meg.",
   "f.desktop.tag": "Asztal",
   "f.desktop.title": "Teljes Linux-asztal",
   "f.desktop.body": "Válaszd a \"Switch to Desktop\" lehetőséget, és a KDE Plasmában találod magad, Firefoxszal, terminállal és alkalmazásboltal.",
@@ -57,6 +57,10 @@
   "also.touch": "Képernyőn megjelenő vezérlők és érintőgesztusok",
   "also.sync": "Mappaszinkronizálás az eszközök között",
   "also.flatpak": "Linuxos alkalmazások és emulátorok a Flathubról",
+  "also.storage": "Játékok SD-kártyán vagy USB-meghajtón",
+  "also.portrait": "Álló mód telefonokhoz",
+  "also.apps": "Android-alkalmazásaid és widgetjeid az indítóban",
+  "also.pads": "Kontrollerprofilok és a kar holtterei",
   "compat.title": "Játékok, amikkel játszanak",
   "compat.sub": "Közösségi jelentések, a saját eszközeiken. Az eredmény a chipedtől és a beállításaidtól függ.",
   "compat.search": "Játékok keresése",
@@ -171,5 +175,6 @@
   "faq.q11": "Működnek a kontrollerek?",
   "faq.a11": "Igen. A beépített vezérlők, a Bluetooth és USB kontrollerek mind működnek, és több is párosítható osztott képernyőhöz. Érintős vezérlők is vannak.",
   "faq.q12": "Hogyan kapok korábban javításokat, vagy jelentek hibát?",
-  "faq.a12": "A Preview buildek az appban vannak az Updates > Preview alatt. Hibához írj a #bug-reports csatornába a Share logs zipjével."
+  "faq.a12": "A Preview buildek az appban vannak az Updates > Preview alatt. Hibához írj a #bug-reports csatornába a Share logs zipjével.",
+  "tag.preview": "Preview"
 }

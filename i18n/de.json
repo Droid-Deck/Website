@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: PC-Gaming auf Android",
-  "meta.desc": "DroidDeck bringt das SteamOS-Erlebnis auf Android: Steam Gaming Mode, ein vollständiger Linux-Desktop und deine GOG-, Epic- und Xbox-Spiele. Kostenlos und Open Source.",
+  "meta.desc": "DroidDeck bringt das SteamOS-Erlebnis auf Android: Steam Gaming Mode, einen vollständigen Linux-Desktop und deine Spiele von GOG, Epic, Xbox, Battle.net und mehr. Kostenlos und Open Source.",
   "nav.features": "Funktionen",
   "nav.compat": "Kompatibilität",
   "nav.guide": "Einrichtung",
@@ -11,7 +11,7 @@
   "nav.skip": "Zum Inhalt springen",
   "hero.kicker": "Kostenlos und Open Source. Kein Root.",
   "hero.title": "Deine Steam-Bibliothek läuft jetzt auf Android.",
-  "hero.sub": "DroidDeck bringt das SteamOS-Erlebnis auf Handhelds und Smartphones: Gaming Mode, ein vollständiger Linux-Desktop und deine GOG-, Epic- und Xbox-Spiele in einer Bibliothek.",
+  "hero.sub": "DroidDeck bringt das SteamOS-Erlebnis auf Handhelds und Smartphones: Gaming Mode, ein vollständiger Linux-Desktop und deine Spiele von GOG, Epic, Xbox, Battle.net und mehr in einer Bibliothek.",
   "hero.cta": "{version} herunterladen",
   "hero.cta2": "So richtest du es ein",
   "hero.android": "Android 9 oder neuer",
@@ -35,7 +35,7 @@
   "f.steam.body": "Kein Nachbau. Big Picture, Steam Input, Cloud-Speicherstände, Erfolge und Remote Play, mit deinen Windows-Spielen über Proton.",
   "f.stores.tag": "Shops",
   "f.stores.title": "Eine Bibliothek für alle Shops",
-  "f.stores.body": "Melde dich bei GOG, Epic, Xbox, Battle.net, EA, Amazon und itch.io an. Ihre Spiele stehen neben deinen Steam-Spielen.",
+  "f.stores.body": "Melde dich einmal bei jedem Store an. Seine Spiele erscheinen neben deinen Steam-Spielen.",
   "f.desktop.tag": "Desktop",
   "f.desktop.title": "Ein vollständiger Linux-Desktop",
   "f.desktop.body": "Wähle \"Switch to Desktop\" und du landest in KDE Plasma, mit Firefox, einem Terminal und einem App-Store.",
@@ -57,6 +57,10 @@
   "also.touch": "Bildschirmsteuerung und Touch-Gesten",
   "also.sync": "Ordnersynchronisierung zwischen Geräten",
   "also.flatpak": "Linux-Apps und Emulatoren von Flathub",
+  "also.storage": "Spiele auf SD-Karte oder USB-Laufwerk",
+  "also.portrait": "Hochformat für Smartphones",
+  "also.apps": "Deine Android-Apps und Widgets im Launcher",
+  "also.pads": "Controller-Profile und Stick-Totzonen",
   "compat.title": "Spiele, die gespielt werden",
   "compat.sub": "Berichte aus der Community, auf ihren eigenen Geräten. Dein Ergebnis hängt von deinem Chip und deinen Einstellungen ab.",
   "compat.search": "Spiele suchen",
@@ -171,5 +175,6 @@
   "faq.q11": "Funktionieren Controller?",
   "faq.a11": "Ja. Eingebaute Steuerung, Bluetooth- und USB-Controller funktionieren, und du kannst mehrere für Splitscreen koppeln. Touch-Steuerung gibt es auch.",
   "faq.q12": "Wie bekomme ich Fixes früher oder melde einen Bug?",
-  "faq.a12": "Preview-Builds findest du in der App unter Updates > Preview. Bugs postest du in #bug-reports, zusammen mit dem Zip von Share logs."
+  "faq.a12": "Preview-Builds findest du in der App unter Updates > Preview. Bugs postest du in #bug-reports, zusammen mit dem Zip von Share logs.",
+  "tag.preview": "Preview"
 }

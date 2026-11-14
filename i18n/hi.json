@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: Android पर PC गेमिंग",
-  "meta.desc": "DroidDeck SteamOS का अनुभव Android पर लाता है: Steam Gaming Mode, पूरा Linux डेस्कटॉप, और आपके GOG, Epic और Xbox गेम। मुफ़्त और ओपन सोर्स।",
+  "meta.desc": "DroidDeck SteamOS का अनुभव Android पर लाता है: Steam Gaming Mode, पूरा Linux डेस्कटॉप, और GOG, Epic, Xbox, Battle.net व अन्य से आपके गेम। मुफ़्त और ओपन सोर्स।",
   "nav.features": "फ़ीचर",
   "nav.compat": "संगतता",
   "nav.guide": "सेटअप",
@@ -11,7 +11,7 @@
   "nav.skip": "सामग्री पर जाएँ",
   "hero.kicker": "मुफ़्त और ओपन सोर्स। रूट की ज़रूरत नहीं।",
   "hero.title": "आपकी Steam लाइब्रेरी अब Android पर चलती है।",
-  "hero.sub": "DroidDeck SteamOS का अनुभव हैंडहेल्ड और फ़ोन पर लाता है: Gaming Mode, पूरा Linux डेस्कटॉप, और आपके GOG, Epic और Xbox गेम एक ही लाइब्रेरी में।",
+  "hero.sub": "DroidDeck SteamOS का अनुभव हैंडहेल्ड और फ़ोन पर लाता है: Gaming Mode, पूरा Linux डेस्कटॉप, और GOG, Epic, Xbox, Battle.net व अन्य से आपके गेम एक ही लाइब्रेरी में।",
   "hero.cta": "{version} डाउनलोड करें",
   "hero.cta2": "सेटअप कैसे करें",
   "hero.android": "Android 9 या नया",
@@ -35,7 +35,7 @@
   "f.steam.body": "कोई नकल नहीं। Big Picture, Steam Input, क्लाउड सेव, उपलब्धियाँ और Remote Play, और आपके Windows गेम Proton से चलते हैं।",
   "f.stores.tag": "स्टोर",
   "f.stores.title": "सभी स्टोर के लिए एक लाइब्रेरी",
-  "f.stores.body": "GOG, Epic, Xbox, Battle.net, EA, Amazon और itch.io में साइन इन करें। उनके गेम आपके Steam गेम के बगल में दिखते हैं।",
+  "f.stores.body": "हर स्टोर में बस एक बार साइन इन करें। उसके गेम आपके Steam गेम के साथ दिखेंगे।",
   "f.desktop.tag": "डेस्कटॉप",
   "f.desktop.title": "पूरा Linux डेस्कटॉप",
   "f.desktop.body": "\"Switch to Desktop\" चुनें और आप KDE Plasma में पहुँच जाते हैं, जिसमें Firefox, टर्मिनल और ऐप स्टोर है।",
@@ -57,6 +57,10 @@
   "also.touch": "ऑन-स्क्रीन कंट्रोल और टच जेस्चर",
   "also.sync": "डिवाइसों के बीच फ़ोल्डर सिंक",
   "also.flatpak": "Flathub से Linux ऐप और एमुलेटर",
+  "also.storage": "SD कार्ड या USB ड्राइव पर गेम",
+  "also.portrait": "फ़ोन के लिए पोर्ट्रेट मोड",
+  "also.apps": "लॉन्चर में आपके Android ऐप और विजेट",
+  "also.pads": "कंट्रोलर प्रोफ़ाइल और स्टिक डेड ज़ोन",
   "compat.title": "लोग कौन से गेम खेल रहे हैं",
   "compat.sub": "समुदाय की रिपोर्ट, उनके अपने डिवाइस पर। नतीजे आपकी चिप और सेटिंग पर निर्भर करते हैं।",
   "compat.search": "गेम खोजें",
@@ -171,5 +175,6 @@
   "faq.q11": "क्या कंट्रोलर चलते हैं?",
   "faq.a11": "हाँ। बिल्ट-इन कंट्रोल, Bluetooth और USB पैड सब चलते हैं, और स्प्लिट स्क्रीन के लिए कई पेयर कर सकते हैं। टच कंट्रोल भी हैं।",
   "faq.q12": "सुधार जल्दी कैसे पाएँ या बग कैसे बताएँ?",
-  "faq.a12": "Preview बिल्ड ऐप में Updates > Preview के तहत हैं। बग के लिए #bug-reports में Share logs की zip के साथ पोस्ट करें।"
+  "faq.a12": "Preview बिल्ड ऐप में Updates > Preview के तहत हैं। बग के लिए #bug-reports में Share logs की zip के साथ पोस्ट करें।",
+  "tag.preview": "Preview"
 }

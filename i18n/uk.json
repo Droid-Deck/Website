@@ -1,6 +1,6 @@
 {
   "meta.title": "DroidDeck: ПК-ігри на Android",
-  "meta.desc": "DroidDeck приносить SteamOS на Android: Steam Gaming Mode, повноцінний робочий стіл Linux і ваші ігри з GOG, Epic та Xbox. Безкоштовно і з відкритим кодом.",
+  "meta.desc": "DroidDeck переносить SteamOS на Android: Steam Gaming Mode, повноцінний робочий стіл Linux і ваші ігри з GOG, Epic, Xbox, Battle.net та не тільки. Безкоштовно й з відкритим кодом.",
   "nav.features": "Можливості",
   "nav.compat": "Сумісність",
   "nav.guide": "Налаштування",
@@ -11,7 +11,7 @@
   "nav.skip": "Перейти до вмісту",
   "hero.kicker": "Безкоштовно і з відкритим кодом. Без root.",
   "hero.title": "Ваша бібліотека Steam тепер працює на Android.",
-  "hero.sub": "DroidDeck приносить SteamOS на портативні консолі й телефони: Gaming Mode, повноцінний робочий стіл Linux і ваші ігри з GOG, Epic та Xbox в одній бібліотеці.",
+  "hero.sub": "DroidDeck переносить SteamOS на портативні консолі та телефони: Gaming Mode, повноцінний робочий стіл Linux і ваші ігри з GOG, Epic, Xbox, Battle.net та не тільки в одній бібліотеці.",
   "hero.cta": "Завантажити {version}",
   "hero.cta2": "Як налаштувати",
   "hero.android": "Android 9 або новіший",
@@ -35,7 +35,7 @@
   "f.steam.body": "Не підробка. Big Picture, Steam Input, хмарні збереження, досягнення та Remote Play, а ігри для Windows працюють через Proton.",
   "f.stores.tag": "Магазини",
   "f.stores.title": "Одна бібліотека для всіх магазинів",
-  "f.stores.body": "Увійдіть у GOG, Epic, Xbox, Battle.net, EA, Amazon та itch.io. Їхні ігри лежать поруч з іграми зі Steam.",
+  "f.stores.body": "Увійдіть до кожного магазину один раз. Його ігри з'являться поруч з іграми зі Steam.",
   "f.desktop.tag": "Робочий стіл",
   "f.desktop.title": "Повноцінний робочий стіл Linux",
   "f.desktop.body": "Виберіть «Switch to Desktop», і ви потрапите в KDE Plasma з Firefox, терміналом і магазином застосунків.",
@@ -57,6 +57,10 @@
   "also.touch": "Екранне керування та жести",
   "also.sync": "Синхронізація тек між пристроями",
   "also.flatpak": "Застосунки Linux та емулятори з Flathub",
+  "also.storage": "Ігри на SD-карті або USB-накопичувачі",
+  "also.portrait": "Портретний режим для телефонів",
+  "also.apps": "Ваші застосунки та віджети Android у лаунчері",
+  "also.pads": "Профілі контролерів і мертві зони стиків",
   "compat.title": "У що грають люди",
   "compat.sub": "Звіти спільноти, на їхніх пристроях. Ваш результат залежить від чипа й налаштувань.",
   "compat.search": "Пошук ігор",
@@ -171,5 +175,6 @@
   "faq.q11": "Чи працюють геймпади?",
   "faq.a11": "Так. Вбудоване керування, Bluetooth- та USB-геймпади працюють, можна підключити кілька для розділеного екрана. Є й сенсорне керування.",
   "faq.q12": "Як отримати виправлення раніше або повідомити про помилку?",
-  "faq.a12": "Preview-збірки є в застосунку: Updates > Preview. Про помилки пишіть у #bug-reports і додавайте zip із Share logs."
+  "faq.a12": "Preview-збірки є в застосунку: Updates > Preview. Про помилки пишіть у #bug-reports і додавайте zip із Share logs.",
+  "tag.preview": "Preview"
 }
