@@ -320,11 +320,11 @@
 
   function gameArt(game, art) {
     const fallback = () => { art.textContent = ""; art.append(el("span", "", game.name)); };
-    if (!game.appid) return fallback();
+    if (!game.appid && !game.art) return fallback();
     const image = new Image();
     image.loading = "lazy";
     image.alt = "";
-    image.src = `${ART}${game.appid}/header.jpg`;
+    image.src = game.art || `${ART}${game.appid}/header.jpg`;
     image.onerror = fallback;
     art.append(image);
   }
@@ -606,7 +606,7 @@
     const [base, live, compat, bench, videos] = await Promise.all([
       json("i18n/en.json").catch(() => ({})),
       json("data/live.json").catch(() => null),
-      json("data/compat.json?v=2").catch(() => null),
+      json("data/compat.json?v=3").catch(() => null),
       json("data/bench.json").catch(() => []),
       fetch("data/videos.json", { cache: "no-cache" }).then((response) => response.json()).catch(() => [])
     ]);

@@ -1054,7 +1054,8 @@
    ],
    "stores": [
     "Battle.net"
-   ]
+   ],
+   "art": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb5a24e5ab1e2cfb0/6a88e3589b942efdb6f74110/wow-thumbnail-homepage.jpg"
   },
   {
    "name": "A Plague Tale Requiem",
@@ -1926,7 +1927,8 @@
    ],
    "stores": [
     "Battle.net"
-   ]
+   ],
+   "appid": 2536520
   },
   {
    "name": "Diablo IV",
@@ -2969,7 +2971,8 @@
    ],
    "stores": [
     "Steam"
-   ]
+   ],
+   "appid": 2492670
   },
   {
    "name": "Metal Gear Solid Peace Walker",
@@ -2985,7 +2988,8 @@
    ],
    "stores": [
     "Steam"
-   ]
+   ],
+   "appid": 2492660
   },
   {
    "name": "Metaphor Refantazio",
@@ -3171,7 +3175,8 @@
    ],
    "stores": [
     "Steam"
-   ]
+   ],
+   "appid": 1369760
   },
   {
    "name": "Ninja Gaiden Sigma",
@@ -4527,7 +4532,8 @@
    ],
    "stores": [
     "Steam"
-   ]
+   ],
+   "appid": 944010
   },
   {
    "name": "Little Kitty, Big City",
@@ -4708,7 +4714,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 361420
   },
   {
    "name": "Dredge",
@@ -4724,7 +4731,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 1562430
   },
   {
    "name": "Final Fantasy Pixel Remaster",
@@ -4756,7 +4764,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 2321470
   },
   {
    "name": "Day of the Tentacle Remastered",
@@ -4772,7 +4781,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 388210
   },
   {
    "name": "Bluey: The Videogame",
@@ -4788,7 +4798,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 2078350
   },
   {
    "name": "Hades",
@@ -4820,7 +4831,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 1145360
   },
   {
    "name": "Moving Out 2",
@@ -4836,7 +4848,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 1641700
   },
   {
    "name": "Wolfenstein: The Old Blood",
@@ -4852,7 +4865,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 350080
   },
   {
    "name": "Slime Rancher",
@@ -4868,7 +4882,8 @@
    ],
    "stores": [
     "Xbox"
-   ]
+   ],
+   "appid": 433340
   },
   {
    "name": "Final Fantasy IX",
@@ -5400,7 +5415,8 @@
    ],
    "stores": [
     "Epic Games"
-   ]
+   ],
+   "appid": 1927720
   },
   {
    "name": "Burnout Paradise Remastered",
