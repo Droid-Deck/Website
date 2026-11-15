@@ -1,8 +1,8 @@
 {
- "stars": 20127,
- "rank": 2334,
- "forks": 1019,
- "downloads": 1588561,
+ "stars": 20189,
+ "rank": 2328,
+ "forks": 1021,
+ "downloads": 1598989,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18167,
-  "online": 3386
+  "members": 18197,
+  "online": 2850
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 977,
+   "count": 981,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 466,
+   "count": 467,
    "areas": [
     "App",
     "Drivers",
@@ -114,6 +114,15 @@
    ]
   },
   {
+   "login": "KeegantheVeganat0r",
+   "avatar": "https://avatars.githubusercontent.com/u/58369898?v=4&s=160",
+   "url": "https://github.com/KeegantheVeganat0r",
+   "count": 13,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "magarto",
    "avatar": "https://avatars.githubusercontent.com/u/7046240?v=4&s=160",
    "url": "https://github.com/magarto",
@@ -127,15 +136,6 @@
    "avatar": "https://avatars.githubusercontent.com/u/17342133?v=4&s=160",
    "url": "https://github.com/angelrenefm",
    "count": 12,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "KeegantheVeganat0r",
-   "avatar": "https://avatars.githubusercontent.com/u/58369898?v=4&s=160",
-   "url": "https://github.com/KeegantheVeganat0r",
-   "count": 11,
    "areas": [
     "App"
    ]
@@ -426,6 +426,15 @@
    "login": "superboo07",
    "avatar": "https://avatars.githubusercontent.com/u/39241538?v=4&s=160",
    "url": "https://github.com/superboo07",
+   "count": 2,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "Tapuuk",
+   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
+   "url": "https://github.com/Tapuuk",
    "count": 2,
    "areas": [
     "App"
@@ -774,15 +783,6 @@
    ]
   },
   {
-   "login": "Tapuuk",
-   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
-   "url": "https://github.com/Tapuuk",
-   "count": 1,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "TideGear",
    "avatar": "https://avatars.githubusercontent.com/u/16357059?v=4&s=160",
    "url": "https://github.com/TideGear",
@@ -891,5 +891,5 @@
    ]
   }
  ],
- "updated": "2026-11-14T22:19:35.813Z"
+ "updated": "2026-11-15T06:22:15.475Z"
 }
