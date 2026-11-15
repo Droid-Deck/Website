@@ -1,8 +1,8 @@
 {
- "stars": 20189,
- "rank": 2328,
- "forks": 1021,
- "downloads": 1598989,
+ "stars": 20289,
+ "rank": 2316,
+ "forks": 1033,
+ "downloads": 1616893,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18197,
-  "online": 2850
+  "members": 18223,
+  "online": 3571
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 981,
+   "count": 993,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 467,
+   "count": 483,
    "areas": [
     "App",
     "Drivers",
@@ -99,7 +99,7 @@
    "login": "kingokksa",
    "avatar": "https://avatars.githubusercontent.com/u/47888451?v=4&s=160",
    "url": "https://github.com/kingokksa",
-   "count": 19,
+   "count": 20,
    "areas": [
     "App"
    ]
@@ -159,6 +159,15 @@
    ]
   },
   {
+   "login": "DeathKhan",
+   "avatar": "https://avatars.githubusercontent.com/u/19419818?v=4&s=160",
+   "url": "https://github.com/DeathKhan",
+   "count": 8,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "kmnkv1",
    "avatar": "https://avatars.githubusercontent.com/u/95131920?v=4&s=160",
    "url": "https://github.com/kmnkv1",
@@ -195,6 +204,24 @@
    ]
   },
   {
+   "login": "OmarAlTaki1",
+   "avatar": "https://avatars.githubusercontent.com/u/144649942?v=4&s=160",
+   "url": "https://github.com/OmarAlTaki1",
+   "count": 6,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "coffeemeist3r",
+   "avatar": "https://avatars.githubusercontent.com/u/41272328?v=4&s=160",
+   "url": "https://github.com/coffeemeist3r",
+   "count": 5,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "Danbro007",
    "avatar": "https://avatars.githubusercontent.com/u/39893887?v=4&s=160",
    "url": "https://github.com/Danbro007",
@@ -204,9 +231,9 @@
    ]
   },
   {
-   "login": "DeathKhan",
-   "avatar": "https://avatars.githubusercontent.com/u/19419818?v=4&s=160",
-   "url": "https://github.com/DeathKhan",
+   "login": "Dantalian-dev",
+   "avatar": "https://avatars.githubusercontent.com/u/235694237?v=4&s=160",
+   "url": "https://github.com/Dantalian-dev",
    "count": 5,
    "areas": [
     "App"
@@ -216,6 +243,15 @@
    "login": "delete-jpg",
    "avatar": "https://avatars.githubusercontent.com/u/201438195?v=4&s=160",
    "url": "https://github.com/delete-jpg",
+   "count": 5,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "EnzoDLofi",
+   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
+   "url": "https://github.com/EnzoDLofi",
    "count": 5,
    "areas": [
     "App"
@@ -241,27 +277,9 @@
    ]
   },
   {
-   "login": "OmarAlTaki1",
-   "avatar": "https://avatars.githubusercontent.com/u/144649942?v=4&s=160",
-   "url": "https://github.com/OmarAlTaki1",
-   "count": 5,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "asdf17128",
    "avatar": "https://avatars.githubusercontent.com/u/7056394?v=4&s=160",
    "url": "https://github.com/asdf17128",
-   "count": 4,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "coffeemeist3r",
-   "avatar": "https://avatars.githubusercontent.com/u/41272328?v=4&s=160",
-   "url": "https://github.com/coffeemeist3r",
    "count": 4,
    "areas": [
     "App"
@@ -277,15 +295,6 @@
    ]
   },
   {
-   "login": "Dantalian-dev",
-   "avatar": "https://avatars.githubusercontent.com/u/235694237?v=4&s=160",
-   "url": "https://github.com/Dantalian-dev",
-   "count": 4,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "ddd-ms",
    "avatar": "https://avatars.githubusercontent.com/u/88711221?v=4&s=160",
    "url": "https://github.com/ddd-ms",
@@ -295,12 +304,13 @@
    ]
   },
   {
-   "login": "EnzoDLofi",
-   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
-   "url": "https://github.com/EnzoDLofi",
+   "login": "l4nr3",
+   "avatar": "https://avatars.githubusercontent.com/u/122608495?v=4&s=160",
+   "url": "https://github.com/l4nr3",
    "count": 4,
    "areas": [
-    "App"
+    "App",
+    "Drivers"
    ]
   },
   {
@@ -316,6 +326,15 @@
    "login": "0x1428571429",
    "avatar": "https://avatars.githubusercontent.com/u/9129438?v=4&s=160",
    "url": "https://github.com/0x1428571429",
+   "count": 3,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "alien2003",
+   "avatar": "https://avatars.githubusercontent.com/u/11610652?v=4&s=160",
+   "url": "https://github.com/alien2003",
    "count": 3,
    "areas": [
     "App"
@@ -349,16 +368,6 @@
    ]
   },
   {
-   "login": "l4nr3",
-   "avatar": "https://avatars.githubusercontent.com/u/122608495?v=4&s=160",
-   "url": "https://github.com/l4nr3",
-   "count": 3,
-   "areas": [
-    "App",
-    "Drivers"
-   ]
-  },
-  {
    "login": "phobos665",
    "avatar": "https://avatars.githubusercontent.com/u/5970062?v=4&s=160",
    "url": "https://github.com/phobos665",
@@ -377,6 +386,24 @@
    ]
   },
   {
+   "login": "Tapuuk",
+   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
+   "url": "https://github.com/Tapuuk",
+   "count": 3,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "visail",
+   "avatar": "https://avatars.githubusercontent.com/u/16912179?v=4&s=160",
+   "url": "https://github.com/visail",
+   "count": 3,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "kayakyakr",
    "avatar": "https://avatars.githubusercontent.com/u/328628?v=4&s=160",
    "url": "https://github.com/kayakyakr",
@@ -384,6 +411,15 @@
    "areas": [
     "App",
     "Drivers"
+   ]
+  },
+  {
+   "login": "Kobtul",
+   "avatar": "https://avatars.githubusercontent.com/u/2563688?v=4&s=160",
+   "url": "https://github.com/Kobtul",
+   "count": 2,
+   "areas": [
+    "App"
    ]
   },
   {
@@ -432,27 +468,9 @@
    ]
   },
   {
-   "login": "Tapuuk",
-   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
-   "url": "https://github.com/Tapuuk",
-   "count": 2,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "TjebbeKerstens",
    "avatar": "https://avatars.githubusercontent.com/u/8642022?v=4&s=160",
    "url": "https://github.com/TjebbeKerstens",
-   "count": 2,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "visail",
-   "avatar": "https://avatars.githubusercontent.com/u/16912179?v=4&s=160",
-   "url": "https://github.com/visail",
    "count": 2,
    "areas": [
     "App"
@@ -540,6 +558,15 @@
    ]
   },
   {
+   "login": "Drik0",
+   "avatar": "https://avatars.githubusercontent.com/u/31633458?v=4&s=160",
+   "url": "https://github.com/Drik0",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "DrummingBird1",
    "avatar": "https://avatars.githubusercontent.com/u/1979036?v=4&s=160",
    "url": "https://github.com/DrummingBird1",
@@ -612,18 +639,18 @@
    ]
   },
   {
-   "login": "Kobtul",
-   "avatar": "https://avatars.githubusercontent.com/u/2563688?v=4&s=160",
-   "url": "https://github.com/Kobtul",
+   "login": "kolmant",
+   "avatar": "https://avatars.githubusercontent.com/u/4392332?v=4&s=160",
+   "url": "https://github.com/kolmant",
    "count": 1,
    "areas": [
     "App"
    ]
   },
   {
-   "login": "kolmant",
-   "avatar": "https://avatars.githubusercontent.com/u/4392332?v=4&s=160",
-   "url": "https://github.com/kolmant",
+   "login": "KvFxKaido",
+   "avatar": "https://avatars.githubusercontent.com/u/107059169?v=4&s=160",
+   "url": "https://github.com/KvFxKaido",
    "count": 1,
    "areas": [
     "App"
@@ -678,6 +705,15 @@
    "login": "measlesbagel",
    "avatar": "https://avatars.githubusercontent.com/u/49631653?v=4&s=160",
    "url": "https://github.com/measlesbagel",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "mhaye20",
+   "avatar": "https://avatars.githubusercontent.com/u/84657517?v=4&s=160",
+   "url": "https://github.com/mhaye20",
    "count": 1,
    "areas": [
     "App"
@@ -765,6 +801,15 @@
    ]
   },
   {
+   "login": "SlicelessBread",
+   "avatar": "https://avatars.githubusercontent.com/u/48603220?v=4&s=160",
+   "url": "https://github.com/SlicelessBread",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "Systina12",
    "avatar": "https://avatars.githubusercontent.com/u/79199102?v=4&s=160",
    "url": "https://github.com/Systina12",
@@ -828,6 +873,15 @@
    ]
   },
   {
+   "login": "vinegh4",
+   "avatar": "https://avatars.githubusercontent.com/u/91303549?v=4&s=160",
+   "url": "https://github.com/vinegh4",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "vitamin663-sys",
    "avatar": "https://avatars.githubusercontent.com/u/348157042?v=4&s=160",
    "url": "https://github.com/vitamin663-sys",
@@ -873,6 +927,15 @@
    ]
   },
   {
+   "login": "zdennisz",
+   "avatar": "https://avatars.githubusercontent.com/u/15849186?v=4&s=160",
+   "url": "https://github.com/zdennisz",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "zeedif",
    "avatar": "https://avatars.githubusercontent.com/u/60901341?v=4&s=160",
    "url": "https://github.com/zeedif",
@@ -891,5 +954,5 @@
    ]
   }
  ],
- "updated": "2026-11-15T06:22:15.475Z"
+ "updated": "2026-11-15T18:48:07.795Z"
 }
