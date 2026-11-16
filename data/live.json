@@ -1,8 +1,8 @@
 {
- "stars": 20365,
- "rank": 2306,
- "forks": 1042,
- "downloads": 1632421,
+ "stars": 20489,
+ "rank": 2287,
+ "forks": 1047,
+ "downloads": 1652006,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18267,
-  "online": 2535
+  "members": 18300,
+  "online": 3175
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 997,
+   "count": 1005,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 486,
+   "count": 489,
    "areas": [
     "App",
     "Drivers",
@@ -108,7 +108,7 @@
    "login": "ASEbrahim",
    "avatar": "https://avatars.githubusercontent.com/u/264076441?v=4&s=160",
    "url": "https://github.com/ASEbrahim",
-   "count": 14,
+   "count": 15,
    "areas": [
     "App"
    ]
@@ -117,9 +117,10 @@
    "login": "KeegantheVeganat0r",
    "avatar": "https://avatars.githubusercontent.com/u/58369898?v=4&s=160",
    "url": "https://github.com/KeegantheVeganat0r",
-   "count": 13,
+   "count": 14,
    "areas": [
-    "App"
+    "App",
+    "Proton"
    ]
   },
   {
@@ -168,6 +169,15 @@
    ]
   },
   {
+   "login": "EnzoDLofi",
+   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
+   "url": "https://github.com/EnzoDLofi",
+   "count": 8,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "kmnkv1",
    "avatar": "https://avatars.githubusercontent.com/u/95131920?v=4&s=160",
    "url": "https://github.com/kmnkv1",
@@ -199,15 +209,6 @@
    "avatar": "https://avatars.githubusercontent.com/u/32595066?v=4&s=160",
    "url": "https://github.com/muazkadan",
    "count": 7,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "EnzoDLofi",
-   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
-   "url": "https://github.com/EnzoDLofi",
-   "count": 6,
    "areas": [
     "App"
    ]
@@ -268,6 +269,17 @@
    ]
   },
   {
+   "login": "l4nr3",
+   "avatar": "https://avatars.githubusercontent.com/u/122608495?v=4&s=160",
+   "url": "https://github.com/l4nr3",
+   "count": 5,
+   "areas": [
+    "App",
+    "Drivers",
+    "Proton"
+   ]
+  },
+  {
    "login": "Mi-Yomi",
    "avatar": "https://avatars.githubusercontent.com/u/156117923?v=4&s=160",
    "url": "https://github.com/Mi-Yomi",
@@ -301,16 +313,6 @@
    "count": 4,
    "areas": [
     "App"
-   ]
-  },
-  {
-   "login": "l4nr3",
-   "avatar": "https://avatars.githubusercontent.com/u/122608495?v=4&s=160",
-   "url": "https://github.com/l4nr3",
-   "count": 4,
-   "areas": [
-    "App",
-    "Drivers"
    ]
   },
   {
@@ -486,12 +488,12 @@
    ]
   },
   {
-   "login": "abduznik",
-   "avatar": "https://avatars.githubusercontent.com/u/85239936?v=4&s=160",
-   "url": "https://github.com/abduznik",
+   "login": "66sam",
+   "avatar": "https://avatars.githubusercontent.com/u/195295932?v=4&s=160",
+   "url": "https://github.com/66sam",
    "count": 1,
    "areas": [
-    "App"
+    "Proton"
    ]
   },
   {
@@ -954,5 +956,5 @@
    ]
   }
  ],
- "updated": "2026-11-16T06:20:52.765Z"
+ "updated": "2026-11-16T21:57:57.922Z"
 }
