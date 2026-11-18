@@ -1,8 +1,8 @@
 {
- "stars": 20686,
- "rank": 2266,
- "forks": 1065,
- "downloads": 1686377,
+ "stars": 20778,
+ "rank": 2252,
+ "forks": 1066,
+ "downloads": 1700251,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18376,
-  "online": 2470
+  "members": 18395,
+  "online": 3271
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1029,
+   "count": 1033,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 509,
+   "count": 513,
    "areas": [
     "App",
     "Drivers",
@@ -42,7 +42,7 @@
    "login": "The412Banner",
    "avatar": "https://avatars.githubusercontent.com/u/205237651?v=4&s=160",
    "url": "https://github.com/The412Banner",
-   "count": 437,
+   "count": 439,
    "areas": [
     "App",
     "Components"
@@ -61,7 +61,7 @@
    "login": "FX192",
    "avatar": "https://avatars.githubusercontent.com/u/120828496?v=4&s=160",
    "url": "https://github.com/FX192",
-   "count": 42,
+   "count": 46,
    "areas": [
     "App"
    ]
@@ -99,7 +99,7 @@
    "login": "kingokksa",
    "avatar": "https://avatars.githubusercontent.com/u/47888451?v=4&s=160",
    "url": "https://github.com/kingokksa",
-   "count": 20,
+   "count": 21,
    "areas": [
     "App"
    ]
@@ -142,6 +142,15 @@
    ]
   },
   {
+   "login": "DeathKhan",
+   "avatar": "https://avatars.githubusercontent.com/u/19419818?v=4&s=160",
+   "url": "https://github.com/DeathKhan",
+   "count": 10,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "0x1Nawaf",
    "avatar": "https://avatars.githubusercontent.com/u/73679429?v=4&s=160",
    "url": "https://github.com/0x1Nawaf",
@@ -169,18 +178,18 @@
    ]
   },
   {
-   "login": "DeathKhan",
-   "avatar": "https://avatars.githubusercontent.com/u/19419818?v=4&s=160",
-   "url": "https://github.com/DeathKhan",
+   "login": "kmnkv1",
+   "avatar": "https://avatars.githubusercontent.com/u/95131920?v=4&s=160",
+   "url": "https://github.com/kmnkv1",
    "count": 8,
    "areas": [
     "App"
    ]
   },
   {
-   "login": "kmnkv1",
-   "avatar": "https://avatars.githubusercontent.com/u/95131920?v=4&s=160",
-   "url": "https://github.com/kmnkv1",
+   "login": "Tapuuk",
+   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
+   "url": "https://github.com/Tapuuk",
    "count": 8,
    "areas": [
     "App"
@@ -388,18 +397,18 @@
    ]
   },
   {
-   "login": "Tapuuk",
-   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
-   "url": "https://github.com/Tapuuk",
+   "login": "visail",
+   "avatar": "https://avatars.githubusercontent.com/u/16912179?v=4&s=160",
+   "url": "https://github.com/visail",
    "count": 3,
    "areas": [
     "App"
    ]
   },
   {
-   "login": "visail",
-   "avatar": "https://avatars.githubusercontent.com/u/16912179?v=4&s=160",
-   "url": "https://github.com/visail",
+   "login": "zdennisz",
+   "avatar": "https://avatars.githubusercontent.com/u/15849186?v=4&s=160",
+   "url": "https://github.com/zdennisz",
    "count": 3,
    "areas": [
     "App"
@@ -866,6 +875,15 @@
    ]
   },
   {
+   "login": "unixenon",
+   "avatar": "https://avatars.githubusercontent.com/u/107151801?v=4&s=160",
+   "url": "https://github.com/unixenon",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "uubooster-team",
    "avatar": "https://avatars.githubusercontent.com/u/350331128?v=4&s=160",
    "url": "https://github.com/uubooster-team",
@@ -938,15 +956,6 @@
    ]
   },
   {
-   "login": "zdennisz",
-   "avatar": "https://avatars.githubusercontent.com/u/15849186?v=4&s=160",
-   "url": "https://github.com/zdennisz",
-   "count": 1,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "zeedif",
    "avatar": "https://avatars.githubusercontent.com/u/60901341?v=4&s=160",
    "url": "https://github.com/zeedif",
@@ -974,5 +983,5 @@
    ]
   }
  ],
- "updated": "2026-11-18T07:20:59.698Z"
+ "updated": "2026-11-18T20:27:11.631Z"
 }
