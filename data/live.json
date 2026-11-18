@@ -1,8 +1,8 @@
 {
- "stars": 20632,
- "rank": 2271,
- "forks": 1060,
- "downloads": 1676860,
+ "stars": 20686,
+ "rank": 2266,
+ "forks": 1065,
+ "downloads": 1686377,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18356,
-  "online": 3307
+  "members": 18376,
+  "online": 2470
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1014,
+   "count": 1029,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 505,
+   "count": 509,
    "areas": [
     "App",
     "Drivers",
@@ -151,6 +151,15 @@
    ]
   },
   {
+   "login": "EnzoDLofi",
+   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
+   "url": "https://github.com/EnzoDLofi",
+   "count": 9,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "moronigranja",
    "avatar": "https://avatars.githubusercontent.com/u/674945?v=4&s=160",
    "url": "https://github.com/moronigranja",
@@ -163,15 +172,6 @@
    "login": "DeathKhan",
    "avatar": "https://avatars.githubusercontent.com/u/19419818?v=4&s=160",
    "url": "https://github.com/DeathKhan",
-   "count": 8,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "EnzoDLofi",
-   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
-   "url": "https://github.com/EnzoDLofi",
    "count": 8,
    "areas": [
     "App"
@@ -214,6 +214,15 @@
    ]
   },
   {
+   "login": "Dantalian-dev",
+   "avatar": "https://avatars.githubusercontent.com/u/235694237?v=4&s=160",
+   "url": "https://github.com/Dantalian-dev",
+   "count": 6,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "OmarAlTaki1",
    "avatar": "https://avatars.githubusercontent.com/u/144649942?v=4&s=160",
    "url": "https://github.com/OmarAlTaki1",
@@ -235,15 +244,6 @@
    "login": "Danbro007",
    "avatar": "https://avatars.githubusercontent.com/u/39893887?v=4&s=160",
    "url": "https://github.com/Danbro007",
-   "count": 5,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "Dantalian-dev",
-   "avatar": "https://avatars.githubusercontent.com/u/235694237?v=4&s=160",
-   "url": "https://github.com/Dantalian-dev",
    "count": 5,
    "areas": [
     "App"
@@ -623,6 +623,15 @@
    ]
   },
   {
+   "login": "JanPokorny",
+   "avatar": "https://avatars.githubusercontent.com/u/4580066?v=4&s=160",
+   "url": "https://github.com/JanPokorny",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "jazzyjamesgames",
    "avatar": "https://avatars.githubusercontent.com/u/182448902?v=4&s=160",
    "url": "https://github.com/jazzyjamesgames",
@@ -954,7 +963,16 @@
    "areas": [
     "App"
    ]
+  },
+  {
+   "login": "Zeratullo",
+   "avatar": "https://avatars.githubusercontent.com/u/8460122?v=4&s=160",
+   "url": "https://github.com/Zeratullo",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
   }
  ],
- "updated": "2026-11-17T20:51:57.440Z"
+ "updated": "2026-11-18T07:20:59.698Z"
 }
