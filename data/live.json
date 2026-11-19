@@ -1,8 +1,8 @@
 {
- "stars": 20850,
- "rank": 2239,
- "forks": 1069,
- "downloads": 1711232,
+ "stars": 20934,
+ "rank": 2236,
+ "forks": 1072,
+ "downloads": 1727044,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18415,
-  "online": 2487
+  "members": 18452,
+  "online": 3367
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1039,
+   "count": 1044,
    "areas": [
     "App",
     "Drivers",
@@ -30,12 +30,13 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 515,
+   "count": 521,
    "areas": [
     "App",
     "Drivers",
     "Components",
-    "Proton"
+    "Proton",
+    "Website"
    ]
   },
   {
@@ -87,19 +88,19 @@
    ]
   },
   {
-   "login": "wallentx",
-   "avatar": "https://avatars.githubusercontent.com/u/8990544?v=4&s=160",
-   "url": "https://github.com/wallentx",
+   "login": "kingokksa",
+   "avatar": "https://avatars.githubusercontent.com/u/47888451?v=4&s=160",
+   "url": "https://github.com/kingokksa",
    "count": 22,
    "areas": [
     "App"
    ]
   },
   {
-   "login": "kingokksa",
-   "avatar": "https://avatars.githubusercontent.com/u/47888451?v=4&s=160",
-   "url": "https://github.com/kingokksa",
-   "count": 21,
+   "login": "wallentx",
+   "avatar": "https://avatars.githubusercontent.com/u/8990544?v=4&s=160",
+   "url": "https://github.com/wallentx",
+   "count": 22,
    "areas": [
     "App"
    ]
@@ -151,18 +152,18 @@
    ]
   },
   {
-   "login": "0x1Nawaf",
-   "avatar": "https://avatars.githubusercontent.com/u/73679429?v=4&s=160",
-   "url": "https://github.com/0x1Nawaf",
-   "count": 9,
+   "login": "EnzoDLofi",
+   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
+   "url": "https://github.com/EnzoDLofi",
+   "count": 10,
    "areas": [
     "App"
    ]
   },
   {
-   "login": "EnzoDLofi",
-   "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
-   "url": "https://github.com/EnzoDLofi",
+   "login": "0x1Nawaf",
+   "avatar": "https://avatars.githubusercontent.com/u/73679429?v=4&s=160",
+   "url": "https://github.com/0x1Nawaf",
    "count": 9,
    "areas": [
     "App"
@@ -352,6 +353,15 @@
    ]
   },
   {
+   "login": "FryMcNugget",
+   "avatar": "https://avatars.githubusercontent.com/u/358046012?v=4&s=160",
+   "url": "https://github.com/FryMcNugget",
+   "count": 3,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "informalTechCode",
    "avatar": "https://avatars.githubusercontent.com/u/243838604?v=4&s=160",
    "url": "https://github.com/informalTechCode",
@@ -492,6 +502,15 @@
    "avatar": "https://avatars.githubusercontent.com/u/112842168?v=4&s=160",
    "url": "https://github.com/ZiYan416",
    "count": 2,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "2-Shar",
+   "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
+   "url": "https://github.com/2-Shar",
+   "count": 1,
    "areas": [
     "App"
    ]
@@ -983,5 +1002,5 @@
    ]
   }
  ],
- "updated": "2026-11-19T07:18:23.958Z"
+ "updated": "2026-11-19T20:30:07.129Z"
 }
