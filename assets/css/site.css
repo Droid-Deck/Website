@@ -169,7 +169,8 @@ p { text-wrap: pretty; }
   border-color: var(--line);
 }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 680; font-size: 18px; letter-spacing: -0.03em; }
-.brand-mark { width: 22px; height: 24px; color: var(--text); }
+.brand-mark { flex: none; width: auto; height: 24px; aspect-ratio: 207.92 / 223.72; color: var(--text); }
+img.brand-mark { aspect-ratio: 1; }
 .links { display: flex; gap: 26px; margin-inline-start: 12px; }
 .links a { color: var(--soft); font-size: 15px; font-weight: 500; transition: color 0.2s; }
 .links a:hover { color: var(--text); }
@@ -565,7 +566,8 @@ section { position: relative; }
 .foot { padding-block: 56px 72px; border-top: 1px solid var(--line); }
 .foot-grid { display: grid; grid-template-columns: 1fr auto; gap: 28px 40px; align-items: start; }
 .foot p { margin-top: 12px; color: var(--soft); font-size: 15px; }
-.foot-links { display: flex; flex-wrap: wrap; gap: 10px 26px; font-size: 15px; color: var(--soft); }
+.foot-links { display: flex; flex-wrap: wrap; gap: 0 26px; margin-block: -8px; font-size: 15px; color: var(--soft); }
+.foot-links a { padding-block: 8px; transition: color 0.2s; }
 .foot-links a:hover { color: var(--text); }
 .foot .legal { grid-column: 1 / -1; margin: 0; max-width: 720px; font-size: 13px; color: var(--dim); }
 
@@ -582,11 +584,13 @@ section { position: relative; }
     gap: 0;
     margin: 0;
     padding: 8px var(--gutter) 20px;
-    background: rgba(5, 7, 10, 0.97);
+    background: var(--ink);
     border-bottom: 1px solid var(--line);
+    box-shadow: 0 28px 48px rgba(0, 0, 0, 0.55);
     display: none;
   }
-  .links.open { display: flex; }
+  .bar:has(.links.open) { background: var(--ink); }
+  .links.open { display: flex; animation: drop 0.22s var(--ease); }
   .links a { padding: 14px 0; font-size: 19px; color: var(--text); border-bottom: 1px solid var(--line); }
   .burger { display: block; }
   .stars-grid, .story, .also, .guide-grid, .ticket { grid-template-columns: 1fr; }
@@ -633,6 +637,7 @@ section { position: relative; }
   .js .reveal { opacity: 1; transform: none; transition: none; }
   .flap.go .ftop, .flap.go .fbot { animation-duration: 0.01s; animation-delay: 0s; }
   .live i { animation: none; }
+  .links.open { animation: none; }
 }
 
 .js .reveal { opacity: 0; transform: translateY(18px); }
@@ -743,6 +748,7 @@ button.video-thumb:hover .video-play { background: var(--blue); transform: scale
 .detail { width: min(760px, calc(100vw - 24px)); max-height: min(88vh, 900px); padding: 0; border: 1px solid var(--line-2); border-radius: 22px; background: var(--ink-2); color: var(--text); overflow-y: auto; overscroll-behavior: contain; box-shadow: 0 40px 120px rgba(0, 0, 0, 0.7); }
 .detail::backdrop { background: rgba(3, 5, 8, 0.74); backdrop-filter: blur(6px); }
 .detail[open] { animation: rise 0.3s var(--ease); }
+@keyframes drop { from { opacity: 0; transform: translateY(-8px); } }
 @keyframes rise { from { opacity: 0; transform: translateY(14px) scale(0.985); } }
 .detail-close { position: sticky; top: 14px; z-index: 2; float: inline-end; margin: 14px; width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid var(--line-2); border-radius: 50%; background: rgba(5, 7, 10, 0.8); backdrop-filter: blur(8px); }
 .detail-close svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; }

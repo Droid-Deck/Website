@@ -530,6 +530,12 @@
       const set = (open) => { links.classList.toggle("open", open); burger.setAttribute("aria-expanded", String(open)); };
       burger.addEventListener("click", () => set(!links.classList.contains("open")));
       links.addEventListener("click", () => set(false));
+      document.addEventListener("click", (event) => { if (!$("bar").contains(event.target)) set(false); });
+      document.addEventListener("keydown", (event) => {
+        if (event.key !== "Escape" || !links.classList.contains("open")) return;
+        set(false);
+        burger.focus();
+      });
     }
     const bar = $("bar");
     if (bar) {
@@ -606,7 +612,7 @@
     const [base, live, compat, bench, videos] = await Promise.all([
       json("i18n/en.json").catch(() => ({})),
       json("data/live.json").catch(() => null),
-      json("data/compat.json?v=4").catch(() => null),
+      json("data/compat.json?v=5").catch(() => null),
       json("data/bench.json").catch(() => []),
       fetch("data/videos.json", { cache: "no-cache" }).then((response) => response.json()).catch(() => [])
     ]);
