@@ -169,7 +169,8 @@ p { text-wrap: pretty; }
   border-color: var(--line);
 }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 680; font-size: 18px; letter-spacing: -0.03em; }
-.brand-mark { width: 22px; height: 24px; color: var(--text); }
+.brand-mark { flex: none; width: auto; height: 24px; aspect-ratio: 207.92 / 223.72; color: var(--text); }
+img.brand-mark { aspect-ratio: 1; }
 .links { display: flex; gap: 26px; margin-inline-start: 12px; }
 .links a { color: var(--soft); font-size: 15px; font-weight: 500; transition: color 0.2s; }
 .links a:hover { color: var(--text); }
