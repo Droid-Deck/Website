@@ -6484,6 +6484,408 @@
      "month": "2026-10"
     }
    ]
+  },
+  {
+   "name": "Valheim",
+   "appid": 892970,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Sid Meier's Civilization: Beyond Earth",
+   "appid": 65980,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Shadows of Doubt",
+   "appid": 986130,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Death Stranding Director's Cut",
+   "appid": 1850570,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Honor Magic 8 Pro",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "playable",
+     "note": "18-30 fps on the first run",
+     "month": "2026-11"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Titanfall 2",
+   "appid": 1237970,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "great",
+     "note": "low settings, 120 fps",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Kingdom Hearts HD 2.8 Final Chapter Prologue",
+   "appid": 2552440,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Super Meat Boy 3D",
+   "appid": 3288210,
+   "art": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3288210/2e13226847bb546625411aed75e74471f6705b18/header.jpg",
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Two Worlds Epic Edition",
+   "appid": 1930,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Two Worlds II",
+   "appid": 7520,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "The Witness",
+   "appid": 210970,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition",
+   "appid": 2427410,
+   "art": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2427410/cbfdace69b303cb01148406c4bea37bb2c5d6cef/header.jpg",
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "S.T.A.L.K.E.R.: Clear Sky",
+   "appid": 20510,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "max settings",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition",
+   "appid": 2427430,
+   "art": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2427430/24ab390192735d4e56efc64f9135353457ac981c/header.jpg",
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Pharaoh: A New Era",
+   "appid": 1351080,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Endless Legend",
+   "appid": 289130,
+   "stores": [
+    "Amazon Games"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Rogue Legacy",
+   "appid": 241600,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Shenmue I & II",
+   "appid": 758330,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Divinity II: Developer's Cut",
+   "appid": 219780,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Caladrius Blaze",
+   "appid": 386770,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Psychonauts",
+   "appid": 3830,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Call of Duty: Black Ops III",
+   "appid": 311210,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "Zombies, ARM64 Proton",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Call of Duty: Black Ops II - Zombies",
+   "appid": 212910,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic 11 Pro",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "runs",
+     "note": "needs the launch option WINESTEAMNOEXEC=0 %command%, no frame gen",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "DOOM Eternal",
+   "appid": 782330,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic 11 Pro",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
   }
  ],
  "devices": [
@@ -6491,7 +6893,7 @@
    "name": "AYN Odin 3",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 129
+   "reports": 150
   },
   {
    "name": "RedMagic Astra 2",
@@ -6539,7 +6941,7 @@
    "name": "Honor Magic 8 Pro",
    "soc": "Snapdragon 8 Elite Gen 5",
    "gpu": "Adreno 840",
-   "reports": 9
+   "reports": 10
   },
   {
    "name": "Nothing Phone (1)",
@@ -6663,7 +7065,7 @@
    "name": "RedMagic 11 Pro",
    "soc": "Snapdragon 8 Elite Gen 5",
    "gpu": "Adreno 840",
-   "reports": 3
+   "reports": 5
   },
   {
    "name": "Snapdragon 8 Gen 2 device",

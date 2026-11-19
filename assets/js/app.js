@@ -606,7 +606,7 @@
     const [base, live, compat, bench, videos] = await Promise.all([
       json("i18n/en.json").catch(() => ({})),
       json("data/live.json").catch(() => null),
-      json("data/compat.json?v=4").catch(() => null),
+      json("data/compat.json?v=5").catch(() => null),
       json("data/bench.json").catch(() => []),
       fetch("data/videos.json", { cache: "no-cache" }).then((response) => response.json()).catch(() => [])
     ]);
