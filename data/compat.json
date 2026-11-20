@@ -6901,6 +6901,35 @@
      "note": "runs with default Xash3D settings; needs keyboard keys (E, F, Tab, Shift, Ctrl, Space) added to the on-screen overlay, and loads are slower than on PC",
      "month": "2026-11"
     }
+   ],
+   "art": "assets/img/diffusion.webp"
+  },
+  {
+   "name": "Serious Sam HD: The First Encounter",
+   "appid": 41000,
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "fully completable",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Serious Sam HD: The Second Encounter",
+   "appid": 41014,
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "launches, but cannot be completed: rendering artifacts",
+     "month": "2026-11"
+    }
    ]
   }
  ],
@@ -7297,7 +7326,7 @@
    "name": "vivo I2405",
    "soc": "Snapdragon 8s Gen 4",
    "gpu": "Adreno 825",
-   "reports": 1
- }
+   "reports": 3
+  }
  ]
 }
