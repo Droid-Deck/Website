@@ -465,7 +465,10 @@
       logo.setAttribute("aria-label", partner.name);
       logo.style.webkitMaskImage = `url("${partner.logo}")`;
       logo.style.maskImage = `url("${partner.logo}")`;
-      link.append(logo);
+      const name = el("span", "partner-name");
+      name.textContent = partner.name;
+      name.setAttribute("aria-hidden", "true");
+      link.append(logo, name);
       item.append(link);
       list.append(item);
     }
