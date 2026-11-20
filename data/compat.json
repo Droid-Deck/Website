@@ -6889,14 +6889,13 @@
   },
   {
    "name": "Diffusion",
-   "appid": 316771,
    "stores": [
     "Steam"
    ],
    "reports": [
     {
      "device": "vivo I2405",
-     "soc": "Snapdragon 8 Gen 3",
+     "soc": "Snapdragon 8s Gen 4",
      "gpu": "Adreno 825",
      "status": "playable",
      "note": "runs with default Xash3D settings; needs keyboard keys (E, F, Tab, Shift, Ctrl, Space) added to the on-screen overlay, and loads are slower than on PC",
