@@ -7290,8 +7290,14 @@
   {
    "name": "Retroid Pocket 6",
    "soc": "Snapdragon 8 Gen 2",
-   "gpu": "Adreno 740",
+"gpu": "Adreno 740",
    "reports": 1
-  }
+  },
+  {
+   "name": "vivo I2405",
+   "soc": "Snapdragon 8s Gen 4",
+   "gpu": "Adreno 825",
+   "reports": 1
+ }
  ]
 }
