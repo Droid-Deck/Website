@@ -25,7 +25,7 @@
   const $ = (id) => document.getElementById(id);
   const all = (selector, root = document) => [...root.querySelectorAll(selector)];
 
-  const state = { lang: "en", base: {}, strings: {}, live: null, compat: null, bench: [], videos: [], detail: null, films: FIRST_VIDEOS, stars: 0, shown: false, more: false, status: "", device: "", query: "" };
+  const state = { lang: "en", base: {}, strings: {}, live: null, compat: null, bench: [], partners: [], videos: [], detail: null, films: FIRST_VIDEOS, stars: 0, shown: false, more: false, status: "", device: "", query: "" };
 
   function stored(key) {
     try { return localStorage.getItem(key); } catch { return null; }
@@ -450,6 +450,27 @@
     }
   }
 
+  function paintPartners() {
+    const list = $("partners");
+    if (!list) return;
+    list.textContent = "";
+    for (const partner of state.partners) {
+      const item = el("li");
+      const link = el("a");
+      link.href = partner.url;
+      link.rel = "noopener";
+      link.setAttribute("aria-label", partner.name);
+      const logo = el("span", "partner-logo");
+      logo.setAttribute("role", "img");
+      logo.setAttribute("aria-label", partner.name);
+      logo.style.webkitMaskImage = `url("${partner.logo}")`;
+      logo.style.maskImage = `url("${partner.logo}")`;
+      link.append(logo);
+      item.append(link);
+      list.append(item);
+    }
+  }
+
   function paintPeople() {
     const live = state.live;
     if (!live || !$("leads")) return;
@@ -489,6 +510,7 @@
     paintGames();
     paintDevices();
     paintBench();
+    paintPartners();
     paintPeople();
     paintVideos();
     paintDetail();
@@ -609,14 +631,15 @@
     detail();
     watch();
     const lang = detect();
-    const [base, live, compat, bench, videos] = await Promise.all([
+    const [base, live, compat, bench, partners, videos] = await Promise.all([
       json("i18n/en.json").catch(() => ({})),
       json("data/live.json").catch(() => null),
       json("data/compat.json?v=5").catch(() => null),
       json("data/bench.json").catch(() => []),
+      json("data/partners.json").catch(() => []),
       fetch("data/videos.json", { cache: "no-cache" }).then((response) => response.json()).catch(() => [])
     ]);
-    Object.assign(state, { base, strings: base, live, compat, bench, videos });
+    Object.assign(state, { base, strings: base, live, compat, bench, partners, videos });
     await setLang(lang, false);
     if (!live) return;
     showStars(live.stars);

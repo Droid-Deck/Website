@@ -12,6 +12,7 @@ The DroidDeck website, served at [droid-deck.dev](https://droid-deck.dev) by Git
 | `data/videos.json` | YouTube videos about DroidDeck, newest first. Written by `scripts/update-videos.mjs`. |
 | `data/compat.json` | Community compatibility reports. |
 | `data/bench.json` | The devices the team builds on. Add `"from"` for a device its maker sent. |
+| `data/partners.json` | The official partners shown under the devices. Each has a name, a link and a logo from `assets/img/`. |
 | `assets/` | Styles, script, font, artwork and clips. |
 
 ## Working on it
