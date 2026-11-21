@@ -6930,7 +6930,7 @@
      "soc": "Snapdragon 8s Gen 4",
      "gpu": "Adreno 825",
      "status": "playable",
-     "note": "runs with default Xash3D settings; needs keyboard keys (E, F, Tab, Shift, Ctrl, Space) added to the on-screen overlay, and keyboard digits for entering codes at the start of the game; loads are slower than on PC",
+     "note": "runs with default Xash3D settings; controls can be set up with Steam Input, but keyboard digits are still needed for entering codes at the start of the game (use a physical or on-screen keyboard, or add the digits to the on-screen overlay); keys E, F, Tab, Shift, Ctrl and Space can be added to the overlay; loads are slower than on PC",
      "month": "2026-11"
     }
    ],
