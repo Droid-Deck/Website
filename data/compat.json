@@ -2607,6 +2607,14 @@
      "status": "runs",
      "note": "",
      "month": "2026-10"
+    },
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "set TU_DEBUG=sysmem in the game's environment variables to fix the broken picture (0.7.1)",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -2717,6 +2725,14 @@
      "status": "great",
      "note": "constant 120 fps at 2560x1440",
      "month": "2026-10"
+    },
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "runs",
+     "note": "works without problems",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -2852,6 +2868,14 @@
      "status": "playable",
      "note": "20-30 fps at 720p high",
      "month": "2026-10"
+    },
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "hero levels fully completable; villain levels partly tested (3 done), no problems so far",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -4281,6 +4305,14 @@
      "gpu": "Adreno 750",
      "status": "runs",
      "note": "30+ fps, no setup",
+     "month": "2026-11"
+    },
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "playable on low settings",
      "month": "2026-11"
     }
    ],
@@ -7429,6 +7461,73 @@
      "month": "2026-11"
     }
    ]
+  },
+  {
+   "name": "Goat Simulator",
+   "appid": 265930,
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "runs",
+     "note": "works without problems",
+     "month": "2026-11"
+    }
+   ],
+   "stores": [
+    "Steam"
+   ]
+  },
+  {
+   "name": "SOS OPS!",
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "runs",
+     "note": "works without problems",
+     "month": "2026-11"
+    }
+   ],
+   "stores": [
+    "Steam"
+   ]
+  },
+  {
+   "name": "Serious Sam 2",
+   "appid": 41050,
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "needs the Gamepad layout in Steam",
+     "month": "2026-11"
+    }
+   ],
+   "stores": [
+    "Steam"
+   ]
+  },
+  {
+   "name": "Serious Sam 3: BFE",
+   "appid": 41070,
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "launches, but cannot be completed: rendering artifacts",
+     "month": "2026-11"
+    }
+   ],
+   "stores": [
+    "Steam"
+   ]
   }
  ],
  "devices": [
@@ -7824,7 +7923,7 @@
    "name": "vivo I2405",
    "soc": "Snapdragon 8s Gen 4",
    "gpu": "Adreno 825",
-   "reports": 3
+   "reports": 18
   },
   {
    "name": "Samsung Galaxy Z Fold 6",
