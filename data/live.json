@@ -1,8 +1,8 @@
 {
- "stars": 21107,
- "rank": 2224,
- "forks": 1082,
- "downloads": 1764141,
+ "stars": 21190,
+ "rank": 2213,
+ "forks": 1088,
+ "downloads": 1780214,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18558,
-  "online": 2719
+  "members": 18581,
+  "online": 3598
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1094,
+   "count": 1096,
    "areas": [
     "App",
     "Drivers",
@@ -62,7 +62,7 @@
    "login": "FX192",
    "avatar": "https://avatars.githubusercontent.com/u/120828496?v=4&s=160",
    "url": "https://github.com/FX192",
-   "count": 50,
+   "count": 56,
    "areas": [
     "App"
    ]
@@ -326,6 +326,16 @@
    ]
   },
   {
+   "login": "FryMcNugget",
+   "avatar": "https://avatars.githubusercontent.com/u/358046012?v=4&s=160",
+   "url": "https://github.com/FryMcNugget",
+   "count": 4,
+   "areas": [
+    "App",
+    "Proton"
+   ]
+  },
+  {
    "login": "magartus",
    "avatar": "https://avatars.githubusercontent.com/u/241511695?v=4&s=160",
    "url": "https://github.com/magartus",
@@ -347,15 +357,6 @@
    "login": "alien2003",
    "avatar": "https://avatars.githubusercontent.com/u/11610652?v=4&s=160",
    "url": "https://github.com/alien2003",
-   "count": 3,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "FryMcNugget",
-   "avatar": "https://avatars.githubusercontent.com/u/358046012?v=4&s=160",
-   "url": "https://github.com/FryMcNugget",
    "count": 3,
    "areas": [
     "App"
@@ -1002,5 +1003,5 @@
    ]
   }
  ],
- "updated": "2026-11-21T06:59:25.613Z"
+ "updated": "2026-11-21T19:10:08.817Z"
 }
