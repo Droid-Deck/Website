@@ -6931,6 +6931,125 @@
      "month": "2026-11"
     }
    ]
+  },
+  {
+   "name": "Rayman Legends",
+   "appid": 242550,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "runs on Proton Experimental ARM64; menu items shift left at native resolution, so set a smaller game resolution",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Geometry Dash",
+   "appid": 322170,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "vertical stripes on Adreno 825; set TU_DEBUG=sysmem per game to clear them (0.7.1)",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Prince of Persia: The Sands of Time",
+   "appid": 13600,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "no native gamepad support; map the pad to keyboard/mouse in the controller profile, or use an on-screen layout; profile name is typed with the keyboard",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Prince of Persia: Warrior Within",
+   "appid": 13500,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "small green artifacts in video cutscenes (ignore them); needs a configured gamepad layout or a community layout; profile name is typed with the keyboard",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Prince of Persia: The Two Thrones",
+   "appid": 13530,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "same as the rest of the trilogy: configure a gamepad layout or use a community layout; profile name is typed with the keyboard",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "The Henry Stickmin Collection",
+   "appid": 1089980,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "fully completable, but needs mouse emulation",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Swords and Sandals Classic Collection",
+   "appid": 1055430,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "vivo I2405",
+     "soc": "Snapdragon 8s Gen 4",
+     "gpu": "Adreno 825",
+     "status": "playable",
+     "note": "playable, but needs mouse emulation",
+     "month": "2026-11"
+    }
+   ]
   }
  ],
  "devices": [
