@@ -6898,7 +6898,7 @@
      "soc": "Snapdragon 8s Gen 4",
      "gpu": "Adreno 825",
      "status": "playable",
-     "note": "runs with default Xash3D settings; needs keyboard keys (E, F, Tab, Shift, Ctrl, Space) added to the on-screen overlay, and loads are slower than on PC",
+     "note": "runs with default Xash3D settings; needs keyboard keys (E, F, Tab, Shift, Ctrl, Space) added to the on-screen overlay, and keyboard digits for entering codes at the start of the game; loads are slower than on PC",
      "month": "2026-11"
     }
    ],
@@ -7319,7 +7319,7 @@
   {
    "name": "Retroid Pocket 6",
    "soc": "Snapdragon 8 Gen 2",
-"gpu": "Adreno 740",
+   "gpu": "Adreno 740",
    "reports": 1
   },
   {
