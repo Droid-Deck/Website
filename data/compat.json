@@ -363,6 +363,14 @@
      "status": "runs",
      "note": "",
      "month": "2026-10"
+    },
+    {
+     "device": "AYN Thor Pro",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "great",
+     "note": "",
+     "month": "2026-10"
     }
    ],
    "stores": [
@@ -2414,6 +2422,14 @@
      "status": "runs",
      "note": "",
      "month": "2026-11"
+    },
+    {
+     "device": "RedMagic 10 Pro",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -2447,6 +2463,14 @@
      "status": "runs",
      "note": "",
      "month": "2026-10"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "original settings, FSR Quality",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -2668,6 +2692,14 @@
      "status": "runs",
      "note": "",
      "month": "2026-10"
+    },
+    {
+     "device": "RedMagic 10 Pro",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -2702,6 +2734,14 @@
      "status": "runs",
      "note": "",
      "month": "2026-10"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -2753,6 +2793,14 @@
      "status": "playable",
      "note": "30-50 fps",
      "month": "2026-10"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "great",
+     "note": "plays perfectly",
+     "month": "2026-11"
     }
    ],
    "stores": [
@@ -3420,10 +3468,19 @@
      "status": "great",
      "note": "runs like a dream",
      "month": "2026-10"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "GOG version",
+     "month": "2026-11"
     }
    ],
    "stores": [
-    "Steam"
+    "Steam",
+    "GOG"
    ]
   },
   {
@@ -5239,6 +5296,14 @@
      "status": "great",
      "note": "60 fps with mods",
      "month": "2026-10"
+    },
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "runs",
+     "note": "",
+     "month": "2026-10"
     }
    ],
    "stores": [
@@ -6867,6 +6932,14 @@
      "status": "runs",
      "note": "needs the launch option WINESTEAMNOEXEC=0 %command%, no frame gen",
      "month": "2026-11"
+    },
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
     }
    ]
   },
@@ -7050,6 +7123,312 @@
      "month": "2026-11"
     }
    ]
+  },
+  {
+   "name": "Lost in Anomaly",
+   "appid": 3312020,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy S25 Ultra",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-09"
+    }
+   ]
+  },
+  {
+   "name": "DiRT Showdown",
+   "appid": 201700,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Retroid Pocket Duo",
+     "soc": "",
+     "gpu": "",
+     "status": "great",
+     "note": "720p, high settings, 60+ fps",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Disney Infinity 3.0: Gold Edition",
+   "appid": 541670,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy Z Fold 6",
+     "soc": "Snapdragon 8 Gen 3",
+     "gpu": "Adreno 750",
+     "status": "runs",
+     "note": "",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Overwatch",
+   "appid": 2357570,
+   "stores": [
+    "Battle.net"
+   ],
+   "reports": [
+    {
+     "device": "ASUS ROG Phone 9 Pro",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "launched from Battle.net, lowest settings",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "Mortal Kombat XL",
+   "appid": 307780,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "runs",
+     "note": "",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "ATLYSS",
+   "appid": 2768430,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Thor",
+     "soc": "Snapdragon 8 Gen 2",
+     "gpu": "Adreno 740",
+     "status": "playable",
+     "note": "modded with r2modman",
+     "month": "2026-10"
+    }
+   ]
+  },
+  {
+   "name": "UNCHARTED: Legacy of Thieves Collection",
+   "appid": 1659420,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic 10 Pro",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "720p, high settings",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Forza Horizon 4",
+   "appid": 1293830,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic 10 Pro",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "offline, 1080p, ultra settings",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+   "appid": 2928600,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "RedMagic 10 Pro",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "PEAK",
+   "appid": 3527290,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "Samsung Galaxy S26 Ultra",
+     "soc": "Snapdragon 8 Elite Gen 5",
+     "gpu": "Adreno 840",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Call of Duty: Black Ops II",
+   "appid": 202990,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "multiplayer",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Persona 5 Tactica",
+   "appid": 2254740,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Gothic 3 Classic",
+   "appid": 39500,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Gothic 3: Forsaken Gods Enhanced Edition",
+   "appid": 65600,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Labyrinth of Refrain: Coven of Dusk",
+   "appid": 566540,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Labyrinth of Galleria: The Moon Society",
+   "appid": 1998340,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Saviors of Sapphire Wings / Stranger of Sword City Revisited",
+   "appid": 1363840,
+   "stores": [
+    "Steam"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
+  },
+  {
+   "name": "Rebel Galaxy",
+   "appid": 290300,
+   "stores": [
+    "GOG"
+   ],
+   "reports": [
+    {
+     "device": "AYN Odin 3",
+     "soc": "Snapdragon 8 Elite",
+     "gpu": "Adreno 830",
+     "status": "runs",
+     "note": "",
+     "month": "2026-11"
+    }
+   ]
   }
  ],
  "devices": [
@@ -7057,7 +7436,7 @@
    "name": "AYN Odin 3",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 150
+   "reports": 163
   },
   {
    "name": "RedMagic Astra 2",
@@ -7075,7 +7454,7 @@
    "name": "Samsung Galaxy S26 Ultra",
    "soc": "Snapdragon 8 Elite Gen 5",
    "gpu": "Adreno 840",
-   "reports": 19
+   "reports": 22
   },
   {
    "name": "AYN Odin 2 Portal",
@@ -7117,7 +7496,7 @@
    "name": "Samsung Galaxy S25 Ultra",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 9
+   "reports": 10
   },
   {
    "name": "Retroid Pocket Nova",
@@ -7147,7 +7526,7 @@
    "name": "AYN Thor",
    "soc": "Snapdragon 8 Gen 2",
    "gpu": "Adreno 740",
-   "reports": 6
+   "reports": 7
   },
   {
    "name": "Motorola Moto G Stylus (2025)",
@@ -7217,7 +7596,7 @@
    "name": "AYN Thor Pro",
    "soc": "Snapdragon 8 Gen 2",
    "gpu": "Adreno 740",
-   "reports": 4
+   "reports": 5
   },
   {
    "name": "OnePlus 13",
@@ -7271,13 +7650,13 @@
    "name": "RedMagic 10 Pro",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 2
+   "reports": 7
   },
   {
    "name": "ASUS ROG Phone 9 Pro",
    "soc": "Snapdragon 8 Elite",
    "gpu": "Adreno 830",
-   "reports": 2
+   "reports": 3
   },
   {
    "name": "POCO F5",
@@ -7355,7 +7734,7 @@
    "name": "Retroid Pocket Duo",
    "soc": "",
    "gpu": "",
-   "reports": 1
+   "reports": 2
   },
   {
    "name": "ASUS ROG Phone 9",
@@ -7446,6 +7825,12 @@
    "soc": "Snapdragon 8s Gen 4",
    "gpu": "Adreno 825",
    "reports": 3
+  },
+  {
+   "name": "Samsung Galaxy Z Fold 6",
+   "soc": "Snapdragon 8 Gen 3",
+   "gpu": "Adreno 750",
+   "reports": 1
   }
  ]
 }
