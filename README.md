@@ -31,7 +31,7 @@ It rewrites the English text in the pages and fails if a language is missing a s
 
 ## Live numbers
 
-The `Update live data` workflow runs every six hours. It refreshes `data/live.json` and commits when something changed. The page also asks GitHub directly while it is open, so the star counter and the download button follow new stars and new releases without a deploy.
+The `Update live data` workflow runs every six hours, when a change to its scripts lands on `main`, and on demand from the Actions tab. It refreshes `data/live.json` and commits when something changed. A run on any other branch only writes a summary of the result and commits nothing. The page also asks GitHub directly while it is open, so the star counter and the download button follow new stars and new releases without a deploy.
 
 Contributors come from every public repository in the organisation. Repositories with imported upstream history count merged pull requests instead of commits.
 
