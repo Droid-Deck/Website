@@ -1,17 +1,20 @@
 name: Update live data
-
 on:
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
-
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-data.mjs
+      - scripts/update-videos.mjs
+      - scripts/sync-i18n.mjs
+      - .github/workflows/data.yml
 permissions:
   contents: write
-
 concurrency:
-  group: live-data
+  group: live-data-${{ github.ref }}
   cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -28,8 +31,15 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - run: node scripts/sync-i18n.mjs
-      - run: |
+      - name: Summary
+        run: |
+          node -e 'const l=require("./data/live.json");console.log(`Contributors: ${l.contributors.length}\n\nTop: ${l.contributors.slice(0,10).map(c=>c.login).join(", ")}\n\nUpdated: ${l.updated}`)' >> "$GITHUB_STEP_SUMMARY"
           git add -A data index.html 404.html sitemap.xml
+          { echo; echo '```'; git diff --cached --stat; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit
+        if: github.ref == 'refs/heads/main'
+        run: |
           git diff --cached --quiet && exit 0
           git -c user.name=maxjivi05 -c user.email=maxjividen@gmail.com commit -m "Update live data"
+          git pull --rebase origin main
           git push
