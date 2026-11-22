@@ -1,8 +1,8 @@
 {
- "stars": 21253,
- "rank": 2210,
- "forks": 1092,
- "downloads": 1792568,
+ "stars": 21322,
+ "rank": 2204,
+ "forks": 1096,
+ "downloads": 1806773,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18609,
-  "online": 2828
+  "members": 18628,
+  "online": 3633
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1101,
+   "count": 1102,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 537,
+   "count": 544,
    "areas": [
     "App",
     "Drivers",
@@ -43,10 +43,11 @@
    "login": "The412Banner",
    "avatar": "https://avatars.githubusercontent.com/u/205237651?v=4&s=160",
    "url": "https://github.com/The412Banner",
-   "count": 440,
+   "count": 442,
    "areas": [
     "App",
-    "Components"
+    "Components",
+    "Website"
    ]
   },
   {
@@ -354,6 +355,15 @@
    ]
   },
   {
+   "login": "2-Shar",
+   "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
+   "url": "https://github.com/2-Shar",
+   "count": 3,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "alien2003",
    "avatar": "https://avatars.githubusercontent.com/u/11610652?v=4&s=160",
    "url": "https://github.com/alien2003",
@@ -503,15 +513,6 @@
    "avatar": "https://avatars.githubusercontent.com/u/112842168?v=4&s=160",
    "url": "https://github.com/ZiYan416",
    "count": 2,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "2-Shar",
-   "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
-   "url": "https://github.com/2-Shar",
-   "count": 1,
    "areas": [
     "App"
    ]
@@ -769,6 +770,15 @@
    ]
   },
   {
+   "login": "Necomer0920",
+   "avatar": "https://avatars.githubusercontent.com/u/204907199?v=4&s=160",
+   "url": "https://github.com/Necomer0920",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "Neolyum",
    "avatar": "https://avatars.githubusercontent.com/u/44875198?v=4&s=160",
    "url": "https://github.com/Neolyum",
@@ -1003,5 +1013,5 @@
    ]
   }
  ],
- "updated": "2026-11-22T06:40:05.998Z"
+ "updated": "2026-11-22T17:44:12.901Z"
 }
