@@ -2449,7 +2449,7 @@
     }
    ],
    "stores": [
-    "Steam"
+    "Xbox"
    ],
    "art": "https://store-images.s-microsoft.com/image/apps.55346.13510798884671594.b8fe972f-63da-4924-b9f1-2c0a7f4a46a2.84a12b2a-14a9-430e-a89d-1fbe57005c9c?w=920"
   },
@@ -3776,7 +3776,7 @@
     }
    ],
    "stores": [
-    "Steam"
+    "Retail"
    ],
    "art": "assets/img/test-drive-unlimited.webp"
   },
@@ -4123,7 +4123,7 @@
     }
    ],
    "stores": [
-    "Steam"
+    "Retail"
    ],
    "art": "assets/img/x-men-origins-wolverine.webp"
   },
