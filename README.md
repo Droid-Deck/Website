@@ -9,7 +9,8 @@ The DroidDeck website, served at [droid-deck.dev](https://droid-deck.dev) by Git
 | `index.html` | The page. English text is written into it by `scripts/sync-i18n.mjs`. |
 | `i18n/` | One file per language. `en.json` is the source. |
 | `data/live.json` | Stars, rank, downloads, latest release, Discord member counts and contributors. Written by `scripts/update-data.mjs`. |
-| `data/videos.json` | YouTube videos about DroidDeck, newest first. Written by `scripts/update-videos.mjs`. |
+| `data/videos.json` | YouTube videos about DroidDeck, newest first, with the compat games each one shows. Written by `scripts/update-videos.mjs`. |
+| `data/video-state.json` | Last search day and per-game search rotation for `scripts/update-videos.mjs`. |
 | `data/compat.json` | Community compatibility reports. |
 | `data/bench.json` | The devices the team builds on. Add `"from"` for a device its maker sent. |
 | `data/partners.json` | The official partners shown under the devices. Each has a name, a link and a logo from `assets/img/`. |
@@ -37,7 +38,7 @@ Contributors come from every public repository in the organisation. Repositories
 
 ## Videos
 
-The same workflow refreshes `data/videos.json` when the repository has a `YOUTUBE_API_KEY` secret (a YouTube Data API v3 key). Without the secret the list stays as it is. The page matches game and device names against each video's title and description, so the Videos section and every game and device panel fill themselves.
+The same workflow refreshes `data/videos.json` when the repository has a `YOUTUBE_API_KEY` secret (a YouTube Data API v3 key). Each run reads the uploads of every channel already in the list and rechecks all videos in batches of 50. Once a day it also runs the general searches and searches for 10 games in turn, oldest first, with the rotation kept in `data/video-state.json`. That stays under about 1,700 of the 10,000 free units a day. Without the secret no API calls are made and only the game tags are refreshed. Videos are tagged with the compat games named in their title, and every game and device panel shows its matching videos.
 
 ## Domain
 

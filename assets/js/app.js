@@ -304,6 +304,7 @@
       .filter((needle) => needle.length > 3)
       .map((needle) => new RegExp(`(?<![a-z0-9])${needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![a-z0-9])`));
     return state.videos.filter((video) => {
+      if ((video.games || []).includes(name)) return true;
       const text = `${video.title} ${video.text || ""}`.toLowerCase();
       return tests.some((test) => test.test(text));
     });
