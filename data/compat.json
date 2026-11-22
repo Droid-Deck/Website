@@ -7021,6 +7021,9 @@
      "note": "fully completable",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
@@ -7035,6 +7038,9 @@
      "note": "launches, but cannot be completed: rendering artifacts",
      "month": "2026-11"
     }
+   ],
+   "stores": [
+    "Steam"
    ]
   },
   {
