@@ -8,6 +8,7 @@ on:
     paths:
       - scripts/update-data.mjs
       - scripts/update-videos.mjs
+      - scripts/video-games.mjs
       - scripts/sync-i18n.mjs
       - .github/workflows/data.yml
 permissions:
