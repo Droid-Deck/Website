@@ -35,7 +35,7 @@ async function uploads(channelId) {
   stats.channels++;
   const batch = await yt("playlistItems", { part: "snippet", maxResults: "50", playlistId: `UU${channelId.slice(2)}` });
   return batch.items
-    .filter((item) => OURS.test(`${item.snippet.title}\n${item.snippet.description}`))
+    .filter((item) => OURS.test(item.snippet.title))
     .map((item) => item.snippet.resourceId.videoId);
 }
 
