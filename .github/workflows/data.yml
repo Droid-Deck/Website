@@ -8,6 +8,7 @@ on:
     paths:
       - scripts/update-data.mjs
       - scripts/update-videos.mjs
+      - scripts/update-art.mjs
       - scripts/video-games.mjs
       - scripts/sync-i18n.mjs
       - .github/workflows/data.yml
@@ -31,6 +32,7 @@ jobs:
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - run: node scripts/update-art.mjs
       - run: node scripts/sync-i18n.mjs
       - name: Summary
         run: |

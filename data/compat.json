@@ -2450,7 +2450,8 @@
    ],
    "stores": [
     "Steam"
-   ]
+   ],
+   "art": "https://store-images.s-microsoft.com/image/apps.55346.13510798884671594.b8fe972f-63da-4924-b9f1-2c0a7f4a46a2.84a12b2a-14a9-430e-a89d-1fbe57005c9c?w=920"
   },
   {
    "name": "God of War",
@@ -3776,7 +3777,8 @@
    ],
    "stores": [
     "Steam"
-   ]
+   ],
+   "art": "assets/img/test-drive-unlimited.webp"
   },
   {
    "name": "The Binding of Isaac",
@@ -4122,7 +4124,8 @@
    ],
    "stores": [
     "Steam"
-   ]
+   ],
+   "art": "assets/img/x-men-origins-wolverine.webp"
   },
   {
    "name": "Yakuza 0",
@@ -4756,7 +4759,8 @@
    ],
    "stores": [
     "Battle.net"
-   ]
+   ],
+   "art": "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt045eca7c5911893c/672d599e651b68d6dab1e48b/WC_Remastered_BattleChest_BnetShop_FeatureImage-WC1_1920x1080.png?width=920&format=jpg&quality=80"
   },
   {
    "name": "Panzer Dragoon: Remake",
@@ -7330,7 +7334,8 @@
      "note": "",
      "month": "2026-11"
     }
-   ]
+   ],
+   "art": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg"
   },
   {
    "name": "Call of Duty: Black Ops II",
@@ -7487,6 +7492,7 @@
   },
   {
    "name": "SOS OPS!",
+   "appid": 2475460,
    "reports": [
     {
      "device": "vivo I2405",

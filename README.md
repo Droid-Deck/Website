@@ -11,7 +11,7 @@ The DroidDeck website, served at [droid-deck.dev](https://droid-deck.dev) by Git
 | `data/live.json` | Stars, rank, downloads, latest release, Discord member counts and contributors. Written by `scripts/update-data.mjs`. |
 | `data/videos.json` | YouTube videos about DroidDeck, newest first, with the compat games each one shows. Written by `scripts/update-videos.mjs`. |
 | `data/video-state.json` | Last search day and per-game search rotation for `scripts/update-videos.mjs`. |
-| `data/compat.json` | Community compatibility reports. |
+| `data/compat.json` | Community compatibility reports. Card art is the Steam header for `appid`, or `art` (a URL or a file in `assets/img/`) for games off Steam. `scripts/update-art.mjs` fills `art` when a Steam header moves. |
 | `data/bench.json` | The devices the team builds on. Add `"from"` for a device its maker sent. |
 | `data/partners.json` | The official partners shown under the devices. Each has a name, a link and a logo from `assets/img/`. |
 | `assets/` | Styles, script, font, artwork and clips. |
