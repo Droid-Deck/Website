@@ -1,8 +1,8 @@
 {
- "stars": 21426,
- "rank": 2190,
- "forks": 1102,
- "downloads": 1820026,
+ "stars": 21596,
+ "rank": 2166,
+ "forks": 1104,
+ "downloads": 1841973,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18673,
-  "online": 2459
+  "members": 18768,
+  "online": 3102
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1105,
+   "count": 1115,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 555,
+   "count": 566,
    "areas": [
     "App",
     "Drivers",
@@ -43,7 +43,7 @@
    "login": "The412Banner",
    "avatar": "https://avatars.githubusercontent.com/u/205237651?v=4&s=160",
    "url": "https://github.com/The412Banner",
-   "count": 442,
+   "count": 444,
    "areas": [
     "App",
     "Components",
@@ -180,6 +180,15 @@
    ]
   },
   {
+   "login": "2-Shar",
+   "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
+   "url": "https://github.com/2-Shar",
+   "count": 8,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "kmnkv1",
    "avatar": "https://avatars.githubusercontent.com/u/95131920?v=4&s=160",
    "url": "https://github.com/kmnkv1",
@@ -198,9 +207,9 @@
    ]
   },
   {
-   "login": "2-Shar",
-   "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
-   "url": "https://github.com/2-Shar",
+   "login": "Dantalian-dev",
+   "avatar": "https://avatars.githubusercontent.com/u/235694237?v=4&s=160",
+   "url": "https://github.com/Dantalian-dev",
    "count": 7,
    "areas": [
     "App"
@@ -229,15 +238,6 @@
    "avatar": "https://avatars.githubusercontent.com/u/32595066?v=4&s=160",
    "url": "https://github.com/muazkadan",
    "count": 7,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "Dantalian-dev",
-   "avatar": "https://avatars.githubusercontent.com/u/235694237?v=4&s=160",
-   "url": "https://github.com/Dantalian-dev",
-   "count": 6,
    "areas": [
     "App"
    ]
@@ -1013,5 +1013,5 @@
    ]
   }
  ],
- "updated": "2026-11-23T07:29:09.630Z"
+ "updated": "2026-11-23T23:49:06.325Z"
 }
