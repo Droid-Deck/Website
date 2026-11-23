@@ -1,8 +1,8 @@
 {
- "stars": 21331,
- "rank": 2204,
- "forks": 1096,
- "downloads": 1808545,
+ "stars": 21426,
+ "rank": 2190,
+ "forks": 1102,
+ "downloads": 1820026,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18632,
-  "online": 3571
+  "members": 18673,
+  "online": 2459
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1102,
+   "count": 1105,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 550,
+   "count": 555,
    "areas": [
     "App",
     "Drivers",
@@ -147,7 +147,7 @@
    "login": "DeathKhan",
    "avatar": "https://avatars.githubusercontent.com/u/19419818?v=4&s=160",
    "url": "https://github.com/DeathKhan",
-   "count": 10,
+   "count": 11,
    "areas": [
     "App"
    ]
@@ -193,6 +193,15 @@
    "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
    "url": "https://github.com/Tapuuk",
    "count": 8,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "2-Shar",
+   "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
+   "url": "https://github.com/2-Shar",
+   "count": 7,
    "areas": [
     "App"
    ]
@@ -349,15 +358,6 @@
    "login": "0x1428571429",
    "avatar": "https://avatars.githubusercontent.com/u/9129438?v=4&s=160",
    "url": "https://github.com/0x1428571429",
-   "count": 3,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "2-Shar",
-   "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
-   "url": "https://github.com/2-Shar",
    "count": 3,
    "areas": [
     "App"
@@ -1013,5 +1013,5 @@
    ]
   }
  ],
- "updated": "2026-11-22T19:32:05.058Z"
+ "updated": "2026-11-23T07:29:09.630Z"
 }
