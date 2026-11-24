@@ -1,8 +1,8 @@
 {
- "stars": 21663,
- "rank": 2160,
+ "stars": 21783,
+ "rank": 2146,
  "forks": 1109,
- "downloads": 1851891,
+ "downloads": 1867858,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18802,
-  "online": 2569
+  "members": 18848,
+  "online": 3198
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1123,
+   "count": 1132,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 581,
+   "count": 590,
    "areas": [
     "App",
     "Drivers",
@@ -43,7 +43,7 @@
    "login": "The412Banner",
    "avatar": "https://avatars.githubusercontent.com/u/205237651?v=4&s=160",
    "url": "https://github.com/The412Banner",
-   "count": 444,
+   "count": 446,
    "areas": [
     "App",
     "Components",
@@ -156,6 +156,15 @@
    "login": "EnzoDLofi",
    "avatar": "https://avatars.githubusercontent.com/u/91587464?v=4&s=160",
    "url": "https://github.com/EnzoDLofi",
+   "count": 11,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "moronigranja",
+   "avatar": "https://avatars.githubusercontent.com/u/674945?v=4&s=160",
+   "url": "https://github.com/moronigranja",
    "count": 10,
    "areas": [
     "App"
@@ -171,9 +180,9 @@
    ]
   },
   {
-   "login": "moronigranja",
-   "avatar": "https://avatars.githubusercontent.com/u/674945?v=4&s=160",
-   "url": "https://github.com/moronigranja",
+   "login": "Tapuuk",
+   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
+   "url": "https://github.com/Tapuuk",
    "count": 9,
    "areas": [
     "App"
@@ -192,15 +201,6 @@
    "login": "kmnkv1",
    "avatar": "https://avatars.githubusercontent.com/u/95131920?v=4&s=160",
    "url": "https://github.com/kmnkv1",
-   "count": 8,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "Tapuuk",
-   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
-   "url": "https://github.com/Tapuuk",
    "count": 8,
    "areas": [
     "App"
@@ -346,9 +346,27 @@
    ]
   },
   {
+   "login": "informalTechCode",
+   "avatar": "https://avatars.githubusercontent.com/u/243838604?v=4&s=160",
+   "url": "https://github.com/informalTechCode",
+   "count": 4,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "magartus",
    "avatar": "https://avatars.githubusercontent.com/u/241511695?v=4&s=160",
    "url": "https://github.com/magartus",
+   "count": 4,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "zdennisz",
+   "avatar": "https://avatars.githubusercontent.com/u/15849186?v=4&s=160",
+   "url": "https://github.com/zdennisz",
    "count": 4,
    "areas": [
     "App"
@@ -367,15 +385,6 @@
    "login": "alien2003",
    "avatar": "https://avatars.githubusercontent.com/u/11610652?v=4&s=160",
    "url": "https://github.com/alien2003",
-   "count": 3,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "informalTechCode",
-   "avatar": "https://avatars.githubusercontent.com/u/243838604?v=4&s=160",
-   "url": "https://github.com/informalTechCode",
    "count": 3,
    "areas": [
     "App"
@@ -427,15 +436,6 @@
    ]
   },
   {
-   "login": "zdennisz",
-   "avatar": "https://avatars.githubusercontent.com/u/15849186?v=4&s=160",
-   "url": "https://github.com/zdennisz",
-   "count": 3,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "kayakyakr",
    "avatar": "https://avatars.githubusercontent.com/u/328628?v=4&s=160",
    "url": "https://github.com/kayakyakr",
@@ -449,6 +449,24 @@
    "login": "Kobtul",
    "avatar": "https://avatars.githubusercontent.com/u/2563688?v=4&s=160",
    "url": "https://github.com/Kobtul",
+   "count": 2,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "KvFxKaido",
+   "avatar": "https://avatars.githubusercontent.com/u/107059169?v=4&s=160",
+   "url": "https://github.com/KvFxKaido",
+   "count": 2,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "LarzVader",
+   "avatar": "https://avatars.githubusercontent.com/u/118484383?v=4&s=160",
+   "url": "https://github.com/LarzVader",
    "count": 2,
    "areas": [
     "App"
@@ -509,10 +527,28 @@
    ]
   },
   {
+   "login": "xlulx",
+   "avatar": "https://avatars.githubusercontent.com/u/92148312?v=4&s=160",
+   "url": "https://github.com/xlulx",
+   "count": 2,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "ZiYan416",
    "avatar": "https://avatars.githubusercontent.com/u/112842168?v=4&s=160",
    "url": "https://github.com/ZiYan416",
    "count": 2,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "0use-TE",
+   "avatar": "https://avatars.githubusercontent.com/u/174871798?v=4&s=160",
+   "url": "https://github.com/0use-TE",
+   "count": 1,
    "areas": [
     "App"
    ]
@@ -644,6 +680,15 @@
    ]
   },
   {
+   "login": "guohaomin1995-dev",
+   "avatar": "https://avatars.githubusercontent.com/u/321670510?v=4&s=160",
+   "url": "https://github.com/guohaomin1995-dev",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "HCOOKIEie",
    "avatar": "https://avatars.githubusercontent.com/u/268343455?v=4&s=160",
    "url": "https://github.com/HCOOKIEie",
@@ -671,6 +716,15 @@
    ]
   },
   {
+   "login": "JMLambo",
+   "avatar": "https://avatars.githubusercontent.com/u/183008808?v=4&s=160",
+   "url": "https://github.com/JMLambo",
+   "count": 1,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "KingHacker9000",
    "avatar": "https://avatars.githubusercontent.com/u/68105674?v=4&s=160",
    "url": "https://github.com/KingHacker9000",
@@ -683,15 +737,6 @@
    "login": "kolmant",
    "avatar": "https://avatars.githubusercontent.com/u/4392332?v=4&s=160",
    "url": "https://github.com/kolmant",
-   "count": 1,
-   "areas": [
-    "App"
-   ]
-  },
-  {
-   "login": "KvFxKaido",
-   "avatar": "https://avatars.githubusercontent.com/u/107059169?v=4&s=160",
-   "url": "https://github.com/KvFxKaido",
    "count": 1,
    "areas": [
     "App"
@@ -1013,5 +1058,5 @@
    ]
   }
  ],
- "updated": "2026-11-24T09:48:20.118Z"
+ "updated": "2026-11-24T22:22:56.604Z"
 }
