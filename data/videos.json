@@ -1,5 +1,48 @@
 [
  {
+  "id": "e32YS6F_Cms",
+  "title": "Warewolf The Apocalypse Earthblood | Performance Test on AYN Odin 3 Max/DroidDeck /ClusterTune",
+  "channel": "Chocolinguss",
+  "channelId": "UC3ohLRI0jCYdNBSvfBHkXtg",
+  "published": "2026-11-24T08:41:15Z",
+  "length": "21:23"
+ },
+ {
+  "id": "-_iuHuMHO5k",
+  "title": "DroidDeck: tu móvil Android es una Steam Deck (sin root y gratis)",
+  "channel": "+games",
+  "channelId": "UCt9XLJz0owmPyfDCAr0xFrQ",
+  "published": "2026-11-24T05:00:08Z",
+  "length": "0:57"
+ },
+ {
+  "id": "1QmI0Gf3r3s",
+  "title": "Tekken 8 60Fps en Odin 3 Droiddeck ",
+  "channel": "EmulatorGamer",
+  "channelId": "UCBwiKm90uzh1-JHuB8RqZyg",
+  "published": "2026-11-24T03:02:59Z",
+  "length": "11:57",
+  "games": [
+   "Tekken 8"
+  ]
+ },
+ {
+  "id": "QpRF5BY5J5w",
+  "title": "Mortal Kombat 1 en Odin 3 Droiddeck ",
+  "channel": "EmulatorGamer",
+  "channelId": "UCBwiKm90uzh1-JHuB8RqZyg",
+  "published": "2026-11-24T02:24:21Z",
+  "length": "9:30"
+ },
+ {
+  "id": "AXydsjVoSjE",
+  "title": "【DroidDeck】艾尔登法环运行测试，我将用最直白最不绕弯子的话告诉你，能玩了！",
+  "channel": "梓邪丶ZiyE",
+  "channelId": "UC2fn0CW6VX2NgKl6Uxqb5Zg",
+  "published": "2026-11-24T01:54:00Z",
+  "length": "12:30"
+ },
+ {
   "id": "8YJhMJV5dIY",
   "title": "DOOM (2016) | DroidDeck 0.7.1 | SD 8 ELITE | Legion Y700 Gen 4 | Steam on Android |",
   "channel": "Techzone KID",
@@ -25,6 +68,14 @@
   "games": [
    "Dead as Disco"
   ]
+ },
+ {
+  "id": "VooHK4Jump0",
+  "title": "스팀덱 없이 갤럭시 폴드8로 스팀 게임 돌리기?! (DroidDeck + GameSir) #Shorts",
+  "channel": "Daily Gear Log",
+  "channelId": "UCwOV_mZcD7j_1QQTuGenf0g",
+  "published": "2026-11-23T20:36:41Z",
+  "length": "0:34"
  },
  {
   "id": "Y5BDdGaffv8",
@@ -113,6 +164,14 @@
   "channelId": "UCCKN4eHIgx_v2dFDYHEELSw",
   "published": "2026-11-22T16:00:29Z",
   "length": "9:57"
+ },
+ {
+  "id": "nfOz9ApR-PA",
+  "title": "SteamOS только что вышла на мобильных устройствах (и это меняет всё)",
+  "channel": "VayDay [CS2]",
+  "channelId": "UCRHHzf3SrU3OlFdb_uVStmA",
+  "published": "2026-11-22T14:40:14Z",
+  "length": "10:43"
  },
  {
   "id": "4lf5zoi0D00",
@@ -714,6 +773,14 @@
   "channelId": "UCqHXCNKSuqF8lBnpA1GYggg",
   "published": "2026-11-17T18:47:22Z",
   "length": "14:06"
+ },
+ {
+  "id": "-Nen8Pv_MeU",
+  "title": "Frame Gen For Switch Emulation on Android (Eden Nightly on Retroid Pocket 6)",
+  "channel": "senortec",
+  "channelId": "UCeWNxpbEFIvpNZRJitqvF0g",
+  "published": "2026-11-17T18:42:45Z",
+  "length": "8:27"
  },
  {
   "id": "W6UZcRbFf2o",
@@ -1981,6 +2048,14 @@
   "length": "12:15"
  },
  {
+  "id": "wr6-LUW_RTk",
+  "title": "Black Ops 2 Zombies Round 20 on Redmagic 11s Pro – 120 FPS with Frame Gen (PC Emulation)",
+  "channel": "Alex",
+  "channelId": "UCAT4PZB2lACxty_quSXBd5Q",
+  "published": "2026-11-08T17:01:18Z",
+  "length": "3:40"
+ },
+ {
   "id": "PpUYnmTkCVQ",
   "title": "DroidDeck Setup on Android Handhelds: Steam Deck Mode on My Odin 3",
   "channel": "faux123",
@@ -2052,6 +2127,22 @@
   "games": [
    "Thymesia"
   ]
+ },
+ {
+  "id": "bx6-2XhCj-4",
+  "title": "Black Ops 2 PC Public Match on Redmagic 11s Pro – 120 FPS with Frame Gen",
+  "channel": "Alex",
+  "channelId": "UCAT4PZB2lACxty_quSXBd5Q",
+  "published": "2026-11-08T03:29:46Z",
+  "length": "5:45"
+ },
+ {
+  "id": "IiKY7w41fH4",
+  "title": "Black Ops 2 PC on Android – Full Uncut Session (Public Match + Round 20 Zombies) | Redmagic 11s Pro",
+  "channel": "Alex Tech Gaming Extra",
+  "channelId": "UCZjVRdVjleTRy38MWDsed9Q",
+  "published": "2026-11-08T00:43:04Z",
+  "length": "11:53"
  },
  {
   "id": "xVv1wVNkM3I",
@@ -2196,6 +2287,14 @@
   ]
  },
  {
+  "id": "q89O_SqQejA",
+  "title": "BO2 Zombies, Round 20 on Town… Running on a Phone 🧟 #shorts #bo2zombies #android",
+  "channel": "Alex Tech Gaming Extra",
+  "channelId": "UCZjVRdVjleTRy38MWDsed9Q",
+  "published": "2026-11-06T20:00:43Z",
+  "length": "1:05"
+ },
+ {
   "id": "C6itO4s3ahM",
   "title": "I just want to play Ocarina of Time Remastered Edition // Joey's Retro Newscast",
   "channel": "Joey's Retro Handhelds",
@@ -2253,6 +2352,14 @@
   "length": "16:51"
  },
  {
+  "id": "sPuoIzkOdxM",
+  "title": "Round 20 BO2 Zombies on a Phone 🧟 #shorts #bo2zombies #android",
+  "channel": "Alex",
+  "channelId": "UCAT4PZB2lACxty_quSXBd5Q",
+  "published": "2026-11-05T20:01:01Z",
+  "length": "1:05"
+ },
+ {
   "id": "7zmx3EhYXjY",
   "title": "Dark Souls III on Legion Y700 Gen4 #sd8elite #droiddeck #y700gen4 #darksoulsiii #ds3 #steamonandroid",
   "channel": "Techzone KID",
@@ -2278,6 +2385,14 @@
   "channelId": "UC19t-_-NK4dVkZxOoRzgaHw",
   "published": "2026-11-05T17:00:09Z",
   "length": "12:50"
+ },
+ {
+  "id": "chFtjNKgD0I",
+  "title": "Samsung S26 Ultra Test: 7 AAA PC Games via Winlator & DroidDeck Game Hub | Ultimate Performance!",
+  "channel": "ROOT Emulator",
+  "channelId": "UChMYUIdwLn3vw9wunAmtdmw",
+  "published": "2026-11-05T16:52:06Z",
+  "length": "8:38"
  },
  {
   "id": "WNGHmHr-Yww",
@@ -2430,6 +2545,14 @@
   "length": "0:51"
  },
  {
+  "id": "wMBPp-DhIVc",
+  "title": "Real Public Lobby: Black Ops 2 PC on an Android Phone #shorts #bo2 #android",
+  "channel": "Alex Tech Gaming Extra",
+  "channelId": "UCZjVRdVjleTRy38MWDsed9Q",
+  "published": "2026-11-04T20:00:58Z",
+  "length": "1:10"
+ },
+ {
   "id": "ST6RuG5TcTY",
   "title": "Dual & Single Screen Android Emulation Setup Guide!",
   "channel": "Joey's Retro Handhelds",
@@ -2543,6 +2666,14 @@
   "games": [
    "Palworld"
   ]
+ },
+ {
+  "id": "At62BWC8eTU",
+  "title": "BO2 PC Public Match on a Phone 😳 #shorts #bo2 #android",
+  "channel": "Alex",
+  "channelId": "UCAT4PZB2lACxty_quSXBd5Q",
+  "published": "2026-11-04T02:17:48Z",
+  "length": "1:10"
  },
  {
   "id": "Ae63CgNF3Ec",
@@ -3725,6 +3856,30 @@
   "length": "5:51"
  },
  {
+  "id": "hdZQ-5vT_dc",
+  "title": "50 More old AAA Games On The Ayn Thor |  DroidDeck",
+  "channel": "DeckPower",
+  "channelId": "UCS7daZvO9R1iOKhosTBZkxQ",
+  "published": "2026-10-24T23:20:47Z",
+  "length": "33:03"
+ },
+ {
+  "id": "4g2K5syUE_A",
+  "title": "Testing Black Ops 2 on Redmagic 11s Pro (DroidDeck Emulation 120 FPS Test)",
+  "channel": "Alex",
+  "channelId": "UCAT4PZB2lACxty_quSXBd5Q",
+  "published": "2026-10-24T23:19:50Z",
+  "length": "2:16"
+ },
+ {
+  "id": "2ppGpXrRQXI",
+  "title": "Can a Phone Really Run Black Ops 2? #blackops2 #emulation #gaming",
+  "channel": "Alex",
+  "channelId": "UCAT4PZB2lACxty_quSXBd5Q",
+  "published": "2026-10-24T23:12:36Z",
+  "length": "2:16"
+ },
+ {
   "id": "mSfdWP2Puls",
   "title": "Xiaomi 18 Pro Max Vs RedMagic 12 Pro - GTA V DroidDeck 0.6.0 Test | Snapdragon 8 Elite Extreme!",
   "channel": "Gaming Phone",
@@ -3752,6 +3907,17 @@
   "length": "6:08",
   "games": [
    "Darksiders 3"
+  ]
+ },
+ {
+  "id": "qRxoHorvcNE",
+  "title": "ODIN 3 Call Of Duty Black Ops 2 DroidDeck 8 Elite 16GB RAM Steam Version.",
+  "channel": "Not Only Retro",
+  "channelId": "UCtwMq3-CZDYHS0_McLIOkwg",
+  "published": "2026-10-24T17:41:37Z",
+  "length": "12:46",
+  "games": [
+   "Call of Duty: Black Ops II"
   ]
  },
  {
@@ -4490,94 +4656,6 @@
   "length": "43:38"
  },
  {
-  "id": "foVezgMIEvc",
-  "title": "Efootball 2027 PC Sürümü - Gamehub vs DroidDeck - ANDROID",
-  "channel": "Ersin Çakı",
-  "channelId": "UCwlIga_MdORfTFxm56FbtHA",
-  "published": "2026-10-16T13:14:05Z",
-  "length": "25:52"
- },
- {
-  "id": "O_VDRyXbmzw",
-  "title": "갤럭시 S26 울트라 유저들, 갑자기 스팀덱이 공짜로 생김 (DroidDeck)",
-  "channel": "서울리안 SEOULiAN",
-  "channelId": "UClfR70cO8tFZHNCbBZsMw0Q",
-  "published": "2026-10-16T13:00:45Z",
-  "length": "7:22"
- },
- {
-  "id": "JMRNxUY-zeI",
-  "title": "Droid Deck Is The Best Steam OS Experience In Odin 3 And Pocket 6 #DroidDeck #AynOdin3",
-  "channel": "Preem Gaming Gears",
-  "channelId": "UC64I5ZMJizSg8IaH3wi5AWw",
-  "published": "2026-10-16T11:30:31Z",
-  "length": "0:59"
- },
- {
-  "id": "56lhxwiR55w",
-  "title": "BloodBorne y SteamOS en Android AYN Thor #smartphone #gaming #droiddeck #bloodborne",
-  "channel": "Gartzia Artz",
-  "channelId": "UC7FVEYKvJFk6hyaSd56-0DQ",
-  "published": "2026-10-16T11:06:30Z",
-  "length": "1:13"
- },
- {
-  "id": "tgwefVZoRyg",
-  "title": "We benchmarked DroidDeck 0.4",
-  "channel": "Rosamelia Gaming",
-  "channelId": "UC5ggGGg5i7Jl7hHxu9z0-1Q",
-  "published": "2026-10-16T10:35:35Z",
-  "length": "1:35"
- },
- {
-  "id": "nICIpvuJEok",
-  "title": "How to Install DroidDeck on Android – Play Steam Games on Your Phone!",
-  "channel": "Retro Pocket",
-  "channelId": "UCGSj-Q55nxLh0Xrg5ynmlnA",
-  "published": "2026-10-15T22:00:27Z",
-  "length": "8:35"
- },
- {
-  "id": "yA3pN8jFDu8",
-  "title": "DroidDeckCOK3.2.2更新了啥？安卓STEAMOS模擬器",
-  "channel": "AQG",
-  "channelId": "UCos8sfpHObkvUeOIKONKPDw",
-  "published": "2026-10-15T14:56:08Z",
-  "length": "2:07"
- },
- {
-  "id": "HsPg7tcJShI",
-  "title": "DroidDeck遊戲如何打MOD",
-  "channel": "AQG",
-  "channelId": "UCos8sfpHObkvUeOIKONKPDw",
-  "published": "2026-10-15T14:26:09Z",
-  "length": "6:00"
- },
- {
-  "id": "EM55K-Gm8Dk",
-  "title": "安卓DroidDeck_強制顯示(關閉)虛擬按鍵",
-  "channel": "AQG",
-  "channelId": "UCos8sfpHObkvUeOIKONKPDw",
-  "published": "2026-10-15T13:35:41Z",
-  "length": "1:01"
- },
- {
-  "id": "QeUC_QRUi7w",
-  "title": "DroidDeck安卓_拳皇15網路對戰_配置分享",
-  "channel": "AQG",
-  "channelId": "UCos8sfpHObkvUeOIKONKPDw",
-  "published": "2026-10-15T13:34:07Z",
-  "length": "4:43"
- },
- {
-  "id": "lt6IJaBFAlk",
-  "title": "DroidDeckCOK4.0.1更新了啥？安卓STEAMOS模擬器",
-  "channel": "AQG",
-  "channelId": "UCos8sfpHObkvUeOIKONKPDw",
-  "published": "2026-10-15T13:23:30Z",
-  "length": "2:15"
- },
- {
   "id": "73YrIhBYf1Q",
   "title": "Castlevania Belmont's Curse - DroidDeck vs Game Native Performance Review",
   "channel": "CD's Retro Corner",
@@ -4589,30 +4667,6 @@
   ]
  },
  {
-  "id": "IdoDJ3-J9-c",
-  "title": "Droid Deck Is The Best Steam OS Experience In Odin 3 And Pocket 6",
-  "channel": "Preem Gaming Gears",
-  "channelId": "UC64I5ZMJizSg8IaH3wi5AWw",
-  "published": "2026-10-15T11:30:34Z",
-  "length": "3:08"
- },
- {
-  "id": "x_y0gwWV3aM",
-  "title": "DroidDeck Tamamen Türkçe Oldu - Yeni Güncelleme ve Tüm Yenilikler",
-  "channel": "Ersin Çakı",
-  "channelId": "UCwlIga_MdORfTFxm56FbtHA",
-  "published": "2026-10-15T11:03:29Z",
-  "length": "24:44"
- },
- {
-  "id": "Pi4zopR_24Y",
-  "title": "Resident Evil REQUIEM on Legion Y700 Gen4 #sd8elite #y700gen4 #re9requiem #droiddeck #steam #legion",
-  "channel": "Techzone KID",
-  "channelId": "UCSsfqUxr0J5nl9-eXsK--CQ",
-  "published": "2026-10-15T09:49:43Z",
-  "length": "0:20"
- },
- {
   "id": "V4TtRkf8nZQ",
   "title": "Final Fantasy VII Rebirth | DroidDeck 0.4.0 | SD 8 ELITE | Steam on Android | Legion Y700 Gen 4 |",
   "channel": "Techzone KID",
@@ -4622,38 +4676,6 @@
   "games": [
    "Final Fantasy VII Rebirth"
   ]
- },
- {
-  "id": "Id6xKv9huOs",
-  "title": "How to download Steam OS / Droid Deck on AYN Thor and Android",
-  "channel": "Charlez Ketchum",
-  "channelId": "UCjFWPRSxOdclkDd7srImhuA",
-  "published": "2026-10-14T20:38:14Z",
-  "length": "1:29"
- },
- {
-  "id": "1ANw4VmFTEI",
-  "title": "DroidDeck 0.4.0 Steam, GOG and more on Android",
-  "channel": "LivingLinux",
-  "channelId": "UCcYWwgon3SiHmutuSD7_KXw",
-  "published": "2026-10-14T19:57:55Z",
-  "length": "11:57"
- },
- {
-  "id": "ZJ7rcEz87J4",
-  "title": "SteamOS on Android?! DroidDeck game testing on the AYN Thor",
-  "channel": "ZeroJ",
-  "channelId": "UCCKN4eHIgx_v2dFDYHEELSw",
-  "published": "2026-10-14T18:31:44Z",
-  "length": "11:13"
- },
- {
-  "id": "gTsTRMTqhUw",
-  "title": "Emulation With DroidDeck Is It Worth It Yet?",
-  "channel": "DNA Mobile Gaming",
-  "channelId": "UCjK3KfZtAXnsiYGSyjvoYnQ",
-  "published": "2026-10-14T15:14:31Z",
-  "length": "8:38"
  },
  {
   "id": "ZunIewFNlxs",
