@@ -895,3 +895,29 @@ html, body, main { overflow-x: clip; }
   .game-meta { display: grid; grid-template-columns: auto 1fr; row-gap: 4px; }
   .game-store { grid-column: 1 / -1; margin-inline-start: 0; }
 }
+
+/* Quieter design pass */
+.hero-art { display: none; }
+.hero { padding-top: clamp(104px, 13vh, 140px); }
+.hero .handheld { box-shadow: none; }
+.official { display: flex; padding: 0; background: none; border: 0; gap: 10px; font-size: 14px; color: var(--soft); margin-bottom: 28px; }
+.official svg { grid-row: auto; width: 18px; height: 18px; padding: 0; border-radius: 0; background: none; stroke: var(--green); fill: none; flex: none; }
+.official span { color: var(--soft); }
+.official a { display: inline; font-size: 14px; }
+.pledge { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-top: clamp(40px, 6vw, 64px); padding-top: 0; border-top: 0; }
+.pledge li, .pledge li + li { padding: 0; border: 0; font-size: 14px; font-weight: 500; letter-spacing: 0; color: var(--soft); }
+.pledge li::before { content: "\2713"; margin-inline-end: 8px; color: var(--green); }
+.stars { padding-block: 22px; background: none; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.statline { display: flex; flex-wrap: wrap; gap: 8px 36px; color: var(--soft); font-size: 15px; transition: color 0.2s; }
+.statline b { color: var(--text); font-weight: 640; font-variant-numeric: tabular-nums; }
+.statline:hover { color: var(--text); }
+.statline-star { display: inline-flex; align-items: center; gap: 6px; }
+.statline svg { width: 15px; height: 15px; fill: var(--amber); }
+.features, .compat, .media, .guide, .faq, .club, .download, .people { padding-block: clamp(56px, 7vw, 96px); }
+.features .section-title { margin-bottom: clamp(28px, 4vw, 48px); }
+.devices { margin-top: clamp(48px, 6vw, 80px); }
+.js .reveal { transform: none; }
+.reveal { transition: opacity 0.4s var(--ease); }
+.official { flex-wrap: wrap; align-items: flex-start; }
+.official svg { margin-top: 2px; }
+.official a { flex-basis: 100%; padding-inline-start: 28px; }

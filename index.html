@@ -59,9 +59,6 @@
 <main id="main">
 
 <section class="hero" id="top">
-  <div class="hero-art" aria-hidden="true">
-    <svg class="orb" viewBox="0 0 800 800"><circle class="orb-halo" cx="400" cy="400" r="318"/><circle class="orb-core" cx="400" cy="400" r="250"/></svg>
-  </div>
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <p class="official">
@@ -69,7 +66,6 @@
         <span data-i18n="official.bar">droid-deck.dev is the only official DroidDeck website.</span>
         <a href="#official" data-i18n="official.link">How to spot a fake</a>
       </p>
-      <p class="kicker" data-i18n="hero.kicker">Free and open source. No root.</p>
       <h1 data-i18n="hero.title">Your Steam library runs on Android now.</h1>
       <p class="lede" data-i18n="hero.sub">DroidDeck brings the SteamOS experience to handhelds and phones: Gaming Mode, a full Linux desktop, and your games from GOG, Epic, Xbox, Battle.net and more in one library.</p>
       <div class="actions">
@@ -100,32 +96,17 @@
     <li data-i18n="pledge.source">100% open source</li>
     <li data-i18n="pledge.ads">No ads</li>
     <li data-i18n="pledge.telemetry">No telemetry</li>
-    <li data-i18n="pledge.withheld">No source withheld</li>
   </ul>
 </section>
 
 <section class="stars" id="stars">
-  <div class="wrap stars-grid">
-    <div class="stars-copy reveal">
-      <h2 data-i18n="stars.title">DroidDeck on GitHub</h2>
-      <a class="btn btn-ghost" href="https://github.com/Droid-Deck/DroidDeck" rel="noopener">
-        <svg viewBox="0 0 20 20" aria-hidden="true" class="fill"><path d="M10 1.700l2.550 5.300 5.750.800-4.200 4.050 1.050 5.750L10 14.850 4.850 17.600l1.050-5.750-4.200-4.050 5.750-.800z"/></svg>
-        <span data-i18n="stars.cta">Star DroidDeck</span>
-      </a>
-    </div>
-    <div class="board reveal">
-      <div class="board-head">
-        <span data-i18n="stars.label">Stars on GitHub</span>
-        <span class="live"><i></i><span data-i18n="stars.live">Live</span></span>
-      </div>
-      <div class="flaps" id="flaps" role="img" aria-label=""></div>
-      <dl class="tally">
-        <div><dt data-i18n="stars.rank">Global rank</dt><dd>#<span data-live="rank">2,135</span></dd></div>
-        <div><dt data-i18n="stars.downloads">Downloads</dt><dd data-live="downloads-short">1.88M</dd></div>
-        <div><dt data-i18n="stars.forks">Forks</dt><dd data-live="forks">1,113</dd></div>
-        <div><dt data-i18n="stars.people">Contributors</dt><dd data-live="people">116</dd></div>
-      </dl>
-    </div>
+  <div class="wrap">
+    <a class="statline" href="https://github.com/Droid-Deck/DroidDeck" rel="noopener">
+      <span class="statline-star"><svg viewBox="0 0 20 20" aria-hidden="true" class="fill"><path d="M10 1.700l2.550 5.300 5.750.800-4.200 4.050 1.050 5.750L10 14.850 4.850 17.600l1.050-5.750-4.200-4.050 5.750-.800z"/></svg><b data-live="stars-short">21.9K</b> <span data-i18n="stars.label">Stars on GitHub</span></span>
+      <span><b data-live="downloads-short">1.88M</b> <span data-i18n="stars.downloads">Downloads</span></span>
+      <span><b data-live="forks">1,113</b> <span data-i18n="stars.forks">Forks</span></span>
+      <span><b data-live="people">116</b> <span data-i18n="stars.people">Contributors</span></span>
+    </a>
   </div>
 </section>
 

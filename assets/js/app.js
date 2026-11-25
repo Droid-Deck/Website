@@ -133,6 +133,7 @@
       size: number(live.release.size / 1048576, { style: "unit", unit: "megabyte", maximumFractionDigits: 0 }),
       downloads: number(live.downloads),
       "downloads-short": number(live.downloads, { notation: "compact", maximumFractionDigits: 2 }),
+      "stars-short": number(live.stars, { notation: "compact", maximumFractionDigits: 1 }),
       rank: number(live.rank),
       forks: number(live.forks),
       people: number(live.contributors.length)
