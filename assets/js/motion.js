@@ -203,6 +203,338 @@
     });
   }
 
+
+  // Hero background: the launcher's empty-library scene (EmptyLibrary.kt) on its TiltedWall of capsules.
+  function bezier(x1, y1, x2, y2) {
+    const a = (p1, p2) => 1 - 3 * p2 + 3 * p1, b = (p1, p2) => 3 * p2 - 6 * p1, c = (p1) => 3 * p1;
+    const at = (t, p1, p2) => ((a(p1, p2) * t + b(p1, p2)) * t + c(p1)) * t;
+    const slope = (t, p1, p2) => 3 * a(p1, p2) * t * t + 2 * b(p1, p2) * t + c(p1);
+    return (x) => {
+      if (x <= 0) return 0;
+      if (x >= 1) return 1;
+      let t = x;
+      for (let i = 0; i < 8; i++) { const d = slope(t, x1, x2); if (Math.abs(d) < 1e-6) break; t -= (at(t, x1, x2) - x) / d; }
+      return at(Math.min(1, Math.max(0, t)), y1, y2);
+    };
+  }
+  const InOut = bezier(0.42, 0, 0.58, 1), Out = bezier(0, 0, 0.58, 1), TraceEase = bezier(0.45, 0, 0.25, 1);
+  const PopEase = bezier(0.15, 0.8, 0.3, 1), DropEase = bezier(0.6, 0, 0.9, 0.5), FlipEase = bezier(0.25, 0.7, 0.35, 1);
+  const RippleEase = bezier(0.2, 0.6, 0.35, 1), HitEase = bezier(0.2, 0.7, 0.3, 1);
+  const POP_FROM = 900, IMPACT = 2200, RIPPLE_MS = 1250, HIT_MS = 900, END = 3600, REVEAL_MS = 2300;
+  const TRACE_DRAW_MS = 900, TRACE_FADE_MS = 500, REVEAL_FILL_FROM = 600, REVEAL_FILL_MS = 450, REVEAL_FADE_FROM = 1700, POKE = 880;
+  const clamp01 = (v) => Math.min(1, Math.max(0, v));
+  const span = (p, a, b, from, to, ease) => lerp(from, to, ease(clamp01((p - a) / (b - a))));
+  const rippleTable = Array.from({ length: 257 }, (_, i) => RippleEase(i / 256));
+  function rippleReaches(progress) {
+    let lo = 0, hi = 256;
+    while (lo < hi) { const mid = (lo + hi) >> 1; if (rippleTable[mid] < progress) lo = mid + 1; else hi = mid; }
+    return lo / 256;
+  }
+  function hitAmount(since) {
+    if (since < 0 || since > HIT_MS) return 0;
+    const p = since / HIT_MS;
+    return p < 0.14 ? HitEase(p / 0.14) : 1 - HitEase((p - 0.14) / 0.86);
+  }
+  const MARK_LEFT = "M-31.98 0H56.055V40.489A71.81 71.81 0 0 0 56.055 183.231V223.72H-31.98Z";
+  const MARK_RIGHT = "M71.885 0.28A111.96 111.86 0 0 1 71.885 223.44V183.231A71.81 71.81 0 0 0 71.885 40.489Z";
+  function pathLength(d) {
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    svg.setAttribute("d", d);
+    try { return svg.getTotalLength() || 900; } catch { return 900; }
+  }
+  const capsuleArt = (id) => `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${id}/library_600x900.jpg`;
+
+  function heroWall() {
+    const canvas = $("hero-wall");
+    if (!canvas || !canvas.getContext) return;
+    const panel = canvas.parentElement;
+    const copy = document.querySelector(".hero-copy");
+    const ctx = canvas.getContext("2d");
+    const halves = [[new Path2D(MARK_LEFT), pathLength(MARK_LEFT)], [new Path2D(MARK_RIGHT), pathLength(MARK_RIGHT)]];
+    const caps = [];
+    let W = 0, H = 0, dpr = 1, capW = 132, capH = 198, gap = 16, ball = 36, speed = 72;
+    let at = null, vx = 0, vy = 0, slam = null;
+    let intro = 0, clock = 0, wallClock = 0, started = false, visible = true;
+
+    function capsule(image) {
+      const cap = { image, duo: document.createElement("canvas"), full: document.createElement("canvas"), ready: false };
+      cap.paint = () => {
+        const w = Math.round(capW * dpr), h = Math.round(capH * dpr), r = 12 * dpr;
+        for (const [target, tint] of [[cap.duo, true], [cap.full, false]]) {
+          target.width = w; target.height = h;
+          const g = target.getContext("2d");
+          g.save();
+          g.beginPath(); g.roundRect(0, 0, w, h, r); g.clip();
+          if (cap.image) {
+            if (tint) g.filter = "grayscale(1) contrast(1.15) brightness(0.95)";
+            g.drawImage(cap.image, 0, 0, w, h);
+            g.filter = "none";
+            if (tint) {
+              g.globalCompositeOperation = "multiply";
+              const grad = g.createLinearGradient(0, 0, w, h);
+              grad.addColorStop(0, "#3aa6ff"); grad.addColorStop(1, "#0b4fb0");
+              g.fillStyle = grad; g.fillRect(0, 0, w, h);
+              g.globalCompositeOperation = "source-over";
+            }
+          } else {
+            g.fillStyle = "rgba(13, 40, 104, 0.9)"; g.fillRect(0, 0, w, h);
+          }
+          g.restore();
+          g.strokeStyle = tint ? "rgba(140, 190, 255, 0.22)" : "#1a9fff";
+          g.lineWidth = dpr * (tint ? 1 : 2);
+          g.beginPath(); g.roundRect(g.lineWidth / 2, g.lineWidth / 2, w - g.lineWidth, h - g.lineWidth, r); g.stroke();
+        }
+        cap.ready = true;
+      };
+      return cap;
+    }
+
+    function size() {
+      const r = panel.getBoundingClientRect();
+      if (!r.width) return;
+      dpr = Math.min(2, devicePixelRatio || 1);
+      W = r.width; H = r.height;
+      canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+      const small = W < 640;
+      capW = small ? 92 : 132; capH = capW * 1.5; gap = small ? 12 : 16;
+      ball = small ? 24 : Math.min(44, Math.max(30, W * 0.026));
+      speed = small ? 46 : 72;
+      for (const cap of caps) cap.paint();
+      if (!at) { at = { x: W * (small ? 0.78 : 0.82), y: H * (small ? 0.16 : 0.3) }; vx = -speed * 0.8; vy = speed * 0.6; }
+      draw();
+    }
+
+    async function load() {
+      const compat = await fetch("data/compat.json?v=5").then((r) => r.json()).catch(() => null);
+      const ids = compat ? compat.games.map((g) => g.appid).filter(Boolean).slice(0, 42) : [];
+      const blank = capsule(null);
+      caps.push(blank);
+      if (W) blank.paint();
+      for (const id of ids) {
+        const image = new Image();
+        image.decoding = "async";
+        image.onload = () => {
+          if (image.naturalWidth < 100) return;
+          const cap = capsule(image);
+          if (W) cap.paint();
+          if (caps.length === 1 && caps[0].image === null) caps.length = 0;
+          caps.push(cap);
+          if (calm) draw();
+        };
+        image.src = capsuleArt(id);
+      }
+    }
+
+    function drawWall(t) {
+      if (!caps.length) return;
+      const tilt = (13 * Math.PI) / 180, cs = Math.cos(tilt), sn = Math.sin(tilt);
+      const wallW = (W * cs + H * sn) * 1.1;
+      const wallH = Math.max(H * 2.4, (W * sn + H * cs) * 1.1);
+      const columns = Math.floor((wallW + gap) / (capW + gap)) + 1;
+      const perRun = Math.floor((wallH + gap) / (capH + gap)) + 1;
+      const runH = (capH + gap) * perRun;
+      const shift = runH * ((wallClock % 40000) / 40000);
+      const px = W / 2, py = H / 2;
+      const left = px - wallW / 2, top = py - wallH / 2;
+      const count = caps.length;
+      const reach = (Math.hypot(capW, capH) / 2) * 0.77;
+      const ringFrom = ball, ringTo = Math.hypot(W, H) * 1.05;
+      const rippling = slam && t >= IMPACT && t <= IMPACT + RIPPLE_MS + HIT_MS;
+      ctx.save();
+      ctx.translate(px, py); ctx.rotate(-tilt); ctx.translate(-px, -py);
+      for (let c = 0; c < columns; c++) {
+        const x = left + c * (capW + gap);
+        const dy = c % 2 === 0 ? -shift : shift - runH;
+        for (let i = 0; i < perRun * 2; i++) {
+          const y = top + i * (capH + gap) + dy;
+          const lx = x + capW / 2 - px, ly = y + capH / 2 - py;
+          const sx = px + lx * cs + ly * sn, sy = py - lx * sn + ly * cs;
+          if (sx < -capH || sx > W + capH || sy < -capH || sy > H + capH) continue;
+          const cap = caps[(c * 5 + (i % perRun) * 3) % count];
+          if (!cap.ready) continue;
+          let a = 0;
+          if (rippling) {
+            const edge = Math.max(0, Math.hypot(sx - slam.x, sy - slam.y) - reach);
+            const progress = (edge - ringFrom) / (ringTo - ringFrom);
+            if (progress <= 1) a = hitAmount(t - (IMPACT + RIPPLE_MS * rippleReaches(clamp01(progress))));
+          }
+          if (a > 0) {
+            const grow = 1 + 0.045 * a, cx = x + capW / 2, cy = y + capH / 2;
+            ctx.save();
+            ctx.translate(cx, cy); ctx.scale(grow, grow); ctx.translate(-cx, -cy);
+            ctx.fillStyle = `rgba(26, 159, 255, ${0.3 * a})`;
+            ctx.beginPath(); ctx.roundRect(x - 5, y - 5, capW + 10, capH + 10, 16); ctx.fill();
+            ctx.drawImage(cap.duo, x, y, capW, capH);
+            ctx.globalAlpha = a;
+            ctx.drawImage(cap.full, x, y, capW, capH);
+            ctx.restore();
+          } else ctx.drawImage(cap.duo, x, y, capW, capH);
+        }
+      }
+      ctx.restore();
+    }
+
+    function drawMark(t) {
+      if (!at) return;
+      const s = ball / 55.98;
+      const k = (223.72 * s) / 460;
+      const c = at;
+      if (slam && t >= IMPACT && t <= IMPACT + RIPPLE_MS) {
+        const p = (t - IMPACT) / RIPPLE_MS;
+        const alpha = p < 0.7 ? lerp(0.9, 0.35, p / 0.7) : lerp(0.35, 0, (p - 0.7) / 0.3);
+        ctx.strokeStyle = `rgba(26, 159, 255, ${alpha})`;
+        ctx.lineWidth = Math.max(2.5 * k, 1.5);
+        ctx.beginPath(); ctx.arc(slam.x, slam.y, lerp(ball, Math.hypot(W, H) * 1.05, RippleEase(p)), 0, Math.PI * 2); ctx.stroke();
+      }
+      let shake = 0;
+      if (t >= IMPACT && t <= IMPACT + 230) {
+        const p = (t - IMPACT) / 230;
+        shake = (p < 0.25 ? span(p, 0, 0.25, 0, 7, Out) : p < 0.55 ? span(p, 0.25, 0.55, 7, -3, Out) : span(p, 0.55, 1, -3, 0, Out)) * k;
+      }
+      ctx.save();
+      ctx.translate(0, shake);
+      const markAt = (lift) => { ctx.translate(c.x - 63.98 * s, c.y - 111.86 * s + lift); ctx.scale(s, s); };
+      const since = t - IMPACT;
+      if (since >= 0 && since <= REVEAL_MS) {
+        const fade = 1 - clamp01((since - REVEAL_FADE_FROM) / (REVEAL_MS - REVEAL_FADE_FROM));
+        const fill = Out(clamp01((since - REVEAL_FILL_FROM) / REVEAL_FILL_MS)) * fade;
+        if (fill > 0) {
+          const lift = 8 * k * (1 - fill / fade);
+          for (const [edge, color] of [[5, `rgba(120, 140, 180, ${fill})`], [0, `rgba(255, 255, 255, ${fill})`]]) {
+            ctx.save(); markAt(lift + edge * s); ctx.fillStyle = color;
+            for (const [half] of halves) ctx.fill(half);
+            ctx.restore();
+          }
+        }
+        const drawn = TraceEase(clamp01(since / TRACE_DRAW_MS));
+        const alpha = clamp01(since < TRACE_DRAW_MS ? 1 : 1 - (since - TRACE_DRAW_MS) / TRACE_FADE_MS) * fade;
+        if (alpha > 0) {
+          ctx.save(); markAt(0);
+          ctx.strokeStyle = `rgba(26, 159, 255, ${alpha})`; ctx.lineWidth = 3; ctx.lineJoin = "round";
+          for (const [half, length] of halves) { ctx.setLineDash([length * drawn, length]); ctx.stroke(half); }
+          ctx.restore();
+        }
+      }
+      const shown = Out(clamp01((intro - 650) / 300));
+      if (shown > 0) {
+        const p = (t - POP_FROM) / (IMPACT - POP_FROM);
+        let pop = 1, rise = 0;
+        if (p > 0 && p < 1) {
+          if (p < 0.11) { pop = span(p, 0, 0.11, 1, 0.92, InOut); rise = span(p, 0, 0.11, 0, 7, InOut); }
+          else if (p < 0.31) { pop = span(p, 0.11, 0.31, 0.92, 1.6, PopEase); rise = span(p, 0.11, 0.31, 7, -42, PopEase); }
+          else if (p < 0.88) { pop = span(p, 0.31, 0.88, 1.6, 1.54, InOut); rise = span(p, 0.31, 0.88, -42, -34, InOut); }
+          else { pop = span(p, 0.88, 1, 1.54, 1, DropEase); rise = span(p, 0.88, 1, -34, 0, DropEase); }
+        }
+        const q = clamp01((pop - 1) / 0.6);
+        const bob = t > END ? -4 * k * (0.5 - 0.5 * Math.cos((2 * Math.PI * (t - END)) / 5200)) : 0;
+        const blur = lerp(10, 28, q) * k, sr = ball * 0.93 * lerp(1, 1.4, q);
+        const sx = c.x + 20 * k * q, sy = c.y + 48 * k * q;
+        const shadow = ctx.createRadialGradient(sx, sy, 0, sx, sy, sr + blur);
+        const dark = `rgba(0, 8, 30, ${lerp(0.6, 0.25, q) * shown})`;
+        shadow.addColorStop(0, dark); shadow.addColorStop(Math.max(0, sr - blur) / (sr + blur), dark); shadow.addColorStop(1, "rgba(0, 8, 30, 0)");
+        ctx.fillStyle = shadow; ctx.beginPath(); ctx.arc(sx, sy, sr + blur, 0, Math.PI * 2); ctx.fill();
+        let sqx = 1, sqy = 1;
+        if (t >= IMPACT && t <= IMPACT + 280) {
+          const v = (t - IMPACT) / 280;
+          if (v < 0.3) { sqx = span(v, 0, 0.3, 1, 1.1, Out); sqy = span(v, 0, 0.3, 1, 0.88, Out); }
+          else if (v < 0.65) { sqx = span(v, 0.3, 0.65, 1.1, 0.97, Out); sqy = span(v, 0.3, 0.65, 0.88, 1.04, Out); }
+          else { sqx = span(v, 0.65, 1, 0.97, 1, Out); sqy = span(v, 0.65, 1, 1.04, 1, Out); }
+        }
+        const grow = lerp(0.6, 1, shown) * pop;
+        const turn = (720 * FlipEase(clamp01((t - 1290) / 760)) * Math.PI) / 180;
+        ctx.save();
+        ctx.translate(c.x, c.y + rise * k + bob); ctx.scale(grow * sqx, grow * sqy);
+        const cs = Math.cos(turn), half = ((ball * 2 * 0.061) / 2) * Math.sin(turn), rx = Math.max(0.01, ball * Math.abs(cs));
+        ctx.globalAlpha = shown;
+        if (Math.abs(half) > 0.01) {
+          ctx.fillStyle = "#0e5fae";
+          ctx.beginPath(); ctx.ellipse(-half, 0, rx, ball, 0, 0, Math.PI * 2); ctx.fill();
+          ctx.beginPath(); ctx.ellipse(half, 0, rx, ball, 0, 0, Math.PI * 2); ctx.fill();
+          ctx.fillRect(Math.min(-half, half), -ball, Math.abs(2 * half), 2 * ball);
+        }
+        ctx.fillStyle = "#1a9fff";
+        ctx.beginPath(); ctx.ellipse(cs >= 0 ? half : -half, 0, rx, ball, 0, 0, Math.PI * 2); ctx.fill();
+        ctx.restore();
+      }
+      if (t >= IMPACT && t <= IMPACT + 420) {
+        const p = Out((t - IMPACT) / 420);
+        ctx.strokeStyle = `rgba(26, 159, 255, ${1 - p})`;
+        ctx.lineWidth = Math.max(4 * k, 2);
+        ctx.beginPath(); ctx.arc(c.x, c.y, (ball + 6 * k) * lerp(1, 1.4, p), 0, Math.PI * 2); ctx.stroke();
+      }
+      ctx.restore();
+    }
+
+    function draw() {
+      if (!W) return;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, W, H);
+      drawWall(clock);
+      drawMark(clock);
+    }
+
+    function avoidRect() {
+      if (!copy || W < 760) return null;
+      const a = copy.getBoundingClientRect(), b = panel.getBoundingClientRect();
+      return { left: a.left - b.left - 12, top: a.top - b.top - 12, right: a.right - b.left + 12, bottom: a.bottom - b.top + 12 };
+    }
+
+    function move(ms) {
+      let x = at.x + (vx * ms) / 1000, y = at.y + (vy * ms) / 1000;
+      const floor = H * 0.86;
+      if (x - ball < 0) { x = ball; vx = Math.abs(vx); }
+      if (x + ball > W) { x = W - ball; vx = -Math.abs(vx); }
+      if (y - ball < 0) { y = ball; vy = Math.abs(vy); }
+      if (y + ball > floor) { y = floor - ball; vy = -Math.abs(vy); }
+      const r = avoidRect();
+      if (r) {
+        const nearX = Math.min(r.right, Math.max(r.left, x)), nearY = Math.min(r.bottom, Math.max(r.top, y));
+        const gx = x - nearX, gy = y - nearY, gap = Math.hypot(gx, gy);
+        if (gap > 0.0001 && gap <= ball) {
+          const nx = gx / gap, ny = gy / gap;
+          x = nearX + nx * ball; y = nearY + ny * ball;
+          const into = vx * nx + vy * ny;
+          if (into < 0) { vx -= 2 * into * nx; vy -= 2 * into * ny; }
+        } else if (gap <= 0.0001) {
+          const outX = x < (r.left + r.right) / 2 ? r.left - ball - x : r.right + ball - x;
+          const outY = y < (r.top + r.bottom) / 2 ? r.top - ball - y : r.bottom + ball - y;
+          if (Math.abs(outX) < Math.abs(outY)) { x += outX; vx = outX < 0 ? -Math.abs(vx) : Math.abs(vx); }
+          else { y += outY; vy = outY < 0 ? -Math.abs(vy) : Math.abs(vy); }
+        }
+      }
+      at = { x, y };
+    }
+
+    function tick(dt) {
+      if (!visible || document.hidden) { started = false; return false; }
+      const ms = Math.min(50, dt * 1000);
+      intro += ms; wallClock += ms;
+      const before = clock;
+      clock += ms;
+      if (at) move(ms);
+      if (before < IMPACT && clock >= IMPACT) slam = { ...at };
+      draw();
+      return true;
+    }
+    function go() { if (calm || started || !visible || document.hidden) return; started = true; run(tick); }
+
+    size();
+    new ResizeObserver(size).observe(panel);
+    load();
+    if (calm) {
+      intro = END; clock = END + 2600;
+      return;
+    }
+    new IntersectionObserver((entries) => { visible = entries.some((e) => e.isIntersecting); if (visible) go(); }).observe(panel);
+    document.addEventListener("visibilitychange", go);
+    panel.parentElement.addEventListener("click", (event) => {
+      if (event.target.closest("a, button") || !at) return;
+      const b = panel.getBoundingClientRect();
+      if (Math.hypot(event.clientX - b.left - at.x, event.clientY - b.top - at.y) <= ball * 1.4 && clock >= IMPACT + RIPPLE_MS) clock = POKE;
+    });
+    setTimeout(go, 250);
+  }
+
   function detailFlood() {
     const dialog = $("detail");
     const main = document.querySelector("main");
@@ -358,6 +690,7 @@
 
   for (const box of document.querySelectorAll("[data-glide]")) glide(box);
   heroFlood();
+  heroWall();
   detailFlood();
   steps();
   deal();
