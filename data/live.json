@@ -1,8 +1,8 @@
 {
- "stars": 21783,
- "rank": 2146,
- "forks": 1109,
- "downloads": 1867858,
+ "stars": 21856,
+ "rank": 2135,
+ "forks": 1113,
+ "downloads": 1877613,
  "release": {
   "tag": "0.7.1",
   "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
@@ -10,15 +10,15 @@
   "size": 96604504
  },
  "discord": {
-  "members": 18848,
-  "online": 3198
+  "members": 18885,
+  "online": 2497
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1132,
+   "count": 1144,
    "areas": [
     "App",
     "Drivers",
@@ -30,7 +30,7 @@
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 590,
+   "count": 597,
    "areas": [
     "App",
     "Drivers",
@@ -43,7 +43,7 @@
    "login": "The412Banner",
    "avatar": "https://avatars.githubusercontent.com/u/205237651?v=4&s=160",
    "url": "https://github.com/The412Banner",
-   "count": 446,
+   "count": 460,
    "areas": [
     "App",
     "Components",
@@ -147,7 +147,7 @@
    "login": "DeathKhan",
    "avatar": "https://avatars.githubusercontent.com/u/19419818?v=4&s=160",
    "url": "https://github.com/DeathKhan",
-   "count": 11,
+   "count": 12,
    "areas": [
     "App"
    ]
@@ -171,6 +171,15 @@
    ]
   },
   {
+   "login": "Tapuuk",
+   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
+   "url": "https://github.com/Tapuuk",
+   "count": 10,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "0x1Nawaf",
    "avatar": "https://avatars.githubusercontent.com/u/73679429?v=4&s=160",
    "url": "https://github.com/0x1Nawaf",
@@ -180,19 +189,10 @@
    ]
   },
   {
-   "login": "Tapuuk",
-   "avatar": "https://avatars.githubusercontent.com/u/177422350?v=4&s=160",
-   "url": "https://github.com/Tapuuk",
-   "count": 9,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "2-Shar",
    "avatar": "https://avatars.githubusercontent.com/u/19225304?v=4&s=160",
    "url": "https://github.com/2-Shar",
-   "count": 8,
+   "count": 9,
    "areas": [
     "App"
    ]
@@ -364,6 +364,15 @@
    ]
   },
   {
+   "login": "visail",
+   "avatar": "https://avatars.githubusercontent.com/u/16912179?v=4&s=160",
+   "url": "https://github.com/visail",
+   "count": 4,
+   "areas": [
+    "App"
+   ]
+  },
+  {
    "login": "zdennisz",
    "avatar": "https://avatars.githubusercontent.com/u/15849186?v=4&s=160",
    "url": "https://github.com/zdennisz",
@@ -427,10 +436,19 @@
    ]
   },
   {
-   "login": "visail",
-   "avatar": "https://avatars.githubusercontent.com/u/16912179?v=4&s=160",
-   "url": "https://github.com/visail",
+   "login": "xlulx",
+   "avatar": "https://avatars.githubusercontent.com/u/92148312?v=4&s=160",
+   "url": "https://github.com/xlulx",
    "count": 3,
+   "areas": [
+    "App"
+   ]
+  },
+  {
+   "login": "JMLambo",
+   "avatar": "https://avatars.githubusercontent.com/u/183008808?v=4&s=160",
+   "url": "https://github.com/JMLambo",
+   "count": 2,
    "areas": [
     "App"
    ]
@@ -527,15 +545,6 @@
    ]
   },
   {
-   "login": "xlulx",
-   "avatar": "https://avatars.githubusercontent.com/u/92148312?v=4&s=160",
-   "url": "https://github.com/xlulx",
-   "count": 2,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "ZiYan416",
    "avatar": "https://avatars.githubusercontent.com/u/112842168?v=4&s=160",
    "url": "https://github.com/ZiYan416",
@@ -560,6 +569,15 @@
    "count": 1,
    "areas": [
     "Proton"
+   ]
+  },
+  {
+   "login": "albert-carreras",
+   "avatar": "https://avatars.githubusercontent.com/u/23164723?v=4&s=160",
+   "url": "https://github.com/albert-carreras",
+   "count": 1,
+   "areas": [
+    "App"
    ]
   },
   {
@@ -716,15 +734,6 @@
    ]
   },
   {
-   "login": "JMLambo",
-   "avatar": "https://avatars.githubusercontent.com/u/183008808?v=4&s=160",
-   "url": "https://github.com/JMLambo",
-   "count": 1,
-   "areas": [
-    "App"
-   ]
-  },
-  {
    "login": "KingHacker9000",
    "avatar": "https://avatars.githubusercontent.com/u/68105674?v=4&s=160",
    "url": "https://github.com/KingHacker9000",
@@ -848,6 +857,15 @@
    "count": 1,
    "areas": [
     "Drivers"
+   ]
+  },
+  {
+   "login": "pablogonz12",
+   "avatar": "https://avatars.githubusercontent.com/u/104554896?v=4&s=160",
+   "url": "https://github.com/pablogonz12",
+   "count": 1,
+   "areas": [
+    "App"
    ]
   },
   {
@@ -1058,5 +1076,5 @@
    ]
   }
  ],
- "updated": "2026-11-24T22:22:56.604Z"
+ "updated": "2026-11-25T08:24:54.572Z"
 }
