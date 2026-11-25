@@ -266,21 +266,13 @@
           g.save();
           g.beginPath(); g.roundRect(0, 0, w, h, r); g.clip();
           if (cap.image) {
-            if (tint) g.filter = "grayscale(1) contrast(1.15) brightness(0.95)";
             g.drawImage(cap.image, 0, 0, w, h);
-            g.filter = "none";
-            if (tint) {
-              g.globalCompositeOperation = "multiply";
-              const grad = g.createLinearGradient(0, 0, w, h);
-              grad.addColorStop(0, "#3aa6ff"); grad.addColorStop(1, "#0b4fb0");
-              g.fillStyle = grad; g.fillRect(0, 0, w, h);
-              g.globalCompositeOperation = "source-over";
-            }
+            if (tint) { g.fillStyle = "rgba(7, 10, 16, 0.42)"; g.fillRect(0, 0, w, h); }
           } else {
-            g.fillStyle = "rgba(13, 40, 104, 0.9)"; g.fillRect(0, 0, w, h);
+            g.fillStyle = "#0f1522"; g.fillRect(0, 0, w, h);
           }
           g.restore();
-          g.strokeStyle = tint ? "rgba(140, 190, 255, 0.22)" : "#1a9fff";
+          g.strokeStyle = tint ? "rgba(255, 255, 255, 0.1)" : "#1a9fff";
           g.lineWidth = dpr * (tint ? 1 : 2);
           g.beginPath(); g.roundRect(g.lineWidth / 2, g.lineWidth / 2, w - g.lineWidth, h - g.lineWidth, r); g.stroke();
         }
@@ -430,8 +422,8 @@
         const blur = lerp(10, 28, q) * k, sr = ball * 0.93 * lerp(1, 1.4, q);
         const sx = c.x + 20 * k * q, sy = c.y + 48 * k * q;
         const shadow = ctx.createRadialGradient(sx, sy, 0, sx, sy, sr + blur);
-        const dark = `rgba(0, 8, 30, ${lerp(0.6, 0.25, q) * shown})`;
-        shadow.addColorStop(0, dark); shadow.addColorStop(Math.max(0, sr - blur) / (sr + blur), dark); shadow.addColorStop(1, "rgba(0, 8, 30, 0)");
+        const dark = `rgba(0, 0, 0, ${lerp(0.6, 0.25, q) * shown})`;
+        shadow.addColorStop(0, dark); shadow.addColorStop(Math.max(0, sr - blur) / (sr + blur), dark); shadow.addColorStop(1, "rgba(0, 0, 0, 0)");
         ctx.fillStyle = shadow; ctx.beginPath(); ctx.arc(sx, sy, sr + blur, 0, Math.PI * 2); ctx.fill();
         let sqx = 1, sqy = 1;
         if (t >= IMPACT && t <= IMPACT + 280) {
