@@ -22,11 +22,12 @@
 <link rel="icon" href="assets/img/icon-512.png" type="image/png" sizes="512x512">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/site.css?v=12">
+<link rel="stylesheet" href="assets/css/site.css?v=14">
 <script>document.documentElement.classList.add("js");setTimeout(function(){document.documentElement.classList.add("ready")},1600)</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://droid-deck.dev/#website","name":"DroidDeck","alternateName":"Droid Deck","url":"https://droid-deck.dev/","inLanguage":"en","publisher":{"@id":"https://droid-deck.dev/#org"}},{"@type":"Organization","@id":"https://droid-deck.dev/#org","name":"DroidDeck","url":"https://droid-deck.dev/","logo":"https://droid-deck.dev/assets/img/icon-512.png","sameAs":["https://github.com/Droid-Deck","https://github.com/Droid-Deck/DroidDeck","https://discord.gg/JRGAvawjsm"]},{"@type":"SoftwareApplication","@id":"https://droid-deck.dev/#app","name":"DroidDeck","url":"https://droid-deck.dev/","description":"DroidDeck brings the SteamOS experience to Android: Steam Gaming Mode, a full Linux desktop, and your games from GOG, Epic, Xbox, Battle.net and more. Free and open source.","image":"https://droid-deck.dev/assets/img/og.png","operatingSystem":"Android 9+","applicationCategory":"GameApplication","softwareVersion":"0.7.11","datePublished":"2026-11-25","license":"https://www.gnu.org/licenses/gpl-3.0.html","downloadUrl":"https://github.com/Droid-Deck/DroidDeck/releases/latest","installUrl":"https://github.com/Droid-Deck/DroidDeck/releases/latest","publisher":{"@id":"https://droid-deck.dev/#org"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"FAQPage","@id":"https://droid-deck.dev/#faq","mainEntity":[{"@type":"Question","name":"Is DroidDeck free?","acceptedAnswer":{"@type":"Answer","text":"Yes. It is free and open source under GPL-3.0, with no ads and no telemetry."}},{"@type":"Question","name":"Which devices run it?","acceptedAnswer":{"@type":"Answer","text":"Anything on Android 9 or newer. It runs best on Adreno 730 and newer. Mali, Xclipse, PowerVR and older Adreno chips are experimental."}},{"@type":"Question","name":"Do I need root?","acceptedAnswer":{"@type":"Answer","text":"No. On Android 14 or newer you flip one switch in Developer options. The setup guide shows which one."}},{"@type":"Question","name":"Does it work on Mali, Exynos or MediaTek?","acceptedAnswer":{"@type":"Answer","text":"It starts on many of them, but support is experimental. Some games crash or show a black screen. Fixes reach Preview builds first."}},{"@type":"Question","name":"Is it on the Play Store?","acceptedAnswer":{"@type":"Answer","text":"Not today. Get the APK from GitHub Releases. Android may warn you about installing outside the store, which is normal."}},{"@type":"Question","name":"Is there an iPhone version?","acceptedAnswer":{"@type":"Answer","text":"No. DroidDeck is Android only."}},{"@type":"Question","name":"Is it safe to sign in to Steam?","acceptedAnswer":{"@type":"Answer","text":"You sign in inside the real Steam client, the same one a Steam Deck runs. All of DroidDeck's code is public."}},{"@type":"Question","name":"Do online games with anti-cheat work?","acceptedAnswer":{"@type":"Answer","text":"Mostly not. Games that need kernel anti-cheat will not go online. Some Easy Anti-Cheat games can still be played offline."}},{"@type":"Question","name":"My game runs slowly. What can I try?","acceptedAnswer":{"@type":"Answer","text":"Lower the in-game settings first, then try a newer graphics driver in DroidDeck's settings. The performance HUD shows what is holding the game back."}},{"@type":"Question","name":"Can I install games on an SD card?","acceptedAnswer":{"@type":"Answer","text":"Yes. Set External storage as the default under Setup > Storage, then install. Games you already have stay where they are."}},{"@type":"Question","name":"Do controllers work?","acceptedAnswer":{"@type":"Answer","text":"Yes. Built-in controls, Bluetooth and USB pads all work, and you can pair several for split screen. There are touch controls too."}},{"@type":"Question","name":"How do I get fixes early or report a bug?","acceptedAnswer":{"@type":"Answer","text":"Preview builds are in the app under Updates > Preview. For bugs, post in #bug-reports with the zip from Share logs."}}]}]}</script>
 <script src="assets/js/app.js?v=8" defer></script>
 <script src="assets/js/motion.js?v=3" defer></script>
+<script type="module" src="assets/js/handheld.js?v=2"></script>
 </head>
 <body>
 <a class="skip" href="#main" data-i18n="nav.skip">Skip to content</a>
@@ -65,11 +66,6 @@
   </div>
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <p class="official" data-enter style="--i:0">
-        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2.500l6 2.200v4.600c0 3.700-2.400 6.700-6 8.200-3.600-1.500-6-4.500-6-8.200V4.700z"/><path d="M7.300 10.200l1.900 1.900 3.600-3.900"/></svg>
-        <span data-i18n="official.bar">droid-deck.dev is the only official DroidDeck website.</span>
-        <a href="#official" data-i18n="official.link">How to spot a fake</a>
-      </p>
       <h1 data-enter style="--i:1" data-i18n="hero.title">Your Steam library runs on Android now.</h1>
       <p class="lede" data-enter style="--i:2" data-i18n="hero.sub">DroidDeck brings the SteamOS experience to handhelds and phones: Gaming Mode, a full Linux desktop, and your games from GOG, Epic, Xbox, Battle.net and more in one library.</p>
       <div class="actions" data-enter style="--i:3">
@@ -87,14 +83,10 @@
     </div>
     <figure class="handheld" data-enter style="--i:5">
       <div class="phone">
-        <i class="phone-keys" aria-hidden="true"><b></b><b></b></i>
-        <i class="phone-bands" aria-hidden="true"></i>
         <div class="phone-screen">
-          <i class="phone-cam" aria-hidden="true"></i>
           <video muted loop playsinline preload="none" poster="assets/media/steam-to-desktop.jpg?v=2" data-src="assets/media/steam-to-desktop.mp4?v=2"></video>
         </div>
       </div>
-      <figcaption data-i18n="hero.caption">Steam Big Picture, then Switch to Desktop.</figcaption>
     </figure>
   </div>
 </section>

@@ -274,10 +274,6 @@ img.brand-mark { aspect-ratio: 1; }
 .facts { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 20px; margin-top: 24px; color: rgba(238, 243, 255, 0.7); }
 .facts li + li::before { content: "·"; margin-inline-end: 20px; color: rgba(255, 255, 255, 0.4); }
 
-.official { margin: 0 auto 26px; max-width: 560px; font-size: 14px; font-weight: 500; color: rgba(238, 243, 255, 0.82); }
-.official svg { display: none; }
-.official a { margin-inline-start: 6px; color: #fff; font-weight: 600; text-decoration: underline; text-decoration-color: rgba(255, 255, 255, 0.45); text-underline-offset: 3px; transition: text-decoration-color 0.2s; }
-.official a:hover { text-decoration-color: #fff; }
 
 .js [data-enter] {
   opacity: 0;
@@ -289,71 +285,25 @@ img.brand-mark { aspect-ratio: 1; }
 .js .handheld[data-enter] { transform: translateY(70px) scale(0.96); transition-duration: 0.6s, 1.1s; }
 .js.ready .handheld[data-enter] { transform: none; }
 
-/* A phone held sideways: bezel, punch-hole and keys only, nothing invented. */
-.handheld { position: relative; width: 100%; max-width: 1080px; margin-inline: auto; container-type: inline-size; perspective: 1800px; }
-/* Metal rim (.phone), black glass (::before), screen, sheen (::after). Sizes in cqw so it scales as one object. */
-.phone {
-  --rim: 0.42cqw;
-  --bezel: 0.95cqw;
-  --round: 4.9cqw;
+.handheld { position: relative; width: 100%; max-width: 1080px; margin-inline: auto; }
+.phone { position: relative; }
+.phone-screen {
   position: relative;
-  padding: calc(var(--rim) + var(--bezel));
-  border-radius: var(--round);
-  background:
-    linear-gradient(180deg, #c9d0dc 0%, #6b7383 1.6%, #2b313c 5%, #1a1e26 50%, #2b313c 95%, #6b7383 98.4%, #b9c1ce 100%),
-    #1a1e26;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border-radius: clamp(12px, 1.8vw, 20px);
+  background: #000;
   box-shadow:
-    inset 0 0 0 1px rgba(255, 255, 255, 0.28),
-    inset 0 1px 0 1px rgba(255, 255, 255, 0.18),
-    0 1px 1px rgba(0, 0, 0, 0.6),
-    0 3px 6px rgba(0, 0, 0, 0.35),
-    0 30px 50px -24px rgba(0, 0, 0, 0.9),
-    0 70px 120px -50px rgba(0, 0, 0, 0.9),
-    0 40px 140px -60px rgba(26, 159, 255, 0.5);
-  transform-origin: 50% 100%;
+    0 0 0 1px rgba(255, 255, 255, 0.14),
+    0 30px 60px -20px rgba(0, 0, 0, 0.9),
+    0 80px 140px -40px rgba(0, 0, 0, 0.95);
 }
-.phone::before {
-  content: "";
-  position: absolute;
-  inset: var(--rim);
-  border-radius: calc(var(--round) - var(--rim));
-  background: #020203;
-  box-shadow: inset 0 0 0 0.08cqw rgba(0, 0, 0, 0.9), 0 0 0 0.06cqw rgba(255, 255, 255, 0.08);
-}
-.phone::after {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  inset: var(--rim);
-  border-radius: calc(var(--round) - var(--rim));
-  background:
-    linear-gradient(104deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.04) 22%, transparent 22.2%, transparent 64%, rgba(255, 255, 255, 0.025) 64.2%, transparent 80%),
-    radial-gradient(120% 60% at 50% -10%, rgba(255, 255, 255, 0.06), transparent 60%);
-  pointer-events: none;
-}
-.phone-bands::before, .phone-bands::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 0.36cqw;
-  height: var(--rim);
-  background: rgba(120, 128, 140, 0.55);
-}
-.phone-bands::before { top: 0; left: 9%; }
-.phone-bands::after { bottom: 0; right: 9%; }
-.phone-keys { position: absolute; bottom: 100%; left: 0; right: 0; height: max(3px, 0.5cqw); }
-.phone-keys b { position: absolute; bottom: -0.04cqw; height: 100%; border-radius: 0.3cqw 0.3cqw 0 0; background: linear-gradient(180deg, #aeb6c3, #4a5262 55%, #2b313c); box-shadow: inset 0 0.05cqw 0 rgba(255, 255, 255, 0.5); }
-.phone-keys b:first-child { left: 62%; width: 9.5cqw; }
-.phone-keys b:last-child { left: 76%; width: 4.6cqw; }
-.phone-screen { position: relative; z-index: 1; overflow: hidden; aspect-ratio: 16 / 9; border-radius: calc(var(--round) - var(--rim) - var(--bezel) * 0.7); background: #000; }
 .phone-screen video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.phone-cam { position: absolute; z-index: 1; left: 1.9cqw; top: 50%; width: 1.25cqw; aspect-ratio: 1; margin-top: -0.625cqw; border-radius: 50%; background: radial-gradient(circle at 42% 40%, #3a4660 0 8%, #121826 16%, #04060a 34%, #000 60%); box-shadow: 0 0 0 0.1cqw #0d1016, 0 0 0 0.16cqw rgba(255, 255, 255, 0.04); }
-figcaption { margin-top: 18px; text-align: center; }
+.handheld.is-3d { aspect-ratio: 2.1 / 1; }
+.handheld-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+/* Kept in layout, invisible: it is the texture source and the films observer still has to see it. */
+.handheld.is-3d .phone { position: absolute; inset: 30% 35%; opacity: 0; pointer-events: none; }
 
-@supports (animation-timeline: view()) {
-  .phone { animation: tilt linear both; animation-timeline: view(); animation-range: cover 0% cover 45%; }
-  @keyframes tilt { from { transform: rotateX(16deg) scale(0.94); } to { transform: none; } }
-}
 
 /* Proof strip */
 .stars { padding-block: clamp(36px, 5vw, 56px) 0; }
@@ -754,5 +704,4 @@ main.sunk { transform: scale(0.965); filter: brightness(0.8); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-delay: 0s !important; transition-duration: 0.01ms !important; transition-delay: 0s !important; }
-  .phone { animation: none !important; }
 }
