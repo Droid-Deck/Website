@@ -154,15 +154,7 @@
     const flood = $("hero-flood");
     const cta = $("hero-cta");
     const hero = flood && flood.parentElement;
-    const handheld = hero && hero.querySelector(".handheld");
     if (!flood) return;
-    const measure = () => {
-      if (!handheld) return;
-      const top = handheld.offsetTop + handheld.offsetParent.offsetTop;
-      flood.style.setProperty("--flood-bottom", `${Math.max(0, hero.offsetHeight - (top + handheld.offsetHeight * 0.58))}px`);
-    };
-    measure();
-    new ResizeObserver(measure).observe(hero);
     if (calm || !cta || scrollY > innerHeight * 0.6) {
       flood.style.clipPath = "none";
       root.classList.add("ready");
