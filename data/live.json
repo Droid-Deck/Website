@@ -1,36 +1,37 @@
 {
- "stars": 21856,
- "rank": 2135,
- "forks": 1113,
- "downloads": 1877613,
+ "stars": 21949,
+ "rank": 2115,
+ "forks": 1120,
+ "downloads": 1898903,
  "release": {
-  "tag": "0.7.1",
-  "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.1",
-  "published": "2026-11-10T12:35:34Z",
-  "size": 96604504
+  "tag": "0.7.11",
+  "url": "https://github.com/Droid-Deck/DroidDeck/releases/tag/0.7.11",
+  "published": "2026-11-25T18:14:35Z",
+  "size": 104915835
  },
  "discord": {
-  "members": 18885,
-  "online": 2497
+  "members": 18941,
+  "online": 3370
  },
  "contributors": [
   {
    "login": "xXJSONDeruloXx",
    "avatar": "https://avatars.githubusercontent.com/u/136133082?v=4&s=160",
    "url": "https://github.com/xXJSONDeruloXx",
-   "count": 1144,
+   "count": 1149,
    "areas": [
     "App",
     "Drivers",
     "Components",
-    "Proton"
+    "Proton",
+    "Website"
    ]
   },
   {
    "login": "maxjivi05",
    "avatar": "https://avatars.githubusercontent.com/u/6025299?v=4&s=160",
    "url": "https://github.com/maxjivi05",
-   "count": 597,
+   "count": 600,
    "areas": [
     "App",
     "Drivers",
@@ -43,7 +44,7 @@
    "login": "The412Banner",
    "avatar": "https://avatars.githubusercontent.com/u/205237651?v=4&s=160",
    "url": "https://github.com/The412Banner",
-   "count": 460,
+   "count": 463,
    "areas": [
     "App",
     "Components",
@@ -1076,5 +1077,5 @@
    ]
   }
  ],
- "updated": "2026-11-25T08:24:54.572Z"
+ "updated": "2026-11-25T21:37:53.371Z"
 }
